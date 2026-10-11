@@ -71,20 +71,32 @@ def main(cfg_path, out_path):
     maxv = cfg.get("maxVersions", 5)
     apps = []
     for ac in cfg["apps"]:
-        rels = api(f"/repos/{ac['repo']}/releases?per_page={ac.get('scanReleases', 5)}")
+        rels = api(f"/repos/{ac['repo']}/releases?per_page={ac.get('scanReleases', 15)}")
         new_versions, bid = [], ac.get("bundleIdentifier")
+        sfx = ac.get("bundleIdSuffix", "")
+        if bid: bid += sfx
         for rel in rels:
-            if rel["draft"] or (rel["prerelease"] and not ac.get("includePrerelease")): continue
+            if rel["draft"]: continue
+            pre = ac.get("prerelease")  # True=only prereleases, False=only stable, None=use includePrerelease
+            tagname = rel["tag_name"] + " " + (rel.get("name") or "")
+            is_beta = rel["prerelease"] or bool(ac.get("betaRegex") and re.search(ac["betaRegex"], tagname, re.I))
+            if pre is True and not is_beta: continue
+            if pre is False and is_beta: continue
+            if pre is None and rel["prerelease"] and not ac.get("includePrerelease"): continue
+            if ac.get("tagRegex") and not re.search(ac["tagRegex"], tagname, re.I): continue
+            if ac.get("tagExcludeRegex") and re.search(ac["tagExcludeRegex"], tagname, re.I): continue
             asset = next((x for x in rel["assets"] if re.search(ac["assetRegex"], x["name"])), None)
             if not asset: continue
             url = asset["browser_download_url"]
             prev = old.get(bid) if bid else None
+            if len(new_versions) >= maxv: break
             if prev and any(v["downloadURL"] == url for v in prev.get("versions", [])):
                 continue  # already known, skip network
             # resolve redirect so Range requests hit the CDN directly
             with req(url, {"Range": "bytes=0-0"}) as r: final = r.geturl()
             info = remote_info_plist(final, asset["size"])
-            bid = bid or info["CFBundleIdentifier"]
+            bid = bid or info["CFBundleIdentifier"] + sfx
+            v_real_bid = info["CFBundleIdentifier"]
             v = {"version": info.get("CFBundleShortVersionString", "0"),
                  "buildVersion": str(info.get("CFBundleVersion", "")),
                  "date": rel["published_at"], "downloadURL": url, "size": asset["size"],
@@ -100,7 +112,7 @@ def main(cfg_path, out_path):
             if v["downloadURL"] in seen: continue
             seen.add(v["downloadURL"]); merged.append(v)
         merged = merged[:maxv]
-        app = {k: v for k, v in ac.items() if k not in ("repo", "assetRegex", "includePrerelease", "sha256", "scanReleases")}
+        app = {k: v for k, v in ac.items() if k not in ("repo", "assetRegex", "includePrerelease", "sha256", "scanReleases", "prerelease", "betaRegex", "tagRegex", "tagExcludeRegex", "bundleIdSuffix")}
         app["bundleIdentifier"] = bid
         app["versions"] = merged
         app.setdefault("appPermissions", {"entitlements": [], "privacy": {}})

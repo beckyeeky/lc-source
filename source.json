@@ -42,6 +42,362 @@
       "versionDate": "2026-10-10T23:45:38Z",
       "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.1.1/NeoFreeBird-sideloaded-X_7.1.1_12.31.1.ipa",
       "size": 260421912
+    },
+    {
+      "name": "PiliPlus",
+      "developerName": "bggRGjQaUbCoE",
+      "subtitle": "第三方哔哩哔哩客户端（Flutter）",
+      "localizedDescription": "第三方哔哩哔哩客户端（Flutter）",
+      "iconURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+      "tintColor": "#4A90E2",
+      "category": "entertainment",
+      "bundleIdentifier": "com.example.piliplus",
+      "versions": [
+        {
+          "version": "2.1.6",
+          "buildVersion": "5472",
+          "date": "2026-10-10T13:07:12Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.6.2/PiliPlus_ios_2.1.6%2B5472.ipa",
+          "size": 24353925,
+          "minOSVersion": "15.0",
+          "localizedDescription": "专栏支持跳转至评论 #3213\r\n其他调整 #3208 by @My-Responsitories\r\n\r\n修复 bug\r\n修复搜索风控验证 #3106\r\n修复窗口大小变化时图片闪烁 #2685\r\n修复安卓视频暂停时画面裁切问题 #3034 by @Hdy08"
+        },
+        {
+          "version": "2.1.6",
+          "buildVersion": "5471",
+          "date": "2026-10-10T07:10:30Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.6.1/PiliPlus_ios_2.1.6%2B5471.ipa",
+          "size": 24353584,
+          "minOSVersion": "15.0",
+          "localizedDescription": "专栏支持跳转至评论 #3213\r\n其他调整 #3208 by @My-Responsitories\r\n\r\n修复 bug\r\n修复搜索风控验证 #3106\r\n修复窗口大小变化时图片闪烁 #2685\r\n修复安卓视频暂停时画面裁切问题 #3034 by @Hdy08"
+        },
+        {
+          "version": "2.1.6",
+          "buildVersion": "5453",
+          "date": "2026-10-05T12:36:03Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.6/PiliPlus_ios_2.1.6%2B5453.ipa",
+          "size": 24083344,
+          "minOSVersion": "15.0",
+          "localizedDescription": "支持离线合集归档\r\n支持离线/更新空降片段\r\n添加视频过滤作用域详情\r\n支持切换`番剧`/`剧集`季度\r\n支持横屏时在侧栏显示`番剧`列表\r\n直播聊天显示`主播`标识 #3156\r\n直播聊天只显示点亮的牌子 #3155\r\n用户未直播时在主页显示入口按钮 #3033\r\n从视频切到直播不影响视频倍速 #3112\r\n支持转发同时评论 #3135\r\n@ 用户时置顶被`回复`/`转发`用户 #3123\r\n视频控制栏控件溢出处理 #3085\r\n添加英文文档 #3131 by @maoawa\r\n桌面端画中画记忆窗口位置大小 #2997\r\n收藏夹已满且未收藏时禁用选中 #3113\r\niOS 支持系统 PIP #3160 by @AotianNeo\r\n黑名单屏蔽扩展本地屏蔽，增加过滤搜索、评论\r\n支持按 `Enter` 保存截图 #3101 by @403bug\r\n支持从媒体会话向前/后跳转音视频 #2964 co-by @silverwolf-lv9999\r\n\r\n修复弹幕速度 #3136\r\n修复收藏夹视频跳转 #3137\r\n修复下滑关闭侧栏主页 #3160\r\n修复触控板浏览图片 https://github.com/bggRGjQaUbCoE/PiliPlus/issues/183#issuecomment-5976539299\r\n修复 Windows 26H2 任务栏不在底部时，退出全屏出现窗口偏移 #2901"
+        },
+        {
+          "version": "2.1.5",
+          "buildVersion": "5410",
+          "date": "2026-09-25T04:14:09Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.5/PiliPlus_ios_2.1.5%2B5410.ipa",
+          "size": 23999265,
+          "minOSVersion": "15.0",
+          "localizedDescription": "支持自定义主题颜色 #3009\r\n综合搜索用户过滤黑名单 #3043\r\n可复制文本工具栏默认添加站内搜索按钮 #2984\r\n支持保存 SC 为图片 co-by @My-Responsitories\r\n支持 Windows deeplink #2673 by @HChaZZY\r\n支持 Linux deeplink #2931 by @Tobiichi-Origuchi\r\n降低桌面端 PIP 大小限制 #2735 #2982 by @Aclguh\r\n桌面端支持保存全部图片 #2920 #2983 by @My-Responsitories\r\nLinux 支持内嵌 WebView #3014 #3016 by @Tobiichi-Origuchi co-by @My-Responsitories\r\n其他调整 #2962 #3025 #3027 by @My-Responsitories\r\n\r\n修复分 P 视频链接 #2963\r\n修复滑动快进/退震动失效 #2966\r\n修复小窗模式下画面被 SC 遮挡 #3005\r\n修复无痕模式出现直播入场提示 #2971\r\n修复多次点击截图保存退出视频页面 #3017\r\n修复更新媒体通知、后台连播 #2761 #2943\r\n修复 iOS 静音模式下偶发视频无声修复 #3039 @sounfury\r\n修复部分安卓无法登录 #2930 #3063 by @Tobiichi-Origuchi\r\n修复 macOS 切换全屏控件无法点击 #2917 #2976 by @milk2715093695"
+        },
+        {
+          "version": "2.1.4",
+          "buildVersion": "5348",
+          "date": "2026-09-13T06:15:54Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.4/PiliPlus_ios_2.1.4%2B5348.ipa",
+          "size": 23983183,
+          "minOSVersion": "15.0",
+          "localizedDescription": "增加综合搜索\r\n收藏页支持切换页码为倒序\r\n重构定位视频加载前页视频逻辑\r\n支持分开查看动态`赞`与`转发`详情\r\n收藏夹`复制`/`移动`视频时保持顺序 #2850\r\n其他调整 #2889 by @My-Responsitories\r\n播放器优化 #2873 by @My-Responsitories\r\n支持点击动态/评论表情显示 Tooltip，默认关 #2918\r\n\r\n修复 #2892 #2899 #2909 #2949 #2950 #2956\r\n修复 #2882 by @Tobiichi-Origuchi"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "version": "2.1.6",
+      "versionDate": "2026-10-10T13:07:12Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.6.2/PiliPlus_ios_2.1.6%2B5472.ipa",
+      "size": 24353925
+    },
+    {
+      "name": "Animeko",
+      "developerName": "open-ani",
+      "subtitle": "一站式弹幕追番平台：Bangumi 云收藏同步、离线缓存、BT、弹幕过滤",
+      "localizedDescription": "一站式弹幕追番平台：Bangumi 云收藏同步、离线缓存、BT、弹幕过滤",
+      "iconURL": "https://raw.githubusercontent.com/open-ani/animeko/main/app/ios/Animeko/Assets.xcassets/AppIcon.appiconset/1024.png",
+      "tintColor": "#4A90E2",
+      "category": "entertainment",
+      "bundleIdentifier": "org.animeko.animeko",
+      "versions": [
+        {
+          "version": "6.2.0",
+          "buildVersion": "6.2.99",
+          "date": "2026-09-26T14:00:29Z",
+          "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.2.0/ani-6.2.0.ipa",
+          "size": 45401084,
+          "minOSVersion": "14.0",
+          "localizedDescription": "- 安卓 TV 版已发布，全新设计精美 UI，更多功能开发中\r\n- 新增显示缓冲进度条，优化缓冲机制\r\n- 新增系列关系图，直观展示正片、续集、番外与衍生作品\r\n- 新增按线路批量缓存\r\n- 支持发送自定义位置和颜色的弹幕\r\n- 搜索支持年份与季度筛选 (#3396 by @Bonger34)\r\n- 新增 GitHub 账号绑定，贡献者可认证以免除广告\r\n\r\n----\r\n\r\n- 新增 Bangumi 收藏冲突处理，可对照两侧收藏、选择保留内容或采用较新的记录，并在合并后同步刷新收藏列表\r\n- 新增「显示原名」设置，可在条目、剧集、搜索、收藏和播放等页面显示原始名称 (#3451 by @azusachino)\r\n- 桌面端图片查看器支持独立窗口、缩放、保存、复制及拖出图片到其他应用，并支持触摸板手势\r\n- 人物与角色页面支持发表评论、回复、表情、点赞和举报\r\n- 剧集卡片支持显示剧照、播放进度和已看完标记，可在设置中关闭剧照显示，翻页时及时清除上一页图片\r\n- 桌面端播放页支持拖入本地视频文件，在当前剧集中直接播放\r\n- 缓存详情页显示下载器状态、视频地址解析进度、连接情况及最近错误，便于排查下载停滞\r\n- 已缓存剧集支持显示观看进度\r\n- 账号设置支持换绑邮箱，以及在保留其他登录方式时解绑邮箱\r\n- 时间表支持显示「时间未定」，跨午夜自动切换日期，并修正剧集播出时间与开播状态判断\r\n- 首次启动直接进入主界面，网络检测失败时显示提示，主题与代理可在设置中调整\r\n- 自动选源优先使用本地缓存，在线资源无结果时可回退到 BT 资源，并优化匹配与等待策略\r\n- 优化数据源线路展示，保留网站原有名称、分组和顺序，避免同名线路被合并\r\n- 优化下载管理，批量暂停、继续和删除按操作顺序执行，减少重复创建任务，切换条目时保持标题显示\r\n- 优化列表封面加载及人物、制作人员信息缓存，减少滚动列表和返回页面时的重复加载与流量消耗\r\n- 人物与角色头像支持点击放大，移动端侧边预览中的大图可完整覆盖窗口\r\n- 宽屏条目详情页支持选择并复制标题\r\n- 调整桌面端与平板顶栏头像尺寸，使其与相邻按钮对齐\r\n- Windows ARM64 支持在应用内下载更新后自动安装 (#3408 by @NihilDigit)\r\n- 关于页新增构建信息，可查看并复制版本、分支和提交等信息，方便反馈问题\r\n- 开发者设置支持浏览主分支构建状态，并通过提交编号、合并请求、构建产物链接或安装包地址下载指定版本，在支持的平台上自动安装\r\n- Windows 与 macOS 的开发者设置支持拖入安装包，确认后自动安装并重启\r\n- 修复下载部分大体积视频时内存不足导致崩溃，甚至重启后反复崩溃的问题 (#3407 by @azusachino)\r\n- 修复 Linux Wayland 环境下内置浏览器初始化失败，导致登录和网页解析不可用的问题 (#3359 by @Vedaru)\r\n- 修复收藏列表末页不足一页时反复刷新、卡片重排和滚动跳动的问题 (#3374 by @vaz1306011)\r\n- 修复剧场版与单集作品中仅标注画质或语言的线路被错误过滤，导致资源缺失的问题 (#3345 by @GrahamZen)\r\n- 修复 Emby 中独立分季条目包含特别篇时的季度匹配错误\r\n- 修复倍速播放时无法自动跳过片头片尾的问题 (#3365 by @Tantless)\r\n- 修复长按倍速操作被中断后未恢复原播放速度的问题\r\n- 修复追番条目菜单自动关闭的问题 (#3372 by @XYenon)\r\n- 修复从播放页返回后剧集已看状态不更新，以及条目详情信息更新不同步的问题\r\n- 修复 iOS 全屏播放从后台返回后意外切换为竖屏的问题\r\n- 修复全屏播放时控件、侧边栏与倍速弹层的边距和裁切问题，改善 iOS 刘海与圆角屏幕适配\r\n- 修复桌面端按 Esc 退出全屏或关闭图片窗口时意外返回上一页的问题\r\n- 修复 iOS 视频解析结束后浏览器资源未释放造成的内存占用累积\r\n- 修复安装开发版本后点击自动更新没有反应的问题\r\n- 修复更新下载重试或切换下载地址后进度反复跳动的问题\r\n- 修复桌面端安装包版本号与发布版本不一致的问题 (#3324 by @termtate)\r\n- 修复 Anime Garden 资源大小显示为实际大小 1024 倍的问题\r\n- 修复电视版在普通启动器中的入口与电视启动器横幅显示\r\n- 修复移动端顶部时间文字颜色不清晰的问题 (#3366 by @U29kaXVt)\r\n- 修复代理测试列表中 Animeko 图标过大、撑高列表行的问题 (#3348 by @GrahamZen)\r\n- 修复桌面端登录按钮在鼠标悬停时阴影重叠的问题 (#3352 by @ter"
+        },
+        {
+          "version": "6.1.0",
+          "buildVersion": "60100",
+          "date": "2026-08-28T16:41:30Z",
+          "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.1.0/ani-6.1.0.ipa",
+          "size": 44425669,
+          "minOSVersion": "14.0",
+          "localizedDescription": "- 新增画质增强(超分)，支持 Android, Windows 和 macOS (#3291 by @black4der)\r\n- 新增在线源查询缓存，有缓存时跳过查源步骤，大幅加速开播速度\r\n- 播放页新增一起看入口，全屏时隐藏悬浮窗\r\n- 优化评论功能和 UI\r\n- 支持使用 PikPak 加速缓存 BT 源 (#3141 by @NihilDigit)\r\n- 新缓存管理页面\r\n\r\n----\r\n\r\n- 条目详情页封面与角色/制作人员图片支持点击放大查看\r\n- 修复 Windows mpv 画面偏暗\r\n- 支持鼠标侧键返回上一页\r\n- 支持 mpv 内核播放器设置自定义参数\r\n- 优化 jellyfin (#3190 by @jxing7036, #3244, #3248 by @IT-BillDeng)\r\n- 修复 Windows 原生触屏一系列问题 (#3223, #3234 by @NihilDigit)\r\n- 修复 Windows 10 可能会窗口透明 (#3319 by @myouo)\r\n- 优化性能 (#3236 by @NihilDigit)\r\n- 修复 macOS x86 无法打开或闪退\r\n- 修复 macOS 可能因为音频而崩溃\r\n- 修复 BT 源播放错误或无法开始播放 (#3337 by @GrahamZen)\r\n- 支持为 BT 下载设置额外的 trackers\r\n- 修复桌面端图片比较糊\r\n- 修复一系列 Linux 问题 (#3261 by @NihilDigit)\r\n- 修复手动匹配的弹幕请求会随着换集失效 (#3254 by @GrahamZen)\r\n- 优化数据源管理页长按批量编辑功能\r\n- 修复条目详情页的剧集卡片无法长按标记看过\r\n- 修复条目详情页 Tab 换行问题 (#3229 by @arpitagarwal1301)\r\n- 修复 Windows 托盘状态下再次启动会卡死 (#3317 by @Tantless)\r\n- 修复播放器倍速状态与 UI 不一致 (#3323 by @SXP-Simon)\r\n- 新增数据源工作原理示意动画\r\n- 为 macOS 暂时禁用 Accessibility 以修复闪退 (#3325 by @black4der)\r\n- 支持配置 ExoPlayer 的画质增强预热，解决黑屏或系统增强功能失效\r\n- 新增开源许可页面，可在设置 - 关于 - 鸣谢中查看\r\n- 修复异常指纹过滤默认生效且关闭开关无效的问题 (#3338 by @GrahamZen)\r\n- 修复 BT 缓存统计不准确 (#3339 by @GrahamZen)\r\n- Android 修复 WebView 正常无法释放 (#3340 by @GrahamZen)\r\n- 修复 Toast 配色没有跟随应用主题 (#3347 by @GrahamZen)\r\n\r\n**Full Changelog**: https://github.com/open-ani/animeko/compare/v6.0.0...v6.1.0\r\n\r\n[//]: # (ANI-SERVER-MAGIC-SEPARATOR)\r\n\r\n[//]: # (注意: api server 依赖这个特殊分隔符)\r\n\r\n[//]: # (对于所有可用的变量列表, 参考 CI release.yml 的 step release-notes)\r\n\r\n[github-win-x64]: https://github.com/open-ani/ani/releases/download/v6.1.0/ani-6.1.0-windows-x86_64.zip\r\n\r\n[github-win-aarch64]: https://github.com/open-ani/ani/releases/download/v6.1.0/ani-6.1.0-windows-aarch64.zip\r\n\r\n[github-mac-x64]: https://github.com/open-ani/ani/releases/download/v6.1.0/ani-6.1.0-macos-x86_64.dmg\r\n\r\n[github-mac-aarch64]: https://github.com/open-ani/ani/releases/download/v6.1.0/ani-6.1.0-macos-aarch64.dmg\r\n\r\n[github-android]: https://github.com/open-ani/ani/releases/download/v6.1.0/ani-6.1.0-universal.apk\r\n\r\n[github-android-arm6"
+        },
+        {
+          "version": "6.0.0",
+          "buildVersion": "60000",
+          "date": "2026-08-01T18:38:19Z",
+          "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.0.0/ani-6.0.0.ipa",
+          "size": 41391524,
+          "minOSVersion": "14.0",
+          "localizedDescription": "- 支持与好友一起看番，大幅改善自动选源能力和速度，视频内广告过滤\r\n- 全新条目详情页，支持查看角色和声优的信息和关联条目\r\n- 桌面端切换为 mpv 播放器内核，大幅优化性能\r\n\r\n----\r\n\r\n- `[Desktop]` 新增 Windows arm64 支持\r\n- `[All]` 新增实验性 HLS 贴片广告过滤 (#3097 by @NihilDigit)\r\n- `[All]` 数据源支持多平台图片验证码自动处理 (#3172 by @proffitteoy)\r\n- `[Desktop]` Windows ARM64 桌面端新增构建支持 (#3155 by @NihilDigit)\r\n- `[All]` 新增与好友一起看 (syncplay) (proposed by @qian-xuan)\r\n- `[Desktop]` Windows 桌面端支持原生触控输入 (#3169 by @NihilDigit, #3221 by @NihilDigit, #3234 by @NihilDigit)\r\n- `[All]` 播放进度条支持悬停或拖动时预览画面帧\r\n- `[All]` 新增播放器播放信息叠加面板，可查看码率、解码器等播放状态 (#3120 by @wjb6666)\r\n- `[Mobile]` 移动端快进和进度条拖动交互更顺手 (#3161 by @NihilDigit)\r\n- `[All]` 播放器支持自定义播放速度控制 (#3187 by @NihilDigit)\r\n- `[Mobile]` Android 支持视频截图、改进手势快进，并支持 libass 渲染字幕，WSOLA 倍速引擎 (#3156 by @NihilDigit)\r\n- `[Mobile]` 新增移动端毛玻璃应用栏设置\r\n- `[All]` 新增缓存管理和数据源管理多选模式，悬浮批量操作工具栏\r\n- `[Mobile]` 改进播放器键盘快捷键行为 (#3159 by @NihilDigit)\r\n- `[Desktop]` Linux 桌面端支持动态取色 (#3146 by @NihilDigit)\r\n- `[All]` 支持配置跳过 85s 按钮的时长为 80、 85 和 90 秒\r\n- `[All]` 数据源启用或禁用后保留测试结果 (#3106 by @Mystery406)\r\n- `[All]` 不再在日志中记录 Bangumi 访问令牌 (#3114 by @proffitteoy)\r\n- `[All]` 修复代理认证头未正确使用配置的问题 (#3115 by @proffitteoy)\r\n- `[All]` 改进剧集长按反馈 (#3118 by @TexasOct)\r\n- `[All]` 修复集合列表条目封面不显示的问题 (#3123 by @proffitteoy)\r\n- `[Desktop]` 优化 macOS 和 Linux 的稳定性 (#3144 by @NihilDigit, #3145 by @NihilDigit, #3157 by @W-Nana, #3195 by @NihilDigit, #3214 by @XYenon, #3216 by @NihilDigit)\r\n- `[Desktop]` Linux AppImage 支持增量更新 (#3149 by @NihilDigit)\r\n\r\n**Full Changelog**: https://github.com/open-ani/animeko/compare/v5.7.1...v6.0.0\r\n\r\n[//]: # (ANI-SERVER-MAGIC-SEPARATOR)\r\n\r\n[//]: # (注意: api server 依赖这个特殊分隔符)\r\n\r\n[//]: # (对于所有可用的变量列表, 参考 CI release.yml 的 step release-notes)\r\n\r\n[github-win-x64]: https://github.com/open-ani/ani/releases/download/v6.0.0/ani-6.0.0-windows-x86_64.zip\r\n\r\n[github-win-aarch64]: https://github.com/open-ani/ani/releases/download/v6.0.0/ani-6.0.0-windows-aarch64.zip\r\n\r\n[github-mac-x64]: https://github.com/open-ani/ani/releases/download/v6.0.0/ani-6.0.0-macos-x86_64.dmg\r\n\r\n[github-mac-aarch64]:"
+        },
+        {
+          "version": "5.7.1",
+          "buildVersion": "50710",
+          "date": "2026-07-09T01:17:21Z",
+          "downloadURL": "https://github.com/open-ani/animeko/releases/download/v5.7.1/ani-5.7.1.ipa",
+          "size": 30505730,
+          "minOSVersion": "14.0",
+          "localizedDescription": "- 修复集合列表海报不显示的问题 (#3123 by @proffitteoy)\r\n\r\n----\r\n\r\n**Full Changelog**: https://github.com/open-ani/animeko/compare/v5.7.0...v5.7.1\r\n\r\n[//]: # (ANI-SERVER-MAGIC-SEPARATOR)\r\n\r\n[//]: # (注意: api server 依赖这个特殊分隔符)\r\n\r\n[//]: # (对于所有可用的变量列表, 参考 CI release.yml 的 step release-notes)\r\n\r\n[github-win-x64]: https://github.com/open-ani/ani/releases/download/v5.7.1/ani-5.7.1-windows-x86_64.zip\r\n\r\n[github-mac-x64]: https://github.com/open-ani/ani/releases/download/v5.7.1/ani-5.7.1-macos-x86_64.dmg\r\n\r\n[github-mac-aarch64]: https://github.com/open-ani/ani/releases/download/v5.7.1/ani-5.7.1-macos-aarch64.dmg\r\n\r\n[github-android]: https://github.com/open-ani/ani/releases/download/v5.7.1/ani-5.7.1-universal.apk\r\n\r\n[github-android-arm64-v8a]: https://github.com/open-ani/ani/releases/download/v5.7.1/ani-5.7.1-arm64-v8a.apk\r\n\r\n[github-android-armeabi-v7a]: https://github.com/open-ani/ani/releases/download/v5.7.1/ani-5.7.1-armeabi-v7a.apk\r\n\r\n[github-android-x86_64]: https://github.com/open-ani/ani/releases/download/v5.7.1/ani-5.7.1-x86_64.apk\r\n\r\n[cf-win-x64]: https://d.myani.org/v5.7.1/ani-5.7.1-windows-x86_64.zip\r\n\r\n[cf-linux-x64]: https://d.myani.org/v5.7.1/ani-5.7.1-linux-x86_64.appimage\r\n\r\n[cf-mac-x64]: https://d.myani.org/v5.7.1/ani-5.7.1-macos-x86_64.zip\r\n\r\n[cf-mac-aarch64]: https://d.myani.org/v5.7.1/ani-5.7.1-macos-aarch64.dmg\r\n\r\n[cf-ios]: https://d.myani.org/v5.7.1/ani-5.7.1.ipa\r\n\r\n[cf-android]: https://d.myani.org/v5.7.1/ani-5.7.1-universal.apk\r\n\r\n[cf-android-arm64-v8a]: https://d.myani.org/v5.7.1/ani-5.7.1-arm64-v8a.apk\r\n\r\n[cf-android-armeabi-v7a]: https://d.myani.org/v5.7.1/ani-5.7.1-armeabi-v7a.apk\r\n\r\n[cf-android-x86_64]: https://d.myani.org/v5.7.1/ani-5.7.1-x86_64.apk\r\n\r\n[ghproxy-win-x64]: https://ghfast.top/?q=https%3A%2F%2Fgithub.com%2Fopen-ani%2Fani%2Freleases%2Fdownload%2Fv5.7.1%2Fani-5.7.1-windows-x86_64.zip\r\n\r\n[ghproxy-mac-x64]: https://ghfast.top/?q=https%3A%2F%2Fgithub.com%2Fopen-ani%2Fani%2Freleases%2Fdownload%2Fv5.7.1%2Fani-5.7.1-macos-x86_64.zip\r\n\r\n[ghproxy-linux-x64"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "version": "6.2.0",
+      "versionDate": "2026-09-26T14:00:29Z",
+      "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.2.0/ani-6.2.0.ipa",
+      "size": 45401084
+    },
+    {
+      "name": "Animeko Beta",
+      "developerName": "open-ani",
+      "subtitle": "Animeko alpha/beta 预发布版",
+      "localizedDescription": "Animeko alpha/beta 预发布版",
+      "iconURL": "https://raw.githubusercontent.com/open-ani/animeko/main/app/ios/Animeko/Assets.xcassets/AppIcon.appiconset/1024.png",
+      "tintColor": "#4A90E2",
+      "category": "entertainment",
+      "bundleIdentifier": "org.animeko.animeko.beta",
+      "versions": [
+        {
+          "version": "6.3.0",
+          "buildVersion": "6.3.31",
+          "date": "2026-10-09T11:19:10Z",
+          "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.3.0-beta01/ani-6.3.0-beta01.ipa",
+          "size": 46323955,
+          "minOSVersion": "14.0",
+          "localizedDescription": "- 新增热度排行页，可浏览完整的 Bangumi 动画热度榜\r\n- 缓存选源支持手动查找，选定一集后可批量下载同一线路的其他剧集\r\n- 优化播放器截图体验，新增角落预览，支持查看、复制与系统分享\r\n- 提升分季动画的选集准确性，自动匹配和手动查找可识别网站合并整季或连续编号的剧集，减少选错集和漏集\r\n\r\n\r\n----\r\n\r\n- 播放器支持折叠屏悬停模式，可在设置中开启或关闭 (#3446 by @U29kaXVt)\r\n- 加快应用更新与开发版安装包的下载速度，支持并行下载与失败分块重试\r\n- 账号设置新增注销账号功能，确认后可永久删除账号及其数据\r\n- 电视版支持安卓 8.0\r\n- 自动查找资源时支持尝试季度别名和系列名称，并优先使用曾成功找到结果的关键词\r\n- 收藏或评分后，详情页的全站收藏数与评分统计立即更新\r\n- 优化搜索筛选与排序，最高排名仅展示有排名的条目，忽略已看过或已抛弃的设置同时应用于搜索与搜索补全\r\n- 优化网页数据源编辑器，将列表规则与自动匹配设置分区展示，支持设置自动匹配开关和优先级，并精简导出的默认配置\r\n- 播放器画面比例设置移至右上角更多菜单，并显示当前模式\r\n- 提升资源较多时的列表筛选速度\r\n- 图片查看器窗口标题栏统一使用深色主题\r\n- 移除网页与订阅数据源编辑器中无实际过滤作用的“使用条目名称过滤”开关\r\n- 设置中的代理连接测试仅保留 Ani 服务\r\n- 移除关于页、登录帮助和帮助菜单中的 QQ 群入口\r\n- 修复安卓开启画质增强及着色器预加载后，切换全屏可能导致播放卡死的问题\r\n- 修复桌面端最小化到系统托盘时崩溃的问题\r\n- 修复电视版播放时屏幕自动熄灭的问题 (#3563 by @nekomoyi)\r\n- 修复搜索结果被过滤后提前结束加载、遗漏后续结果的问题 (#3514 by @BagunoMushi)\r\n- 修复隐藏成人内容时仍可通过成人分级标签搜出相关条目的问题，并隐藏对应分级筛选\r\n- 修复动漫花园搜索含英文冒号的番剧名称时返回无关资源并长时间加载的问题\r\n- 修复桌面端全屏侧边栏开关失效的问题，全屏默认隐藏侧边栏，并分别记住窗口与全屏下的开关状态\r\n- 修复 iOS 退出全屏后播放器顶部状态栏间距消失的问题\r\n- 修复手动选集或恢复已记住的选择后，播放页资源匹配状态显示不准确的问题\r\n- 修复探索页热度轮播在窗口变宽后出现空白且部分区域无法点击的问题\r\n- 修复窄屏下缓存选集快捷按钮被挤压或无法完整显示的问题，空间不足时自动换行\r\n- 修复部分界面文案中的引号和撇号显示多余反斜杠的问题\r\n\r\n**Full Changelog**: https://github.com/open-ani/animeko/compare/v6.3.0-alpha01...v6.3.0-beta01\r\n\r\n[//]: # (ANI-SERVER-MAGIC-SEPARATOR)\r\n\r\n[//]: # (注意: api server 依赖这个特殊分隔符)\r\n\r\n[//]: # (对于所有可用的变量列表, 参考 CI release.yml 的 step release-notes)\r\n\r\n[github-win-x64]: https://github.com/open-ani/ani/releases/download/v6.3.0-beta01/ani-6.3.0-beta01-windows-x86_64.zip\r\n\r\n[github-win-aarch64]: https://github.com/open-ani/ani/releases/download/v6.3.0-beta01/ani-6.3.0-beta01-windows-aarch64.zip\r\n\r\n[github-mac-x64]: https://github.com/open-ani/ani/releases/download/v6.3.0-beta01/ani-6.3.0-beta01-macos-x86_64.dmg\r\n\r\n[github-mac-aarch64]: https://github.com/open-ani/ani/releases/download/v6.3.0-beta01/ani-6.3.0-beta01-macos-aarch64.dmg\r\n\r\n[github-android]: https://github.com/open-ani/ani/releases/download/v6.3.0-beta01/ani-6.3.0-beta01-universal.apk\r\n\r\n[github-android-arm64-v8a]: https://github.com/open-ani/ani/r"
+        },
+        {
+          "version": "6.3.0",
+          "buildVersion": "6.3.1",
+          "date": "2026-10-02T05:36:38Z",
+          "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.3.0-alpha01/ani-6.3.0-alpha01.ipa",
+          "size": 46121933,
+          "minOSVersion": "14.0",
+          "localizedDescription": "- 数据源选择器提供自动匹配、手动查找和 BT 资源三种模式，支持直接浏览数据源剧集并记住选择，方便后续切集，同时优化 BT 资源搜索、筛选和列表展示\r\n- Android 和 iOS 支持系统画中画播放，并提供应用切到后台时的播放行为设置 (#3466 by @GeneralK1ng)\r\n- PikPak 支持与本地 BT 同时启用，优先使用云端资源并在不可用时回退到本地 BT，优化播放、缓存下载和续传体验，支持 Android 后台下载，并显示云盘剩余空间及空间不足提示 (#3444 by @NihilDigit)\r\n- 改进在线视频插播广告过滤并默认开启，优化起播和续播速度，修复桌面端播放进度跳动，并在 iOS 提供广告过滤开关 (#3471 by @NihilDigit)\r\n\r\n----\r\n\r\n- 播放器弹幕设置支持直接管理弹幕来源和校准弹幕时间 (#3480 by @Tsukumi233)\r\n- Windows 支持多点触控和触控笔输入，可在图片查看器中双指缩放，并改善触摸拖动的响应和流畅度 (#3461 by @NihilDigit)\r\n- 支持离线自动或手动标记剧集看过，联网后自动同步，同步状态页面按剧集合并展示播放进度与看过状态\r\n- 剧集列表按正片、特别篇等类型分组，上一集、下一集及自动连播仅在同类型剧集间切换\r\n- 改善全屏、画中画及宽窄布局切换时的播放连续性，减少切换导致的播放中断\r\n- 同步状态页面中的删除操作显示对应的番剧和剧集名称\r\n- 优化电视端无障碍朗读，避免朗读探索页滚动进度\r\n- 修复看完一集后播放历史消失的问题，保留观看记录，再次播放已看完的剧集时从头开始\r\n- 修复 Android 切换全屏、切到后台或锁屏后可能黑屏且无法恢复的问题，支持在原播放位置自动恢复\r\n- 修复分段放送番剧在弹弹 play 中合并收录时匹配到错误剧集的问题，优先按剧集标题精确匹配\r\n- 修复弹弹 play 匹配请求失败时导致弹幕获取异常的问题\r\n- 修复 Android 复制日志时的崩溃，并改善视频增强效果的稳定性\r\n- 修复电视端列表刷新移除当前聚焦卡片时的焦点恢复问题，使焦点落到相邻卡片\r\n- 修复sync时全部模块 androidDeviceTest 无法解析 kotlin-test (#3500 by @GeneralK1ng)\r\n\r\n**Full Changelog**: https://github.com/open-ani/animeko/compare/v6.2.0...v6.3.0-alpha01\r\n\r\n[//]: # (ANI-SERVER-MAGIC-SEPARATOR)\r\n\r\n[//]: # (注意: api server 依赖这个特殊分隔符)\r\n\r\n[//]: # (对于所有可用的变量列表, 参考 CI release.yml 的 step release-notes)\r\n\r\n[github-win-x64]: https://github.com/open-ani/ani/releases/download/v6.3.0-alpha01/ani-6.3.0-alpha01-windows-x86_64.zip\r\n\r\n[github-win-aarch64]: https://github.com/open-ani/ani/releases/download/v6.3.0-alpha01/ani-6.3.0-alpha01-windows-aarch64.zip\r\n\r\n[github-mac-x64]: https://github.com/open-ani/ani/releases/download/v6.3.0-alpha01/ani-6.3.0-alpha01-macos-x86_64.dmg\r\n\r\n[github-mac-aarch64]: https://github.com/open-ani/ani/releases/download/v6.3.0-alpha01/ani-6.3.0-alpha01-macos-aarch64.dmg\r\n\r\n[github-android]: https://github.com/open-ani/ani/releases/download/v6.3.0-alpha01/ani-6.3.0-alpha01-universal.apk\r\n\r\n[github-android-arm64-v8a]: https://github.com/open-ani/ani/releases/download/v6.3.0-alpha01/ani-6.3.0-alpha01-arm64-v8a.apk\r\n\r\n[github-android-armeabi-v7"
+        },
+        {
+          "version": "6.2.0",
+          "buildVersion": "6.2.31",
+          "date": "2026-09-22T08:19:42Z",
+          "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.2.0-beta01/ani-6.2.0-beta01.ipa",
+          "size": 46220023,
+          "minOSVersion": "14.0",
+          "localizedDescription": "- 新增 Android TV 客户端，支持大屏首页、条目详情、播放、收藏、搜索、每日放送、设置与电视端扫码登录 (#3271)，感谢 @GrahamZen 在 #3217 中的前期探索\r\n- 缓存支持按线路批量选择多集，并按条目级查询资源，下载多集更顺畅\r\n- 自动跳过 OP/ED 前会提前缓存跳转后的内容\r\n- 条目详情新增系列关系图，可直观查看续集、番外和衍生并直接跳转\r\n- 剧集列表新增 TMDB 剧照、观看进度条与已看完角标，选集识别更直观\r\n- 在线播放进度条会显示已缓冲范围，缓冲时会显示当前下载速度\r\n- 播放页支持拖入本地视频文件直接播放，仅本次播放有效\r\n- 修复只标画质或语言的线路被当成集号不明而无法匹配的问题 (#3345 by @GrahamZen)\r\n\r\n----\r\n\r\n- 支持 GitHub 登录与账号绑定\r\n- 关于页新增构建信息，便于反馈问题时复制版本、分支、commit 与平台信息\r\n- 缓存详情页显示下载器状态、解析阶段与最近分片错误，便于诊断停滞任务\r\n- iOS 全屏播放期间锁定横屏，并优化横屏刘海侧边距\r\n- 修复重试下载更新包后进度在多个旧数值之间跳动的问题\r\n- 修复桌面端全屏播放时按 ESC 返回上一页而不是退出全屏的问题\r\n- 修复从播放页返回条目页后剧集看过状态没有及时更新的问题\r\n- 修复人物和角色侧边预览中的图片无法点击放大，以及移动端大图查看器覆盖范围不正确的问题\r\n- 图片加载恢复内存缓存，减少返回页面或滚动列表时的重复解码\r\n- 数据源搜索内容协商优化，提升部分站点的资源搜索兼容性\r\n- 播放缓冲策略在各平台统一，在线源回退播放时更不容易重新下载\r\n- 系列关系图中未在本地缓存的条目也能显示收藏状态\r\n\r\n**Full Changelog**: https://github.com/open-ani/animeko/compare/v6.2.0-alpha01...v6.2.0-beta01\r\n\r\n[//]: # (ANI-SERVER-MAGIC-SEPARATOR)\r\n\r\n[//]: # (注意: api server 依赖这个特殊分隔符)\r\n\r\n[//]: # (对于所有可用的变量列表, 参考 CI release.yml 的 step release-notes)\r\n\r\n[github-win-x64]: https://github.com/open-ani/ani/releases/download/v6.2.0-beta01/ani-6.2.0-beta01-windows-x86_64.zip\r\n\r\n[github-win-aarch64]: https://github.com/open-ani/ani/releases/download/v6.2.0-beta01/ani-6.2.0-beta01-windows-aarch64.zip\r\n\r\n[github-mac-x64]: https://github.com/open-ani/ani/releases/download/v6.2.0-beta01/ani-6.2.0-beta01-macos-x86_64.dmg\r\n\r\n[github-mac-aarch64]: https://github.com/open-ani/ani/releases/download/v6.2.0-beta01/ani-6.2.0-beta01-macos-aarch64.dmg\r\n\r\n[github-android]: https://github.com/open-ani/ani/releases/download/v6.2.0-beta01/ani-6.2.0-beta01-universal.apk\r\n\r\n[github-android-arm64-v8a]: https://github.com/open-ani/ani/releases/download/v6.2.0-beta01/ani-6.2.0-beta01-arm64-v8a.apk\r\n\r\n[github-android-armeabi-v7a]: https://github.com/open-ani/ani/releases/download/v6.2.0-beta01/ani-6.2.0-beta01-armeabi-v7a.apk\r\n\r\n[github-android-x86_64]: https://github.com/open-ani/ani/releases/download/v6.2.0-beta01/ani-6.2.0-beta01-x86_64.apk\r\n\r\n[cf-win-x64]: https://d.myani.o"
+        },
+        {
+          "version": "6.2.0",
+          "buildVersion": "60201",
+          "date": "2026-09-17T09:39:06Z",
+          "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.2.0-alpha01/ani-6.2.0-alpha01.ipa",
+          "size": 44773293,
+          "minOSVersion": "14.0",
+          "localizedDescription": "- 支持处理 Bangumi 收藏冲突，可在合并页查看冲突提示、选择保留内容并应用合并\r\n- 人物和角色页接入 Animeko 评论服务，支持发评论、回复、表情、点赞和举报\r\n- 弹幕发送支持选择颜色和位置，可发送顶部、滚动或底部弹幕\r\n- PC 图片查看器改为独立窗口，支持缩放、保存、复制、拖到其他应用和触摸板手势\r\n- 搜索支持按年份和季度筛选，年份改为下拉选择 (#3396 by @Bonger34)\r\n- 首次启动不再显示新手引导，网络检测失败会改用 toast 提示\r\n- 剧集播出时间改为与 Bangumi 日期和服务端算法一致，时间表支持时间未定和跨午夜刷新\r\n- 已缓存剧集现在会显示观看进度\r\n- 修复下载不支持分段的整集视频时可能因内存占用过高导致崩溃的问题 (#3407 by @azusachino)\r\n\r\n----\r\n\r\n- 修复 Linux Wayland 桌面环境下内置登录页和浏览器流程可能无法启动的问题 (#3359 by @Vedaru)\r\n- 修复长按倍速播放后可能无法正常跳过 OP/ED 的问题 (#3365 by @Tantless)\r\n- 修复长按倍速手势被取消后播放速度没有恢复的问题\r\n- 修复 Emby 独立剧集包含特别篇时的季匹配问题\r\n- 修复收藏分类末页不足一页时列表反复刷新和重排的问题 (#3374 by @vaz1306011)\r\n- 修复追番条目菜单会自动关闭的问题 (#3372 by @XYenon)\r\n- 修复 Anime Garden 资源大小显示被放大 1024 倍的问题 (#3370 by @NihilDigit)\r\n- 修复移动端顶端时间文字颜色看不清的问题 (#3366 by @U29kaXVt)\r\n- 修复 Animeko 图标尺寸过大导致列表行被撑高的问题 (#3348 by @GrahamZen)\r\n- 修复桌面端登录按钮 hover 阴影重叠的问题 (#3352 by @termtate)\r\n- 桌面端顶栏头像尺寸调整为与图标按钮对齐\r\n- 角色和制作人员信息缓存时间延长，减少重复加载\r\n- 点击人物或角色头像可直接打开图片查看器\r\n- Windows on Arm64 版本现在包含应用内更新程序 (#3408 by @NihilDigit)\r\n- 修复桌面安装包版本号与发布版本不一致的问题 (#3324 by @termtate)\r\n- Fix: 移除 AniApp 根节点 clickable，避免语义合并触发 Layout Inspector 崩溃 (#3381 by @myouo)\r\n\r\n**Full Changelog**: https://github.com/open-ani/animeko/compare/v6.1.0...v6.2.0-alpha01\r\n\r\n[//]: # (ANI-SERVER-MAGIC-SEPARATOR)\r\n\r\n[//]: # (注意: api server 依赖这个特殊分隔符)\r\n\r\n[//]: # (对于所有可用的变量列表, 参考 CI release.yml 的 step release-notes)\r\n\r\n[github-win-x64]: https://github.com/open-ani/ani/releases/download/v6.2.0-alpha01/ani-6.2.0-alpha01-windows-x86_64.zip\r\n\r\n[github-win-aarch64]: https://github.com/open-ani/ani/releases/download/v6.2.0-alpha01/ani-6.2.0-alpha01-windows-aarch64.zip\r\n\r\n[github-mac-x64]: https://github.com/open-ani/ani/releases/download/v6.2.0-alpha01/ani-6.2.0-alpha01-macos-x86_64.dmg\r\n\r\n[github-mac-aarch64]: https://github.com/open-ani/ani/releases/download/v6.2.0-alpha01/ani-6.2.0-alpha01-macos-aarch64.dmg\r\n\r\n[github-android]: https://github.com/open-ani/ani/releases/download/v6.2.0-alpha01/ani-6.2.0-alpha01-universal.apk\r\n\r\n[github-android-arm64-v8a]: https://github.com/"
+        },
+        {
+          "version": "6.1.0",
+          "buildVersion": "60107",
+          "date": "2026-08-26T08:28:01Z",
+          "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.1.0-beta01/ani-6.1.0-beta01.ipa",
+          "size": 44434411,
+          "minOSVersion": "14.0",
+          "localizedDescription": "- 新增画质增强(超分)，支持 Android, Windows 和 macOS (#3291 by @black4der)\r\n- 新增在线源查询缓存，有缓存时跳过查源流程，大幅加速开播速度\r\n- 播放页新增一起看入口，全屏时隐藏悬浮窗\r\n- 优化评论功能和 UI\r\n- 支持使用 PikPak 加速缓存 BT 源 (#3141 by @NihilDigit)\r\n- 新缓存管理页面\r\n\r\n----\r\n\r\n- 条目详情页封面与角色/制作人员图片支持点击放大查看\r\n- 修复 Windows mpv 画面偏暗\r\n- 支持鼠标侧键返回上一页\r\n- 支持 mpv 内核播放器设置自定义参数\r\n- 优化 jellyfin (#3190 by @jxing7036, #3244, #3248 by @IT-BillDeng)\r\n- 修复 Windows 原生触屏一系列问题 (#3223, #3234 by @NihilDigit)\r\n- 修复 Windows 10 可能会窗口透明 (#3319 by @myouo)\r\n- 优化性能 (#3236 by @NihilDigit)\r\n- 修复 macOS x86 无法打开或闪退\r\n- 修复 macOS 可能因为音频而崩溃\r\n- 修复 BT 源播放错误或无法开始播放 (#3337 by @GrahamZen)\r\n- 支持为 BT 下载设置额外的 trackers\r\n- 修复桌面端图片比较糊\r\n- 修复一系列 Linux 问题 (#3261 by @NihilDigit)\r\n- 修复手动匹配的弹幕请求会随着换集失效 (#3254 by @GrahamZen)\r\n- 优化数据源管理页长按批量编辑功能\r\n- 修复条目详情页的剧集卡片无法长按标记看过\r\n- 修复条目详情页 Tab 换行问题 (#3229 by @arpitagarwal1301)\r\n- 修复 Windows 托盘状态下再次启动会卡死 (#3317 by @Tantless)\r\n- 修复播放器倍速状态与 UI 不一致 (#3323 by @SXP-Simon)\r\n- 新增数据源工作原理示意动画\r\n- 为 macOS 暂时禁用 Accessibility 以修复闪退 (#3325 by @black4der)\r\n- 支持配置 ExoPlayer 的画质增强预热，解决黑屏或系统增强功能失效\r\n- 新增开源许可页面，可在设置 - 关于 - 鸣谢中查看\r\n- 修复异常指纹过滤默认生效且关闭开关无效的问题 (#3338 by @GrahamZen)\r\n- 修复 BT 缓存统计不准确 (#3339 by @GrahamZen)\r\n- Android 修复 WebView 正常无法释放 (#3340 by @GrahamZen)\r\n- 修复 Toast 配色没有跟随应用主题 (#3347 by @GrahamZen)\r\n\r\n**Full Changelog**: https://github.com/open-ani/animeko/compare/v6.1.0-alpha03...v6.1.0-beta01\r\n\r\n[//]: # (ANI-SERVER-MAGIC-SEPARATOR)\r\n\r\n[//]: # (注意: api server 依赖这个特殊分隔符)\r\n\r\n[//]: # (对于所有可用的变量列表, 参考 CI release.yml 的 step release-notes)\r\n\r\n[github-win-x64]: https://github.com/open-ani/ani/releases/download/v6.1.0-beta01/ani-6.1.0-beta01-windows-x86_64.zip\r\n\r\n[github-win-aarch64]: https://github.com/open-ani/ani/releases/download/v6.1.0-beta01/ani-6.1.0-beta01-windows-aarch64.zip\r\n\r\n[github-mac-x64]: https://github.com/open-ani/ani/releases/download/v6.1.0-beta01/ani-6.1.0-beta01-macos-x86_64.dmg\r\n\r\n[github-mac-aarch64]: https://github.com/open-ani/ani/releases/download/v6.1.0-beta01/ani-6.1.0-beta01-macos-aarch64.dmg\r\n\r\n[github-android]: https://github.com/open-ani/ani/r"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "version": "6.3.0",
+      "versionDate": "2026-10-09T11:19:10Z",
+      "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.3.0-beta01/ani-6.3.0-beta01.ipa",
+      "size": 46323955
+    },
+    {
+      "name": "Eros-FE",
+      "developerName": "erosTeam",
+      "subtitle": "E-Hentai/ExHentai 第三方客户端（官方）",
+      "localizedDescription": "E-Hentai/ExHentai 第三方客户端（官方）",
+      "iconURL": "https://raw.githubusercontent.com/erosTeam/eros_fe/master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+      "tintColor": "#4A90E2",
+      "category": "entertainment",
+      "bundleIdentifier": "cn.honjow.fehv",
+      "versions": [
+        {
+          "version": "1.9.2",
+          "buildVersion": "566",
+          "date": "2026-06-11T12:30:15Z",
+          "downloadURL": "https://github.com/erosTeam/eros_fe/releases/download/v1.9.2%2B566/Eros-FE_1.9.2%2B566.ipa",
+          "size": 24741532,
+          "minOSVersion": "15.6",
+          "localizedDescription": "### ✨ 功能\n\n- 适配 font_awesome_flutter 11 的图标 API 变更\n- 更新依赖并稳定 GitHub Actions 发布构建\n\n### 🐞 Bug 修复\n\n- 修复 Android 16 外部存储路径访问异常\n- 修复版本更新检查的 GitHub API 地址\n\n---\n\n### ✨ Features\n\n- Support font_awesome_flutter 11 icon API changes\n- Update dependencies and stabilize GitHub Actions release builds\n\n### 🐞 Bug Fixes\n\n- Fix external storage path access exceptions on Android 16\n- Fix the GitHub API URL used by the update checker\n\n---"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "version": "1.9.2",
+      "versionDate": "2026-06-11T12:30:15Z",
+      "downloadURL": "https://github.com/erosTeam/eros_fe/releases/download/v1.9.2%2B566/Eros-FE_1.9.2%2B566.ipa",
+      "size": 24741532
+    },
+    {
+      "name": "Eros-FE (StingGrey fix)",
+      "developerName": "StingGrey",
+      "subtitle": "Eros-FE 的 iOS 修复分支",
+      "localizedDescription": "Eros-FE 的 iOS 修复分支",
+      "iconURL": "https://raw.githubusercontent.com/StingGrey/eros_fe_ios/fix/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+      "tintColor": "#4A90E2",
+      "category": "entertainment",
+      "bundleIdentifier": "cn.honjow.fehv.stinggrey",
+      "versions": [
+        {
+          "version": "1.9.1",
+          "buildVersion": "2026092604",
+          "date": "2026-09-26T05:21:55Z",
+          "downloadURL": "https://github.com/StingGrey/eros_fe_ios/releases/download/v1.9.1-fix-20260926-upscale-ios/Eros-FE_1.9.1-fix_2026092604_unsigned.ipa",
+          "size": 37310253,
+          "minOSVersion": "15.6",
+          "localizedDescription": "修复历史页在重新排序、打开详情和 iPad 分栏尺寸变化后卡片空白的问题，并增加可选择的本地增强算法、真实处理强度和逐页状态说明。\n\n- 新增 waifu2x CUnet 2×、Real-ESRGAN AnimeVideo 2×、MetalFX 空间缩放，保留 Real-CUGAN 2×。模型选择页介绍各自适用场景和局限。\n- 处理强度 0–100%：0% 显示原图；其余将增强结果与 Lanczos 2× 放大混合。降噪独立选择；切换设置会取消旧任务并使用独立缓存。\n- 点击阅读器顶部页码可查看当前页的算法、强度、源图/输出尺寸，以及排队、处理中、已增强或跳过原因。完成处理并解码增强图片后才标记为“超分 2×”。\n- 历史瀑布流按画廊 ID 保持卡片身份，移除不稳定的延迟占位和尺寸缓存，修正缺失封面尺寸导致的无效布局。\n\n使用入口：设置 → 阅读 → 本地超分辨率。\n\n版本：1.9.1 (2026092604)\nBundle Identifier：`cn.honjow.fehv`\nIPA 为未签名的 arm64 真机 Release 包，需要自签后安装。全部模型已内置，无需额外下载。\n\nMetalFX 使用 Apple 原生 GPU 接口，真机会检测支持情况。iOS 模拟器 SDK 不提供 MetalFX，模拟器中会显示不支持；不会静默换用其他算法。神经网络模型和 MetalFX 的清晰度、耗时因图片及设备而异。\n\n验证：16 项 Flutter 测试通过；四种算法在 Mac 原生引擎中验证 2× 尺寸、25%/100% 强度差异和取消；新增 Core ML 模型与 PyTorch 输出做数值对照；iPadOS 27 模拟器安装和启动通过；真机 Release 编译及 IPA 完整性、平台、模型、Bundle ID 校验通过。尚未在用户 iPad 上验证本版本的整段阅读与性能。"
+        },
+        {
+          "version": "1.9.1",
+          "buildVersion": "2026092603",
+          "date": "2026-09-26T04:15:06Z",
+          "downloadURL": "https://github.com/StingGrey/eros_fe_ios/releases/download/v1.9.1-fix-20260926-ios/Eros-FE_1.9.1-fix_2026092603_unsigned.ipa",
+          "size": 31198443,
+          "minOSVersion": "15.6",
+          "localizedDescription": "本次版本修复 iPadOS 27 启动后立即退出的问题，并更新 iPad 界面和本地阅读超分。\n\n- Bundle Identifier 统一为 `cn.honjow.fehv`，Debug、Profile、Release 和本地构建脚本保持一致。\n- 采用 UIScene 生命周期，修复 iPadOS 27 启动崩溃。\n- iPad 底部使用原生 Liquid Glass 导航栏；缩小画廊预览，修正工具栏按钮对齐。\n- 设置保持双栏布局，恢复登录入口和全部八个设置菜单。\n- 新增本地 Real-CUGAN 2× Core ML 超分，包含缓存、取消和质量异常回退。\n- 升级至 Flutter 3.47.5 / Dart 3.13.4。\n\n安装包为 iPhoneOS arm64 Release，版本 `1.9.1`，构建号 `2026092603`，需自行签名后安装。原先使用 `dev2.cn.honjow.fehv` 的安装会被系统视为另一个 App；本包不会自动迁移该安装的数据。\n\n验证：Release 真机构建通过；包内标识、iPad 支持、UIScene 配置、arm64 iPhoneOS 二进制、两份 Core ML 模型和 ZIP 完整性检查通过。UI 修复已在 iPadOS 27 模拟器中运行，相关四项组件测试通过。第三方签名后的真机安装尚未验证。\n\n附件同时提供 SHA-256 校验文件和构建信息。"
+        },
+        {
+          "version": "1.9.1",
+          "buildVersion": "1.9.1",
+          "date": "2026-06-04T20:05:36Z",
+          "downloadURL": "https://github.com/StingGrey/eros_fe_ios/releases/download/v1.9.1-fix/Eros-FE_1.9.1-fix.ipa",
+          "size": 23390767,
+          "minOSVersion": "15.6",
+          "localizedDescription": "### Bug Fixes\n\n- Fixed the sidebar/gallery tab scroll position being reset or snapping toward the top after closing the reader.\n- Improved scroll restoration timing when returning from secondary pages, reducing visible scroll jitter during route transitions.\n- Prevented transient layout offsets from overwriting the saved tab scroll position."
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "version": "1.9.1",
+      "versionDate": "2026-09-26T05:21:55Z",
+      "downloadURL": "https://github.com/StingGrey/eros_fe_ios/releases/download/v1.9.1-fix-20260926-upscale-ios/Eros-FE_1.9.1-fix_2026092604_unsigned.ipa",
+      "size": 37310253
+    },
+    {
+      "name": "Simple Live",
+      "developerName": "June6699",
+      "subtitle": "简简单单的看直播（SimpleLive 续）",
+      "localizedDescription": "简简单单的看直播（SimpleLive 续）",
+      "iconURL": "https://raw.githubusercontent.com/June6699/dart_simple_live/master/simple_live_app/assets/logo.png",
+      "tintColor": "#4A90E2",
+      "category": "entertainment",
+      "bundleIdentifier": "com.xycz.simple-live",
+      "versions": [
+        {
+          "version": "1.13.1",
+          "buildVersion": "11301",
+          "date": "2026-09-25T06:25:02Z",
+          "downloadURL": "https://github.com/June6699/dart_simple_live/releases/download/v1.13.1/ios_no_sign.ipa",
+          "size": 35004780,
+          "minOSVersion": "13.0",
+          "localizedDescription": "### 紧急修复\r\n\r\n- 局域网设备同步新增\"同步斗鱼账号\"入口：上一版只做了斗鱼 Cookie 的接收端，发送端缺失，导致该功能实际不可用；本版补齐发送方法与页面入口。\r\n- 修复手机作为接收端缺少 `/sync/account/kuaishou` 路由的问题：此前手机之间互传或反向同步时快手 Cookie 无法接收。\r\n- 远程房间同步（SignalR）新增斗鱼、抖音、快手账号的发送与接收，与哔哩哔哩账号同步并列；配套同步服务器已支持对应事件中继。\r\n- 远程同步服务器默认地址切换为 `wss://june6699.top/sync`：原默认服务器 `sync.furry.mo.cn` 因 TLS 证书问题长期不可用，已迁移并退役；\"自定义地址\"与 Cloudflare Worker 备用线路不受影响。\r\n\r\n\r\n### 0.1、前言\r\n\r\n提前发布，祝大家双节快乐，因为一想到可以给很多宅男宅女们，提供假期更好的直播体验（尤其是斗鱼用户），我就充满了干劲，极致抽空完成更新，应该是最快的斗鱼断流修复分支吧？\r\n\r\n但是由于我一直没出现过斗鱼的这个断流问题，所以加了cookie之后是否能规避，仍需你们自己实测，猜测是斗鱼对于匿名用户的最高画质的限制，普遍出现在十分钟左右。\r\n\r\n### 0.2、文件大小优化\r\n\r\n- 全设备平台的安装包大小优化\r\n\r\n### 1、直播播放与账号\r\n\r\n- 虎牙及其他直播流新增更灵敏的播放看门狗：每 2 秒检查播放位置、缓冲状态和缓冲区是否耗尽，连续停滞约 4 秒即可刷新，避免弹幕继续滚动但画面卡死。\r\n- 斗鱼每次取流前会刷新播放签名并校验响应，降低播放约十分钟后断流且无法恢复的问题。\r\n- 账号管理新增斗鱼 Cookie 配置；登录 Cookie 只保存在本机并注入斗鱼播放请求，匿名高画质仍可能受到平台时长限制。[Cookie导入教程](https://june6699.github.io/posts/simple-live-%E6%8A%96%E9%9F%B3-cookie-%E8%8E%B7%E5%8F%96%E5%92%8C%E5%AF%BC%E5%85%A5%E6%95%99%E7%A8%8B/)\r\n- 断流恢复会重新获取播放地址，并阻止旧请求覆盖新流。\r\n- 自动切换检索增强：跳过已下播或状态请求失败的房间，继续查找下一个可播放直播间。\r\n- 修复\"未开播\"房间卡住自动切换的问题：打开的直播间本身未开播时（例如通过观看记录进入已关播直播间，或自动切换后落在刚下播的房间），会自动继续检索下一个正在直播的关注房间，不再一直停留在\"未开播\"页面；连续多个直播间都未开播时会自动停止换台，避免异常情况下无限切换。\r\n- 修复账号管理页斗鱼条目的响应式构建异常；该异常在 Windows 发布包中会显示为 B 站下方的大块灰色区域，并遮住斗鱼、虎牙、抖音和快手。修复覆盖 Windows、Android、macOS、iOS 和 Linux 共用页面。\r\n\r\n### 2、移动端后台播放（Android / iOS）\r\n\r\n- 修复后台播放一报错就撤销前台服务、重连期间被系统清理的问题：重连期间保持前台服务并显示\"正在重新连接\"通知，恢复后自动续播。\r\n- 前台服务接入 MediaSession 与媒体样式通知：显示主播名和房间标题，提供播放/暂停/停止按钮，锁屏与通知栏可控，系统按媒体应用保活。\r\n- 新增音频焦点管理：来电、其他应用占用音频时自动暂停或降音，结束后自动恢复播放。\r\n- 后台也启用播放看门狗，后台断流卡死可自动刷新恢复。\r\n- iOS 配置后台音频会话，处理来电/Siri 中断（挂断后自动恢复）与拔耳机暂停，重连期间向系统申请额外后台时间。\r\n- 新增默认 mpv 网络参数（网络超时、断线重连、解码缓存），降低直播流瞬时抖动直接断播的概率；\"高级参数\"中自定义配置仍可覆盖。\r\n- 新增\"后台保活设置指引\"页：电池优化白名单一键申请，小米/华为/OPPO/vivo/三星分品牌自启动设置步骤与最近任务加锁说明；播放设置页与直播间设置均有入口。\r\n\r\n### 3、关注与搜索\r\n\r\n- 修复新增或重命名关注标签时，8 个字符长度限制未生效的问题；同时补齐空白名称和重名校验。\r\n- 修复关注页卡片在系统字体较大或徽标较多时底部内容被裁切的问题。\r\n- 修复虎牙搜索翻页重复，增加客户端去重兜底，并将可搜索结果上限由 40 条提升至 100 条。\r\n- 已同步检查斗鱼、B站、快手和抖音搜索分页，未发现相同问题。\r\n\r\n### 4、其他修复\r\n\r\n- 修复\"链接解析\"中的正则表达式损坏导致无法编译的问题。"
+        },
+        {
+          "version": "1.12.8",
+          "buildVersion": "11208",
+          "date": "2026-08-19T08:47:40Z",
+          "downloadURL": "https://github.com/June6699/dart_simple_live/releases/download/v1.12.8/ios_no_sign.ipa",
+          "size": 31256179,
+          "minOSVersion": "13.0",
+          "localizedDescription": "## 重点更新\r\n\r\n这次想了想，还是直接作为最新版发布吧，但是是最新版的test版本，对于一些1.12.8-pre的问题进行了修复，并提供了全平台发布。\r\n\r\n- 修复 Android、iOS、Windows、macOS、Linux 全屏播放锁定控制后无法重新解锁的问题。锁定时轻触播放器会短暂显示解锁按钮，再次点击即可解除锁定。\r\n- 修复 Windows、macOS、Linux 进入直播间后标题不可见的问题；桌面播放器现在会在视频上方显示直播间标题。\r\n- Windows“其他设置”新增 GPU 偏好：自动、省电/核显、高性能/NVIDIA 独显。修改后完全重启应用生效；这是系统偏好，不保证按适配器名称强制绑定。\r\n- 关注页直播封面改用 640x360 预览解码、独立缓存和销毁淘汰策略，降低大量关注或频繁刷新时的内存增长，相关反馈见 [issue #107](https://github.com/June6699/dart_simple_live/issues/107)。\r\n- 播放器新增直播流停滞 watchdog：播放位置连续无进度约 15 秒（持续 buffering 使用更长宽限）时进入有限次数的自动刷新和换线恢复，避免主播网络抖动时画面长时间卡住。\r\n- 移动端特别关注开播提醒提前请求通知权限并建立状态基线；应用进程仍存活时后台刷新可正常发出本地通知。应用被系统或用户强制结束后的推送仍需要服务端接入 FCM/APNs。\r\n- iOS 当前仍不支持系统画中画（PiP）；现有 `media_kit`/`floating` 播放链路没有可安全复用的原生 AVPlayer PiP 输出。\r\n- 修复新版 Flutter/Xcode 下的 macOS、iOS 发布构建兼容问题：固定 Apple 平台相关依赖版本，并将 macOS 应用入口迁移到当前 Swift 写法。\r\n- 修复快手直播状态误判：有效直播流 ID 不再因临时缺少播放地址被认定为下播；刷新时需要连续三次确认离线且没有有效播放证据才结束直播状态。\r\n- 修复 Windows、macOS、Linux 桌面端音量滑条点击后立即消失、鼠标移入后无法拖动和反复闪烁的问题。浮层遮罩及底层播放器鼠标离开事件不再关闭滑条，指针在滑条内时保持可交互，离开后保留 600ms 回移宽限。\r\n- 新增桌面端直播间音量快捷键：默认上方向键增加音量、下方向键减少音量，每次调整 5%，范围限制为 0% 至 100%，并持久化到播放器音量设置。\r\n- 将同步服务选择和连接方式设置移到“数据同步”页面；同步服务可在自建服务器、Cloudflare Worker 和自定义地址之间选择。\r\n- 同步连接方式改为本地代理端口输入：留空表示直连，只填写端口号（例如 `51888`）表示使用 `127.0.0.1:51888`，并兼容迁移旧的地址格式。\r\n- 桌面快捷键设置现在仅在 Windows、macOS、Linux 显示；重复分配按键时会保留原绑定并提示冲突。\r\n- 修复 Windows 窗口贴到屏幕边缘后重新启动出现约 8 像素间隙的问题，相关反馈见 [issue #99](https://github.com/June6699/dart_simple_live/issues/99)。\r\n- 修复部分 Android 设备播放一段时间后画面冻结但声音仍正常的问题；播放器会在检测到异常 Surface 时进行有限次数的恢复，相关反馈见 [issue #97](https://github.com/June6699/dart_simple_live/issues/97)。\r\n- 修复 Android 后台或系统窗口切换期间定时关闭可能错过截止时间的问题；到点后会按绝对截止时间执行退出，相关反馈见 [issue #97](https://github.com/June6699/dart_simple_live/issues/97)。\r\n- 修复 Android 手机在系统小窗、自由窗和分屏中退出横向播放全屏后仍保持横屏的问题：退出时先终止全屏状态，再明确恢复竖屏，避免厂商窗口回调重新请求横屏。平板及其他大屏设备保持系统自动方向，避免强制横竖屏或出现不必要的留黑。\r\n- 优化 Android 系统小窗、自由窗和分屏中横向直播的全屏切换：兼容不同厂商的窗口状态；从系统小窗展开回常规窗口后，会重新请求横屏并恢复沉浸式全屏。系统小窗的展开尺寸仍由系统控制。\r\n- iOS 新增默认开启的“原画省电优化”：保持原画码流、硬件解码和 ProMotion 高刷新率，只将输出纹理限制在当前屏幕物理像素范围内，减少 4K 原画缩放显示时的 GPU 与内存带宽开销；遇到兼容问题可在“直播间设置”中关闭。\r\n- 优化弹幕"
+        },
+        {
+          "version": "1.12.7",
+          "buildVersion": "11207",
+          "date": "2026-07-24T15:34:29Z",
+          "downloadURL": "https://github.com/June6699/dart_simple_live/releases/download/v1.12.7/ios_no_sign.ipa",
+          "size": 31092611,
+          "minOSVersion": "13.0",
+          "localizedDescription": "本版本重点修复桌面端播放器快捷键在中文输入法下不响应的问题，并优化桌面端直播间切换时列表位置被重置的体验。\r\n\r\nTV 端对应版本见 `tv_v1.7.8`。\r\n\r\n## 重点更新\r\n\r\n- 修复 Windows、macOS、Linux 桌面端在中文输入法下，播放器快捷键需要切换到英文输入法才生效的问题。\r\n- 桌面端播放器快捷键改为按物理键识别，中文输入法开启时也可以直接使用 `F`、`D`、`M`、`R`、`C` 等快捷键。\r\n- 播放器区域使用快捷键时会拦截输入法候选框；搜索框、弹幕输入框、设置输入项等文本输入场景保持中文输入法正常工作。\r\n- 修复 Windows 桌面端弹幕在部分系统字体环境下可能显示成书法/繁体字体的问题，弹幕字体现在会使用微软雅黑兜底。\r\n- 修复桌面端全屏播放时，从右侧关注、观看历史、推荐等列表切换直播间后，列表偶发自动跳回顶部的问题；现在会尽量保持当前滚动位置。\r\n- 移动端与 TV 端同步检查了直播间切换列表逻辑，避免同类列表跳转体验退化。\r\n- 修复哔哩哔哩直播在弹幕信息接口异常时，误提示“获取直播间信息失败，可能需要验证”并阻止进入直播间的问题；现在会降级处理，优先保证直播间可以打开。\r\n- 优化斗鱼直播播放失败后的重试逻辑，失败重试时会重新获取斗鱼播放地址，减少临时 CDN 链接失效后反复打开同一失效地址的问题。\r\n- TV 对应版本补充关注页自动更新间隔设置修复：Android TV 使用预设档位，TV-Windows 保持可输入时间。\r\n- 修复抖音网页版直链和分享短链跳转：支持从分享文案提取链接、多级重定向，并且短链解析不携带用户 Cookie，导入 Cookie 后也可正常进入直播间。\r\n- 支持快手分享短链、网页直播链接和移动端直播链接解析，相关反馈见 discussion #88。\r\n- 修复快手搜索误把分类推荐内容当成直播间结果的问题；搜索主播或关键词时只保留真实直播间结果。\r\n- 修复快手直播间分享和复制链接使用内部直播流 ID、导致分享内容异常的问题，现在统一使用公开直播间网址。\r\n- 修复 Windows 点击直播间分享时，系统提示“无法为你显示所有共享方法”的问题；Windows 现在会直接复制直播间链接，其他平台继续使用系统分享。\r\n- 兼容新版 Visual Studio / CMake 的 Windows 打包流程，避免构建完成后安装步骤错误写入系统目录而导致打包失败。\r\n- 修复抖音自定义 Cookie 导致房间解析失败的问题，相关反馈见 issue #85。\r\n- 修复快手播放出现 `Error decoding audio.`、`no sound.` 等音频诊断时连续弹错和重复重连的问题，相关反馈见 issue #87。\r\n- 修复 Android 系统自由窗 / 分屏中双击全屏再退出后页面比例异常、重复画面或残留 Surface 的问题，相关反馈见 issue #86；系统自由窗和应用自身小窗现在分开处理。\r\n- 明确画中画支持范围：当前仅 Android 支持系统画中画；iOS 暂不支持画中画，`media-kit` 对 iOS/macOS 的播放支持不代表已提供系统画中画。\r\n- 桌面端新增“滑动调节音量/亮度”开关；关闭后不再响应两侧上下滑动，音量提示、滑条和全屏切换时的临时浮层也会及时清理。\r\n- 修复日志文件“保存”后得到 0 KB 空文件的问题；保存前会刷新日志写入，并按平台使用正确的文件写入方式。\r\n- Android 和 iOS 关闭多开同屏入口；普通桌面端保留多开能力。\r\n- 移动端播放器不再额外衰减内部音量，耳机音量由系统音量统一控制，减少音量拉满仍偏小或忽大忽小的情况。\r\n- 修复定时关闭在前后台切换、画中画和系统自由窗场景下计时或退出不可靠的问题；到点会按平台停止播放并释放相关资源，修改时长或关闭开关也会立即更新计时任务。\r\n- 调整关注页、主页、搜索和分类页面的直播卡片布局，改为固定等高网格和封面下方的信息排布，相关讨论见 discussion #76。\r\n- 修复哔哩哔哩接口触发 429 或返回空清晰度时的处理：保留有限重试并记录房间号、状态和响应摘要，获取失败时显示可重试提示，避免直播间黑屏。\r\n- 修复 Windows 全屏切换时的标题栏、最大化状态和闪动问题；退出全屏后恢复进入前的窗口状态。\r\n- 修复桌面端锁定播放器后锁图标持续悬停显示的问题，现在仅在屏幕边缘解锁区域显示。\r\n- 修复桌面端快速切换右侧关注主播时的异步竞态，过期请求不会更新当前直播间或已释放的播放器。\r\n- 补强播放器打开与恢复任务的并发保护：快速切房时会等待旧任务结束并丢弃过期回调；音量、亮度节流任务异常后也能正常释放，避免后续调节失效。\r\n- "
+        },
+        {
+          "version": "1.12.6",
+          "buildVersion": "11206",
+          "date": "2026-06-17T06:17:01Z",
+          "downloadURL": "https://github.com/June6699/dart_simple_live/releases/download/v1.12.6/ios_no_sign.ipa",
+          "size": 30896989,
+          "minOSVersion": "13.0",
+          "localizedDescription": "## 正式版本\r\n\r\n这个版本把主 App 推进到 `1.12.6+11206`，重点是关注页展示与筛选整理、桌面端播放手势修复、抖音关注刷新链路收敛，以及之前的同步 / 导入稳定性、大关注分页、懒人模式与桌面多开端口冲突修复。TV 端和 TV-Windows 对应版本见 `tv_v1.7.7`。\r\n\r\n快手cookie导入教程见 [快手 抖音 cookie 导入SimpleLive教程](https://june6699.github.io/posts/simple-live-%E6%8A%96%E9%9F%B3-cookie-%E8%8E%B7%E5%8F%96%E5%92%8C%E5%AF%BC%E5%85%A5%E6%95%99%E7%A8%8B/) \r\n或者国内站点 [快手 抖音 cookie 导入SimpleLive教程](https://www.june6699.top/posts/simple-live-%E6%8A%96%E9%9F%B3-cookie-%E8%8E%B7%E5%8F%96%E5%92%8C%E5%AF%BC%E5%85%A5%E6%95%99%E7%A8%8B/)\r\n\r\n## 重点更新\r\n\r\n- 支持快手直播平台，感谢 @xuanxuan123xuan 的开发。\r\n- 修复桌面端直播页上下滑调节音量 / 亮度时从 0 开始计算的问题；现在会从当前播放器音量和当前应用亮度继续增减。\r\n- 新增播放页“滑动调节音量/亮度”开关，放在 `直播间设置 > 播放器`，默认开启；关闭后不再响应这类手势。\r\n- 关注页新增 `默认 / 紧凑 / 卡片` 三种显示样式，并新增“展示直播封面”开关，默认关闭；关闭时使用更紧凑的头像信息列表，开启后才显示真实直播间封面图。\r\n- 关注页新增“仅显示开播”、本地搜索主播名、进入关注页后自动刷新三项能力；自动刷新默认关闭，开启后会先显示本地列表，再异步执行一次全量刷新。\r\n- 关注刷新线程数统一为 `0 = 自动`，自动最多 4 路；手动可选 1-8 路，并直接覆盖自动判断。\r\n- 抖音关注刷新改成“状态阶段”和“手动详情补齐阶段”分离：自动刷新只跑状态接口，手动刷新才低并发补齐封面 / 标题并做抖音 roomId 校正，降低 444 触发概率。\r\n- 快手主页直播列表改为按热度从高到低展示，和其他平台主页排序体验对齐。\r\n- 关注导入、配置包恢复、局域网同步、房间同步、WebDAV 恢复只落库，不再导入完成后自动刷新直播状态。\r\n- 导入 / 同步完成后只汇总提示一次，避免大量关注导入时每 200 条频繁提示。\r\n- “刷新频繁”只在用户主动刷新并触发冷却时出现，纯导入链路不再弹出。\r\n- 关注排序统一为：特别关注直播中、特别关注未直播 / 未知、普通关注直播中、普通关注未直播 / 未知。\r\n- 关注总数超过 400 自动分页，底部悬浮分页条提供上一页、下一页、刷新当前页、刷新全部；移动端支持左右滑翻页。\r\n- 刷新当前页会先刷新全量特别关注，再刷新当前页普通关注；刷新全部会再补全量普通关注。\r\n- 刷新任务会降低当前播放房间的干扰，抖音刷新并发更保守，缓解刷新中打开抖音直播间的周期性卡顿。\r\n- 新增懒人模式开关：关播后自动切到下一个直播间、播放失败且线路 / 重试耗尽后自动切到下一个直播间，默认关闭。\r\n- 桌面端“观看历史”改为和“关注列表”一致的长条样式，“同类推荐”保持原样。\r\n- 桌面端 mpv 性能档位、同步分块、大配置批量写库、虎牙分类缓存等改动继续保留。\r\n\r\n## 桌面端与同步\r\n\r\n- 主 App desktop secondary 播放窗口不再注册 `SyncService`，避免多屏 / 多窗口播放时抢占 `23234/23235`。\r\n- UDP / HTTP 同步服务绑定失败改为非致命错误，不影响播放和主界面。\r\n- 同步页端口冲突文案改为明确提示：`23234 端口已被占用，请关闭其他 Simple Live / TV-Windows 窗口后重试`。\r\n- 同机同时打开主 App 和 TV-Windows 时，如果端口冲突，应用不会崩溃，局域网同步页会显示明确原因。\r\n- Windows 主 App 来自 `simple_live_app`，正式包为完整 zip，不发布单 exe。\r\n- 修复 Windows install 阶段缺失 `build/native_assets/windows` 时导致 `INSTALL.vcxproj` 失败的问题。\r\n- 如果关闭 Simple Live 时 Windows 弹出系统报错，可检查 `Windows Error Reporting Service` 是否被禁用；将其设为“自动”并启动"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "version": "1.13.1",
+      "versionDate": "2026-09-25T06:25:02Z",
+      "downloadURL": "https://github.com/June6699/dart_simple_live/releases/download/v1.13.1/ios_no_sign.ipa",
+      "size": 35004780
+    },
+    {
+      "name": "Simple Live Beta",
+      "developerName": "June6699",
+      "subtitle": "Simple Live 预发布版",
+      "localizedDescription": "Simple Live 预发布版",
+      "iconURL": "https://raw.githubusercontent.com/June6699/dart_simple_live/master/simple_live_app/assets/logo.png",
+      "tintColor": "#4A90E2",
+      "category": "entertainment",
+      "bundleIdentifier": "com.xycz.simple-live.beta",
+      "versions": [
+        {
+          "version": "1.13.0",
+          "buildVersion": "11300",
+          "date": "2026-09-08T12:06:03Z",
+          "downloadURL": "https://github.com/June6699/dart_simple_live/releases/download/v1.13.0-pre/ios_no_sign.ipa",
+          "size": 100800781,
+          "minOSVersion": "13.0",
+          "localizedDescription": "## Build: `1.13.0+11300`\r\n\r\n> [!IMPORTANT]\r\n>\r\n>- 9.9已更新之前由于没有解压导致的ios这些无法安装的问题。\r\n>- 文件大小大幅上升，是因为加入了许多游戏分类的icon，因为抖音最近更新了分类，但是并未提供游戏icon，所以都是我一个个通过各>种公开渠道拿到的icon文件，塞进来的。\r\n>- 但是抖音的游戏细分类是动态的，比如当前时段如果没有这个游戏主播在播，他就不会有这个分类。\r\n\r\n\r\n## 链接解析与清晰度记忆（2026-09-08 更新）\r\n\r\n### 链接解析修复\r\n\r\n- **修复房间号含点号时解析失败**：房间号如 `123.456` 的虎牙/抖音直播间现在可以正常解析，旧版会在点号处截断导致 API 报错。\r\n- **新增抖音 www 域名支持**：\r\n  - `https://www.douyin.com/live/数字` 可直接解析\r\n  - `https://www.douyin.com/follow/live/数字` 可直接解析（从关注页打开的链接）\r\n- 解析改用结构化 URI 处理，所有平台 host 匹配改为大小写不敏感。\r\n- 短链递归解析新增深度限制，防止短链互跳死循环。\r\n- 解析帮助文案更新，补充新支持的抖音链接格式。\r\n\r\n### 清晰度记忆\r\n\r\n- **播放设置新增”记住上次”选项**：在”默认清晰度”和”数据网络清晰度”下拉菜单中新增第 4 项”记住上次”。\r\n- **按平台记忆**：每个直播平台独立记忆用户上次手动选择的清晰度。\r\n- **智能匹配策略**：\r\n  - 优先按清晰度名称精确匹配（如”蓝光8M”）\r\n  - 名称不存在时按距最高档的偏移兜底（如上次选第 1 档，本房间列表不同也选第 1 档）\r\n  - 都匹配不到时回落到”中等”策略\r\n- 每次手动切换清晰度（包括开启功能前的切换）都会自动保存，无需额外操作。\r\n- **全端支持**：主应用（Android、iOS、Windows、macOS、Linux）与 TV 应用（Android TV、Windows TV）均可使用。\r\n\r\n## Windows 播放兼容性\r\n\r\n### libmpv 升级至最新版本（2026-09-04 更新）\r\n\r\n- **libmpv 已升级至 v0.41.0-1011-g182fa6ca4**（2026-08-28 构建，120MB）\r\n  - 从旧版 2023 年构建（29.7MB）升级，包含最新 ffmpeg 解码器\r\n  - **修复 [issue #115](https://github.com/June6699/dart_simple_live/issues/115)**：手动设置 `hwdec=d3d11va` 现在正确生效，不再回退到 `d3d11va-copy`\r\n  - 改善硬件解码兼容性和性能\r\n  - 已通过完整验证：视频画面正常、默认硬解使用 d3d11va、手动 hwdec 设置生效、硬解开关正常、窗口操作正常\r\n\r\n### 播放器稳定性说明\r\n\r\n- Windows 播放器页面、控制层和 native runtime 与 v1.12.8-test 已验证可用的组合保持一致。\r\n- Windows 灰屏不能只通过替换 `libmpv-2.dll` 判断；播放器页面/控制层的纹理生命周期和 native runtime 必须作为整体验证。\r\n- 实际解码路径仍取决于显卡、驱动、视频编码和直播流；播放器诊断页会显示当前使用的解码器。\r\n\r\n## 主应用更新\r\n\r\n### 播放暂停/继续\r\n\r\n- 直播间新增暂停/继续功能：全屏与非全屏控制栏均提供暂停按钮，暂停时画面冻结。\r\n- 继续播放时会自动刷新直播流回到最新画面，避免长时间暂停后画面落后于直播。\r\n- 桌面端默认支持空格键触发暂停/继续，可在 设置 → 播放设置 → 快捷键 中改绑或关闭；快捷键仅在直播间且输入框未聚焦时生效。\r\n\r\n### 抖音直播分类\r\n\r\n- 抖音直播分类支持继续进入子分类，不再只显示第一层分类。例如可按”游戏 → 射击游戏 → 无畏契约”逐层浏览。\r\n- 分类数据按嵌套层级解析，后续出现更多层级时可继续进入。\r\n- 游戏子分类补充本地图标，普通 App 和 TV App 均可显示；图片按显示尺寸缓存，减少分类浏览时的内存占用。\r\n\r\n### 关注标签刷新\r\n\r\n- 关注列表支持选择自定义标签进行显示，例如”上午开播”。\r\n- 手动刷新可仅处理当前选中的标签；选择”全部”时刷新全部关注。\r\n- 标签刷新范围独立于搜索、平台、直播状态和”仅显示开播”等临时显示筛选，避免误刷新或漏刷新。\r\n- 普通 App 和 TV App 均支持标签筛"
+        },
+        {
+          "version": "1.12.7",
+          "buildVersion": "11207",
+          "date": "2026-07-06T08:04:30Z",
+          "downloadURL": "https://github.com/June6699/dart_simple_live/releases/download/v1.12.7-pre/ios_no_sign.ipa",
+          "size": 31071602,
+          "minOSVersion": "13.0",
+          "localizedDescription": "# v1.12.7\n\n本版本重点修复桌面端播放器快捷键在中文输入法下不响应的问题，并优化桌面端直播间切换时列表位置被重置的体验。\n\nTV 端对应版本见 `tv_v1.7.8`。\n\n## 重点更新\n\n- 修复 Windows、macOS、Linux 桌面端在中文输入法下，播放器快捷键需要切换到英文输入法才生效的问题。\n- 桌面端播放器快捷键改为按物理键识别，中文输入法开启时也可以直接使用 `F`、`D`、`M`、`R`、`C` 等快捷键。\n- 播放器区域使用快捷键时会拦截输入法候选框；搜索框、弹幕输入框、设置输入项等文本输入场景保持中文输入法正常工作。\n- 修复 Windows 桌面端弹幕在部分系统字体环境下可能显示成书法/繁体字体的问题，弹幕字体现在会使用微软雅黑兜底。\n- 修复桌面端全屏播放时，从右侧关注、观看历史、推荐等列表切换直播间后，列表偶发自动跳回顶部的问题；现在会尽量保持当前滚动位置。\n- 移动端与 TV 端同步检查了直播间切换列表逻辑，避免同类列表跳转体验退化。\n- 修复哔哩哔哩直播在弹幕信息接口异常时，误提示“获取直播间信息失败，可能需要验证”并阻止进入直播间的问题；现在会降级处理，优先保证直播间可以打开。\n- 优化斗鱼直播播放失败后的重试逻辑，失败重试时会重新获取斗鱼播放地址，减少临时 CDN 链接失效后反复打开同一失效地址的问题。\n- TV 对应版本补充关注页自动更新间隔设置修复：Android TV 使用预设档位，TV-Windows 保持可输入时间。\n- 修复抖音网页版直链和分享短链跳转：支持从分享文案提取链接、多级重定向，并且短链解析不携带用户 Cookie，导入 Cookie 后也可正常进入直播间。\n- 修复哔哩哔哩接口触发 429 或返回空清晰度时的处理：保留有限重试并记录房间号、状态和响应摘要，获取失败时显示可重试提示，避免直播间黑屏。\n- 修复定时关闭在前后台切换后计时失效的问题；到点会按平台停止播放并释放相关资源，修改时长或关闭开关也会立即更新计时任务。\n- 修复 Windows 全屏切换时的标题栏、最大化状态和闪动问题；退出全屏后恢复进入前的窗口状态。\n- 修复桌面端锁定播放器后锁图标持续悬停显示的问题，现在仅在屏幕边缘解锁区域显示。\n- 修复桌面端快速切换右侧关注主播时的异步竞态，过期请求不会更新当前直播间或已释放的播放器。\n- 修复 Windows 打包遗漏 `dart_quickjs.dll` 导致斗鱼播放时报 native function 加载错误的问题；构建和发布包会校验 QuickJS 原生库。\n\n## 下载说明\n\n- Android arm64：`SimpleLive-v1.12.7-arm64-v8a-release.apk`\n- Android armeabi-v7a：`SimpleLive-v1.12.7-armeabi-v7a-release.apk`\n- Android x86_64：`SimpleLive-v1.12.7-x86_64-release.apk`\n- Windows：`SimpleLive-Windows-v1.12.7.zip`\n- Linux zip：`SimpleLive-Linux-v1.12.7.zip`\n- Linux deb：`SimpleLive-Linux-v1.12.7-amd64.deb`\n- macOS dmg：`simple_live_app-1.12.7+11207-macos.dmg`\n- macOS zip：`simple_live_app-1.12.7+11207-macos.zip`\n- iOS 未签名 IPA：`ios_no_sign.ipa`"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "version": "1.13.0",
+      "versionDate": "2026-09-08T12:06:03Z",
+      "downloadURL": "https://github.com/June6699/dart_simple_live/releases/download/v1.13.0-pre/ios_no_sign.ipa",
+      "size": 100800781
     }
   ],
   "news": []
