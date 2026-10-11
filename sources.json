@@ -1,0 +1,24 @@
+{
+  "name": "My LiveContainer Source",
+  "identifier": "io.github.beckyeeky.lcsource",
+  "subtitle": "Third-party IPAs for LiveContainer",
+  "iconURL": "",
+  "website": "https://github.com/beckyeeky",
+  "maxVersions": 5,
+  "apps": [
+    {
+      "repo": "NeoFreeBird/app",
+      "bundleIdentifier": "com.atebits.Tweetie2",
+      "assetRegex": "^NeoFreeBird-sideloaded-X_.*\\.ipa$",
+      "includePrerelease": false,
+      "sha256": false,
+      "name": "X (NeoFreeBird)",
+      "developerName": "NeoFreeBird",
+      "subtitle": "Modified X with BHTwitter",
+      "localizedDescription": "NeoFreeBird, looking like the modern X app.",
+      "iconURL": "https://raw.githubusercontent.com/NeoFreeBird/app/v7/resources/x_icon_rounded.png",
+      "tintColor": "#000000",
+      "category": "social"
+    }
+  ]
+}
