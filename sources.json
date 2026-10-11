@@ -132,6 +132,19 @@
       "tagExcludeRegex": "^tv",
       "bundleIdSuffix": ".beta",
       "versionFrom": "tag"
+    },
+    {
+      "repo": "Mak5er/AirCard-iOS",
+      "assetRegex": "^AirCard-iOS\\.ipa$",
+      "name": "AirCard",
+      "developerName": "Mak5er",
+      "subtitle": "Wallet 卡面与锁屏密码主题",
+      "localizedDescription": "Apple Wallet card skins and lock screen passcode themes.",
+      "iconURL": "https://raw.githubusercontent.com/Mak5er/AirCard-iOS/main/ios-app/Assets.xcassets/AppIcon.appiconset/AppIcon-60@3x.png",
+      "tintColor": "#4A90E2",
+      "category": "utilities",
+      "prerelease": false,
+      "betaRegex": "(beta|alpha|rc|nightly|pre|dev)"
     }
   ]
 }
