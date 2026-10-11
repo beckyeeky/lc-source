@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate/update an AltStore/SideStore/LiveContainer source from GitHub Releases. stdlib only.
 Usage: python3 gen_source.py sources.json source.json   (env GITHUB_TOKEN optional)"""
-import json, os, re, sys, struct, zlib, hashlib, plistlib, urllib.request
+import urllib.parse, json, os, re, sys, struct, zlib, hashlib, plistlib, urllib.request
 
 TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
 
@@ -112,7 +112,11 @@ def main(cfg_path, out_path):
             if v["downloadURL"] in seen: continue
             seen.add(v["downloadURL"]); merged.append(v)
         merged = merged[:maxv]
-        app = {k: v for k, v in ac.items() if k not in ("repo", "assetRegex", "includePrerelease", "sha256", "scanReleases", "prerelease", "betaRegex", "tagRegex", "tagExcludeRegex", "bundleIdSuffix")}
+        if ac.get("versionFrom") == "tag":  # version = release tag (leading v stripped), recomputed for existing items too
+            for v in merged:
+                tag = urllib.parse.unquote(v["downloadURL"].split("/releases/download/")[1].split("/")[0])
+                v["version"] = re.sub(r"^[vV](?=\d)", "", tag)
+        app = {k: v for k, v in ac.items() if k not in ("repo", "assetRegex", "includePrerelease", "sha256", "scanReleases", "prerelease", "betaRegex", "tagRegex", "tagExcludeRegex", "bundleIdSuffix", "versionFrom")}
         app["bundleIdentifier"] = bid
         app["versions"] = merged
         app.setdefault("appPermissions", {"entitlements": [], "privacy": {}})

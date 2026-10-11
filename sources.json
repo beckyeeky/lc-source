@@ -45,7 +45,8 @@
       "category": "entertainment",
       "betaRegex": "(beta|alpha|rc|nightly|pre|dev)",
       "prerelease": true,
-      "bundleIdSuffix": ".beta"
+      "bundleIdSuffix": ".beta",
+      "versionFrom": "tag"
     },
     {
       "repo": "open-ani/animeko",
@@ -72,7 +73,8 @@
       "category": "entertainment",
       "betaRegex": "(beta|alpha|rc|nightly|pre|dev)",
       "prerelease": true,
-      "bundleIdSuffix": ".beta"
+      "bundleIdSuffix": ".beta",
+      "versionFrom": "tag"
     },
     {
       "repo": "erosTeam/eros_fe",
@@ -128,7 +130,8 @@
       "betaRegex": "(beta|alpha|rc|nightly|pre|dev)",
       "prerelease": true,
       "tagExcludeRegex": "^tv",
-      "bundleIdSuffix": ".beta"
+      "bundleIdSuffix": ".beta",
+      "versionFrom": "tag"
     }
   ]
 }
