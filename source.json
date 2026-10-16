@@ -16,6 +16,24 @@
       "category": "social",
       "versions": [
         {
+          "version": "12.33",
+          "buildVersion": "31",
+          "date": "2026-10-16T19:12:44Z",
+          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v6.9.0/NeoFreeBird-sideloaded-X_6.9.0_12.33.ipa",
+          "size": 262409391,
+          "minOSVersion": "15.0",
+          "localizedDescription": "# Version 6.9.0\r\n\r\n## New Features\r\n- Added an option to choose the default reply sort\r\n- Updated X to 12.33\r\n- Added an option to hide retweets and quotes from the “For You” page\r\n- Added option to convert [t.co](http://t.co/) links and remove link tracking by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/135\r\n- Updated NFB settings to use the new settings design. You now hold the bird (or X) on the For You page to access NFB settings\r\n- Brought back the Tweet source labels!\r\n- Removed the “Money” tab\r\n- Enabling the option to hide views now also hides it in the tweet footer.\r\n\r\n## Fixes\r\n- NeoFreeBird now more reliably filters out video ads\r\n- Fixed hiding both the “Follow” and “Message” button on tweets by @sekiranunn in https://github.com/NeoFreeBird/app/pull/140\r\n- Tweaked the wording of the “Reply in web view” option to highlight it’s a fallback by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/138\r\n- Added localization support for the “Show quote numbers option”\r\n\r\n## Localizations\r\n* Update Japanese localization for in-app browser text by @so-5699 in https://github.com/NeoFreeBird/app/pull/130\r\n* Update French localization by @jleroy in https://github.com/NeoFreeBird/app/pull/132\r\n* Update Japanese localization for reply sorting options by @so-5699 in https://github.com/NeoFreeBird/app/pull/136\r\n* Update Arabic localization by @ipapplus in https://github.com/NeoFreeBird/app/pull/139\r\n* Update Turkish localization by @Huseyin-Korkmaz in https://github.com/NeoFreeBird/app/pull/142\r\n\r\n## New Contributors\r\n* @so-5699 made their first contribution in https://github.com/NeoFreeBird/app/pull/130\r\n* @jleroy made their first contribution in https://github.com/NeoFreeBird/app/pull/132\r\n* @PEEKPerformer made their first contribution in https://github.com/NeoFreeBird/app/pull/135\r\n* @ipapplus made their first contribution in https://github.com/NeoFreeBird/app/pull/139\r\n* @Huseyin-Korkmaz made their first contribution in https://github.com/NeoFreeB"
+        },
+        {
+          "version": "12.33",
+          "buildVersion": "31",
+          "date": "2026-10-16T19:10:31Z",
+          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-X_7.2.0_12.33.ipa",
+          "size": 262415275,
+          "minOSVersion": "15.0",
+          "localizedDescription": "# Version 7.2.0\r\n\r\n## New Features\r\n- Added an option to choose the default reply sort\r\n- Updated X to 12.33\r\n- Added an option to hide retweets and quotes from the “For You” page\r\n- Added option to convert [t.co](http://t.co/) links and remove link tracking by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/135\r\n- Updated NFB settings to use the new settings design. You now hold the bird (or X) on the For You page to access NFB settings\r\n- Brought back the Tweet source labels!\r\n- Removed the “Money” tab\r\n- Enabling the option to hide views now also hides it in the tweet footer.\r\n\r\n## Fixes\r\n- Fixed more webview issues\r\n- NeoFreeBird now more reliably filters out video ads\r\n- Fixed hiding both the “Follow” and “Message” button on tweets by @sekiranunn in https://github.com/NeoFreeBird/app/pull/140\r\n- Tweaked the wording of the “Reply in web view” option to highlight it’s a fallback by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/138\r\n- Added localization support for the “Show quote numbers option”\r\n- Fixed the app crashing when adding more than 1 account\r\n\r\n## Localizations\r\n* Update Japanese localization for in-app browser text by @so-5699 in https://github.com/NeoFreeBird/app/pull/130\r\n* Update French localization by @jleroy in https://github.com/NeoFreeBird/app/pull/132\r\n* Update Japanese localization for reply sorting options by @so-5699 in https://github.com/NeoFreeBird/app/pull/136\r\n* Update Arabic localization by @ipapplus in https://github.com/NeoFreeBird/app/pull/139\r\n* Update Turkish localization by @Huseyin-Korkmaz in https://github.com/NeoFreeBird/app/pull/142\r\n\r\n## New Contributors\r\n* @so-5699 made their first contribution in https://github.com/NeoFreeBird/app/pull/130\r\n* @jleroy made their first contribution in https://github.com/NeoFreeBird/app/pull/132\r\n* @PEEKPerformer made their first contribution in https://github.com/NeoFreeBird/app/pull/135\r\n* @ipapplus made their first contribution in https://github.com/NeoFreeBird/app/pu"
+        },
+        {
           "version": "12.31.1",
           "buildVersion": "1",
           "date": "2026-10-10T23:45:38Z",
@@ -38,10 +56,10 @@
         "entitlements": [],
         "privacy": {}
       },
-      "version": "12.31.1",
-      "versionDate": "2026-10-10T23:45:38Z",
-      "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.1.1/NeoFreeBird-sideloaded-X_7.1.1_12.31.1.ipa",
-      "size": 260421912
+      "version": "12.33",
+      "versionDate": "2026-10-16T19:12:44Z",
+      "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v6.9.0/NeoFreeBird-sideloaded-X_6.9.0_12.33.ipa",
+      "size": 262409391
     },
     {
       "name": "PiliPlus",
