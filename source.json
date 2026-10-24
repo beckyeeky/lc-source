@@ -137,6 +137,15 @@
       "bundleIdentifier": "org.animeko.animeko",
       "versions": [
         {
+          "version": "6.4.0",
+          "buildVersion": "6.4.99",
+          "date": "2026-10-24T04:52:28Z",
+          "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.4.0/ani-6.4.0.ipa",
+          "size": 48615547,
+          "minOSVersion": "16.0",
+          "localizedDescription": "- 加快桌面端网页视频解析速度\r\n- 优化季度拆分资源的弹幕匹配准确性\r\n- 新增通知中心与公告，可查看互动消息、举报处理结果和账号安全提醒，并按类型设置通知\r\n- 新增弹幕文字转换设置，支持按弹幕来源单独配置并预览转换效果 (#3536 by @GeneralK1ng)\r\n- iOS 支持 Anime4K 视频增强，提升视频画面清晰度 (#3606 by @black4der)\r\n- Windows 和 macOS 自动更新支持增量下载，减少下载流量并加快更新\r\n- 新增 JSON API 数据源\r\n- 修复一系列播放相关问题\r\n\r\n----\r\n\r\n- TV 端支持配置全局网络代理 (#3550 by @LoliWolf)\r\n- Android 支持通过包含 Bangumi 章节 ID 或剧集 ID 的 ani 链接打开指定剧集\r\n- 优化续播与换源体验，直接从记忆进度开始播放，减少重复缓冲并避免换源后进度回退\r\n- 优化剧集页播放器快捷键，切换标签页或关闭侧边栏后可直接操作视频，输入文字时避免误触快捷键 (#3542 by @Tsukumi233)\r\n- 修复桌面端在部分多显卡或渲染模式切换场景下视频黑屏、窗口空白的问题\r\n- 修复 Windows 退出播放页时可能卡死的问题\r\n- 修复 Windows 和 Linux 播放纯音频媒体时可能卡在加载中的问题\r\n- 修复 Android 播放部分 MKV 视频时无法显示压缩字幕的问题，支持 ASS 和 SRT 字幕\r\n- 修复 Android 暂停或播放结束后切换全屏时画面缩在左侧或被裁切的问题\r\n- 修复 Android 应用语言切换不生效的问题\r\n- 修复 Jellyfin 数据源切集后找不到下一集资源的问题\r\n- 修复部分网络环境下数据源因页面链接使用 HTTP 而无法加载的问题 (#3633 by @wdw89)\r\n- 修复进入或切换页面时自动聚焦输入框、滑块等控件，导致页面意外滚动的问题 (#3650 by @NihilDigit)\r\n\r\n**Full Changelog**: https://github.com/open-ani/animeko/compare/v6.3.0...v6.4.0\r\n\r\n\r\n[//]: # (ANI-SERVER-MAGIC-SEPARATOR)\r\n\r\n[//]: # (注意: api server 依赖这个特殊分隔符)\r\n\r\n[//]: # (对于所有可用的变量列表, 参考 CI release.yml 的 step release-notes)\r\n\r\n[github-win-x64]: https://github.com/open-ani/ani/releases/download/v6.4.0/ani-6.4.0-windows-x86_64.zip\r\n\r\n[github-win-aarch64]: https://github.com/open-ani/ani/releases/download/v6.4.0/ani-6.4.0-windows-aarch64.zip\r\n\r\n[github-mac-x64]: https://github.com/open-ani/ani/releases/download/v6.4.0/ani-6.4.0-macos-x86_64.dmg\r\n\r\n[github-mac-aarch64]: https://github.com/open-ani/ani/releases/download/v6.4.0/ani-6.4.0-macos-aarch64.dmg\r\n\r\n[github-android]: https://github.com/open-ani/ani/releases/download/v6.4.0/ani-6.4.0-universal.apk\r\n\r\n[github-android-arm64-v8a]: https://github.com/open-ani/ani/releases/download/v6.4.0/ani-6.4.0-arm64-v8a.apk\r\n\r\n[github-android-armeabi-v7a]: https://github.com/open-ani/ani/releases/download/v6.4.0/ani-6.4.0-armeabi-v7a.apk\r\n\r\n[github-android-x86_64]: https://github.com/open-ani/ani/releases/download/v6.4.0/ani-6.4.0-x86_64.apk\r\n\r\n[cf-win-x64]: https://d.myani.org/v6."
+        },
+        {
           "version": "6.3.0",
           "buildVersion": "6.3.99",
           "date": "2026-10-13T06:34:15Z",
@@ -171,25 +180,16 @@
           "size": 41391524,
           "minOSVersion": "14.0",
           "localizedDescription": "- 支持与好友一起看番，大幅改善自动选源能力和速度，视频内广告过滤\r\n- 全新条目详情页，支持查看角色和声优的信息和关联条目\r\n- 桌面端切换为 mpv 播放器内核，大幅优化性能\r\n\r\n----\r\n\r\n- `[Desktop]` 新增 Windows arm64 支持\r\n- `[All]` 新增实验性 HLS 贴片广告过滤 (#3097 by @NihilDigit)\r\n- `[All]` 数据源支持多平台图片验证码自动处理 (#3172 by @proffitteoy)\r\n- `[Desktop]` Windows ARM64 桌面端新增构建支持 (#3155 by @NihilDigit)\r\n- `[All]` 新增与好友一起看 (syncplay) (proposed by @qian-xuan)\r\n- `[Desktop]` Windows 桌面端支持原生触控输入 (#3169 by @NihilDigit, #3221 by @NihilDigit, #3234 by @NihilDigit)\r\n- `[All]` 播放进度条支持悬停或拖动时预览画面帧\r\n- `[All]` 新增播放器播放信息叠加面板，可查看码率、解码器等播放状态 (#3120 by @wjb6666)\r\n- `[Mobile]` 移动端快进和进度条拖动交互更顺手 (#3161 by @NihilDigit)\r\n- `[All]` 播放器支持自定义播放速度控制 (#3187 by @NihilDigit)\r\n- `[Mobile]` Android 支持视频截图、改进手势快进，并支持 libass 渲染字幕，WSOLA 倍速引擎 (#3156 by @NihilDigit)\r\n- `[Mobile]` 新增移动端毛玻璃应用栏设置\r\n- `[All]` 新增缓存管理和数据源管理多选模式，悬浮批量操作工具栏\r\n- `[Mobile]` 改进播放器键盘快捷键行为 (#3159 by @NihilDigit)\r\n- `[Desktop]` Linux 桌面端支持动态取色 (#3146 by @NihilDigit)\r\n- `[All]` 支持配置跳过 85s 按钮的时长为 80、 85 和 90 秒\r\n- `[All]` 数据源启用或禁用后保留测试结果 (#3106 by @Mystery406)\r\n- `[All]` 不再在日志中记录 Bangumi 访问令牌 (#3114 by @proffitteoy)\r\n- `[All]` 修复代理认证头未正确使用配置的问题 (#3115 by @proffitteoy)\r\n- `[All]` 改进剧集长按反馈 (#3118 by @TexasOct)\r\n- `[All]` 修复集合列表条目封面不显示的问题 (#3123 by @proffitteoy)\r\n- `[Desktop]` 优化 macOS 和 Linux 的稳定性 (#3144 by @NihilDigit, #3145 by @NihilDigit, #3157 by @W-Nana, #3195 by @NihilDigit, #3214 by @XYenon, #3216 by @NihilDigit)\r\n- `[Desktop]` Linux AppImage 支持增量更新 (#3149 by @NihilDigit)\r\n\r\n**Full Changelog**: https://github.com/open-ani/animeko/compare/v5.7.1...v6.0.0\r\n\r\n[//]: # (ANI-SERVER-MAGIC-SEPARATOR)\r\n\r\n[//]: # (注意: api server 依赖这个特殊分隔符)\r\n\r\n[//]: # (对于所有可用的变量列表, 参考 CI release.yml 的 step release-notes)\r\n\r\n[github-win-x64]: https://github.com/open-ani/ani/releases/download/v6.0.0/ani-6.0.0-windows-x86_64.zip\r\n\r\n[github-win-aarch64]: https://github.com/open-ani/ani/releases/download/v6.0.0/ani-6.0.0-windows-aarch64.zip\r\n\r\n[github-mac-x64]: https://github.com/open-ani/ani/releases/download/v6.0.0/ani-6.0.0-macos-x86_64.dmg\r\n\r\n[github-mac-aarch64]:"
-        },
-        {
-          "version": "5.7.1",
-          "buildVersion": "50710",
-          "date": "2026-07-09T01:17:21Z",
-          "downloadURL": "https://github.com/open-ani/animeko/releases/download/v5.7.1/ani-5.7.1.ipa",
-          "size": 30505730,
-          "minOSVersion": "14.0",
-          "localizedDescription": "- 修复集合列表海报不显示的问题 (#3123 by @proffitteoy)\r\n\r\n----\r\n\r\n**Full Changelog**: https://github.com/open-ani/animeko/compare/v5.7.0...v5.7.1\r\n\r\n[//]: # (ANI-SERVER-MAGIC-SEPARATOR)\r\n\r\n[//]: # (注意: api server 依赖这个特殊分隔符)\r\n\r\n[//]: # (对于所有可用的变量列表, 参考 CI release.yml 的 step release-notes)\r\n\r\n[github-win-x64]: https://github.com/open-ani/ani/releases/download/v5.7.1/ani-5.7.1-windows-x86_64.zip\r\n\r\n[github-mac-x64]: https://github.com/open-ani/ani/releases/download/v5.7.1/ani-5.7.1-macos-x86_64.dmg\r\n\r\n[github-mac-aarch64]: https://github.com/open-ani/ani/releases/download/v5.7.1/ani-5.7.1-macos-aarch64.dmg\r\n\r\n[github-android]: https://github.com/open-ani/ani/releases/download/v5.7.1/ani-5.7.1-universal.apk\r\n\r\n[github-android-arm64-v8a]: https://github.com/open-ani/ani/releases/download/v5.7.1/ani-5.7.1-arm64-v8a.apk\r\n\r\n[github-android-armeabi-v7a]: https://github.com/open-ani/ani/releases/download/v5.7.1/ani-5.7.1-armeabi-v7a.apk\r\n\r\n[github-android-x86_64]: https://github.com/open-ani/ani/releases/download/v5.7.1/ani-5.7.1-x86_64.apk\r\n\r\n[cf-win-x64]: https://d.myani.org/v5.7.1/ani-5.7.1-windows-x86_64.zip\r\n\r\n[cf-linux-x64]: https://d.myani.org/v5.7.1/ani-5.7.1-linux-x86_64.appimage\r\n\r\n[cf-mac-x64]: https://d.myani.org/v5.7.1/ani-5.7.1-macos-x86_64.zip\r\n\r\n[cf-mac-aarch64]: https://d.myani.org/v5.7.1/ani-5.7.1-macos-aarch64.dmg\r\n\r\n[cf-ios]: https://d.myani.org/v5.7.1/ani-5.7.1.ipa\r\n\r\n[cf-android]: https://d.myani.org/v5.7.1/ani-5.7.1-universal.apk\r\n\r\n[cf-android-arm64-v8a]: https://d.myani.org/v5.7.1/ani-5.7.1-arm64-v8a.apk\r\n\r\n[cf-android-armeabi-v7a]: https://d.myani.org/v5.7.1/ani-5.7.1-armeabi-v7a.apk\r\n\r\n[cf-android-x86_64]: https://d.myani.org/v5.7.1/ani-5.7.1-x86_64.apk\r\n\r\n[ghproxy-win-x64]: https://ghfast.top/?q=https%3A%2F%2Fgithub.com%2Fopen-ani%2Fani%2Freleases%2Fdownload%2Fv5.7.1%2Fani-5.7.1-windows-x86_64.zip\r\n\r\n[ghproxy-mac-x64]: https://ghfast.top/?q=https%3A%2F%2Fgithub.com%2Fopen-ani%2Fani%2Freleases%2Fdownload%2Fv5.7.1%2Fani-5.7.1-macos-x86_64.zip\r\n\r\n[ghproxy-linux-x64"
         }
       ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
       },
-      "version": "6.3.0",
-      "versionDate": "2026-10-13T06:34:15Z",
-      "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.3.0/ani-6.3.0.ipa",
-      "size": 46485035
+      "version": "6.4.0",
+      "versionDate": "2026-10-24T04:52:28Z",
+      "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.4.0/ani-6.4.0.ipa",
+      "size": 48615547
     },
     {
       "name": "Animeko Beta",
