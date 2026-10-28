@@ -16,6 +16,24 @@
       "category": "social",
       "versions": [
         {
+          "version": "12.38.1",
+          "buildVersion": "2",
+          "date": "2026-10-28T18:16:07Z",
+          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.3.0/NeoFreeBird-sideloaded-X_7.3.0_12.38.1.ipa",
+          "size": 273143491,
+          "minOSVersion": "15.0",
+          "localizedDescription": "# Version 7.3.0\r\n\r\n## New Features\r\n- Updated X to 12.38.1 (this now natively supports the iPhone Duo)\r\n- Added experimental support for the Liquid Glass redesign. Most features have been adapted for it, but a couple aren’t possible to implement (see “Known Issues”)\r\n- Added an option to hide the \"Videos for you\" timeline module by @vancez in https://github.com/NeoFreeBird/app/pull/159\r\n- Hide the “Game” tab at the top of the timeline when a basketball game is ongoing\r\n- Added an option to reset settings\r\n- Added an option to use a custom color for the tint\r\n- Added a new split-view design for iPad which uses up the entire screen (instead of a stupid blown-up iPhone layout), allowing you to scroll the timeline in the left half and view an individual tweet or profile on the right half. This will not work on iPhone Duos since I do not have one to test this on, so right now it is hardcoded for iPads only.\r\n- Now hides the Money tab on profiles\r\n- Adds an option to hide the Quick Compose button (only on Liquid Glass)\r\n- Added a new method for blocking screenshot detection\r\n- Docs: explain how to open settings, build types and DEB architectures by @migdal-or in https://github.com/NeoFreeBird/app/pull/154\r\n\r\n## Fixes\r\n- Made the app icon changer load differently to prevent the app hanging\r\n- Fixed quote tweets not being filtered in the timeline\r\n- Fixed downloading voice messages\r\n- Fixed crashes and general slowdowns with web logins\r\n- Fixed fast block not working\r\n- Fixed the message button on tweets being clickable when hidden\r\n- Fixed certain ads appearing on the timeline\r\n- Fixed the custom font not appearing in a couple places\r\n\r\n## Known Issues\r\n- The tweet source label option has been removed (again). X seems hellbent on burning all traces of Twitter (unlike us), so this feature will stay removed unless there’s another endpoint that can be used. Please ping @orionblur on Twitter if you think you’ve found such an endpoint, and we can take it to DMs.\r\n- The “Keep th"
+        },
+        {
+          "version": "12.38.1",
+          "buildVersion": "2",
+          "date": "2026-10-28T18:15:53Z",
+          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v6.10.0/NeoFreeBird-sideloaded-X_6.10.0_12.38.1.ipa",
+          "size": 273129858,
+          "minOSVersion": "15.0",
+          "localizedDescription": "# Version 6.10.0\r\n\r\n## New Features\r\n- Updated X to 12.38.1 (this now natively supports the iPhone Duo)\r\n- Added experimental support for the Liquid Glass redesign. Most features have been adapted for it, but a couple aren’t possible to implement (see “Known Issues”)\r\n- Added an option to hide the \"Videos for you\" timeline module by @vancez in https://github.com/NeoFreeBird/app/pull/159\r\n- Hide the “Game” tab at the top of the timeline when a basketball game is ongoing\r\n- Added an option to reset settings\r\n- Added an option to use a custom color for the tint\r\n- Added a new split-view design for iPad which uses up the entire screen (instead of a stupid blown-up iPhone layout), allowing you to scroll the timeline in the left half and view an individual tweet or profile on the right half. This will not work on iPhone Duos since I do not have one to test this on, so right now it is hardcoded for iPads only.\r\n- Now hides the Money tab on profiles\r\n- Adds an option to hide the Quick Compose button (only on Liquid Glass)\r\n- Added a new method for blocking screenshot detection\r\n- Docs: explain how to open settings, build types and DEB architectures by @migdal-or in https://github.com/NeoFreeBird/app/pull/154\r\n\r\n## Fixes\r\n- Made the app icon changer load differently to prevent the app hanging\r\n- Fixed quote tweets not being filtered in the timeline\r\n- Fixed downloading voice messages\r\n- Fixed fast block not working\r\n- Fixed the message button on tweets being clickable when hidden\r\n- Fixed certain ads appearing on the timeline\r\n- Fixed the custom font not appearing in a couple places\r\n\r\n## Known Issues\r\n- The tweet source label option has been removed (again). X seems hellbent on burning all traces of Twitter (unlike us), so this feature will stay removed unless there’s another endpoint that can be used. Please ping @orionblur on Twitter if you think you’ve found such an endpoint, and we can take it to DMs.\r\n- The “Keep the navigation bar visible” toggle doesn’t work on Liqui"
+        },
+        {
           "version": "12.33",
           "buildVersion": "31",
           "date": "2026-10-16T19:12:44Z",
@@ -41,25 +59,16 @@
           "size": 260421912,
           "minOSVersion": "15.0",
           "localizedDescription": "# Version 7.1.1\r\n\r\nStarting from v7, NeoFreeBird will use web logins to access the platform. It’s recommended you do a fresh install of this version to avoid conflicts with web and native accounts.\r\n\r\n1. Open the app.\r\n2. Complete the login flow in the web view that shows up (passkeys don’t work here, so make sure you have another form of 2FA if applicable).\r\n3. The app may crash, that’s normal (it helps ensure the credentials are saved).\r\n4. Reopen the app, and you should be at your “For you” page!\r\n\r\n## New Features\r\n\r\n### From v6\r\n\r\n* Added a feature to hide Blue checkmark tweets from the timeline and standalone replies in comment sections. This does not apply to profiles or if you are following the verified user.\r\n* Added a feature to hide the “Create Tweet” button in the bottom of the page, above the navigation bar.\r\n* Added a new contributors section to the NeoFreeBird settings page.\r\n* Added option to directly copy user URL.\r\n* Added option to hide the “typing” indicator in Chat.\r\n* Added a toggle to show unrounded counts, as well as added the ability to show the unrounded number of tweets.\r\n* The News tab is now hidden.\r\n* Added an option to disable the gesture to dock videos.\r\n* Added option to download voice messages (due to how XChat encrypts attachments, you need to play the message to have the option to download it).\r\n* Added ability to upload in 1080p (and 4k, but this is technically unsupported).\r\n* Added option to see poll results before voting.\r\n* Added option to tap to play/pause video with 2 fingers.\r\n* Added option to see where an account is located in a tweet.\r\n* Added option to disable screenshot detection in XChat (broken as of now, although I have a private fix)\r\n* Added option to disable the new media carousel (switches back to old grid view).\r\n* Added ability to remove retweets of tweets from users who’ve blocked you (please fix this X).\r\n* Doomscrolling can now be turned off with disabling video scroll.\r\n* Added ability to use Tenor GIFs i"
-        },
-        {
-          "version": "12.31.1",
-          "buildVersion": "1",
-          "date": "2026-10-10T23:39:35Z",
-          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v6.8.1/NeoFreeBird-sideloaded-X_6.8.1_12.31.1.ipa",
-          "size": 260418226,
-          "minOSVersion": "15.0",
-          "localizedDescription": "# Version 6.8.1\r\n\r\nThis is @orionblur's fork being merged back into the main NeoFreeBird repo. Only use this if you're already logged in and have not used any app with v7.x.x on it. This has a LOT of changes, but it'll hopefully fix the many issues accumulated over time, as well as add a lot of fun new features.\r\n\r\n## New Features\r\n\r\n* Added a feature to hide Blue checkmark tweets from the timeline and standalone replies in comment sections. This does not apply to profiles or if you are following the verified user.\r\n* Added a feature to hide the “Create Tweet” button in the bottom of the page, above the navigation bar.\r\n* Added a new contributors section to the NeoFreeBird settings page.\r\n* Added option to directly copy user URL.\r\n* Added option to hide the “typing” indicator in Chat.\r\n* Added a toggle to show unrounded counts, as well as added the ability to show the unrounded number of tweets.\r\n* The News tab is now hidden.\r\n* Added an option to disable the gesture to dock videos.\r\n* Added option to download voice messages (due to how XChat encrypts attachments, you need to play the message to have the option to download it).\r\n* Added ability to upload in 1080p (and 4k, but this is technically unsupported).\r\n* Added option to see poll results before voting.\r\n* Added option to tap to play/pause video (video controls can’t be hidden with this option on, Twitter limitation).\r\n* Added option to see where an account is located in a tweet. Can spillover into next line at times.\r\n* Added option to disable screenshot detection in XChat.\r\n* Added option to disable the new media carousel (switches back to old grid view).\r\n* Added ability to remove retweets of tweets from users who’ve blocked you (please fix this X).\r\n* Doomscrolling can now be turned off with disabling video scroll.\r\n* Added ability to use Tenor GIFs instead of GIPHY.\r\n* Added option to export and import settings (no more coming soon!).\r\n* Added option to always download the highest-quality MP4 file from me"
         }
       ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
       },
-      "version": "12.33",
-      "versionDate": "2026-10-16T19:12:44Z",
-      "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v6.9.0/NeoFreeBird-sideloaded-X_6.9.0_12.33.ipa",
-      "size": 262409391
+      "version": "12.38.1",
+      "versionDate": "2026-10-28T18:16:07Z",
+      "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.3.0/NeoFreeBird-sideloaded-X_7.3.0_12.38.1.ipa",
+      "size": 273143491
     },
     {
       "name": "PiliPlus",
