@@ -16,6 +16,24 @@
       "category": "social",
       "versions": [
         {
+          "version": "12.39",
+          "buildVersion": "20",
+          "date": "2026-11-06T21:49:13Z",
+          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.3.1/NeoFreeBird-sideloaded-X_7.3.1_12.39.ipa",
+          "size": 276966090,
+          "minOSVersion": "15.0",
+          "localizedDescription": "# Version 7.3.1\r\n\r\n## New Features\r\n- Add a toggle for the Split View on iPad\r\n- Add support for the Split View on macOS (tested) and iPhone Duo (untested)\r\n- Added a toggle to hide the “Made on X” footer\r\n- Added a section in settings to thank all translators for NeoFreeBird!\r\n- Updated X to 12.39\r\n\r\n## Fixes\r\n- Fixed the sharing domain not working\r\n- Fixed issues with custom tints and the classic tab bar\r\n- Fixed tab labels not showing on the old design\r\n- Fixed the legacy tab selector not respecting the profile button\r\n- Fixed the blur when scrolling from not being dim when dim theme was enabled\r\n- Fixed stale cached text overwriting others, causing text errors in the app\r\n- Fixed the padlock screen sometimes showing a black screen until a restart\r\n- Fixed the autoplay accessibility setting not respecting GIFs\r\n- Fixed the “No focus lost” option to never go back to the home tab\r\n- Fixed the app stopping audio when scrolling through muted videos on the timeline\r\n- Fixed the square avatar icon looking weird on Liquid Glass\r\n- Fixed verified users’ notifications not showing when the filter option was on\r\n- Fixed localization logic to be more durable and allow full sentence replacement\r\n\r\n## Localizations\r\n- Update Simplified Chinese translation by @ismudkipx in https://github.com/NeoFreeBird/app/pull/214\r\n- Complete and polish Arabic localization by @ipapplus in https://github.com/NeoFreeBird/app/pull/211\r\n- Updated Spanish translation for 7.3.0 by @polygonMicrosystems in https://github.com/NeoFreeBird/app/pull/193\r\n- Add Brazilian Portuguese localization by @Lucas25Pedrosa in https://github.com/NeoFreeBird/app/pull/215\r\n- Update French translations for v7.3.0 by @jleroy in https://github.com/NeoFreeBird/app/pull/187\r\n- Add Turkish localization for new settings by @HsynKrkmz1991 in https://github.com/NeoFreeBird/app/pull/194\r\n- Add GitHub download warning to Localizable.strings by @so-5699 in https://github.com/NeoFreeBird/app/pull/217\r\n- Update Russian localization"
+        },
+        {
+          "version": "12.39",
+          "buildVersion": "20",
+          "date": "2026-11-06T21:48:51Z",
+          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v6.10.1/NeoFreeBird-sideloaded-X_6.10.1_12.39.ipa",
+          "size": 276955541,
+          "minOSVersion": "15.0",
+          "localizedDescription": "# Version 6.10.1\r\n\r\n## New Features\r\n- Add a toggle for the Split View on iPad\r\n- Add support for the Split View on macOS (tested) and iPhone Duo (untested)\r\n- Added a toggle to hide the “Made on X” footer\r\n- Added a section in settings to thank all translators for NeoFreeBird!\r\n- Updated X to 12.39\r\n\r\n## Fixes\r\n- Fixed the sharing domain not working\r\n- Fixed issues with custom tints and the classic tab bar\r\n- Fixed tab labels not showing on the old design\r\n- Fixed the legacy tab selector not respecting the profile button\r\n- Fixed the blur when scrolling from not being dim when dim theme was enabled\r\n- Fixed stale cached text overwriting others, causing text errors in the app\r\n- Fixed the padlock screen sometimes showing a black screen until a restart\r\n- Fixed the autoplay accessibility setting not respecting GIFs\r\n- Fixed the “No focus lost” option to never go back to the home tab\r\n- Fixed the app stopping audio when scrolling through muted videos on the timeline\r\n- Fixed the square avatar icon looking weird on Liquid Glass\r\n- Fixed verified users’ notifications not showing when the filter option was on\r\n- Fixed localization logic to be more durable and allow full sentence replacement\r\n\r\n## Localizations\r\n- Update Simplified Chinese translation by @ismudkipx in https://github.com/NeoFreeBird/app/pull/214\r\n- Complete and polish Arabic localization by @ipapplus in https://github.com/NeoFreeBird/app/pull/211\r\n- Updated Spanish translation for 7.3.0 by @polygonMicrosystems in https://github.com/NeoFreeBird/app/pull/193\r\n- Add Brazilian Portuguese localization by @Lucas25Pedrosa in https://github.com/NeoFreeBird/app/pull/215\r\n- Update French translations for v7.3.0 by @jleroy in https://github.com/NeoFreeBird/app/pull/187\r\n- Add Turkish localization for new settings by @HsynKrkmz1991 in https://github.com/NeoFreeBird/app/pull/194\r\n- Add GitHub download warning to Localizable.strings by @so-5699 in https://github.com/NeoFreeBird/app/pull/217\r\n- Update Russian localizatio"
+        },
+        {
           "version": "12.38.1",
           "buildVersion": "2",
           "date": "2026-10-28T18:16:07Z",
@@ -41,34 +59,16 @@
           "size": 262409391,
           "minOSVersion": "15.0",
           "localizedDescription": "# Version 6.9.0\r\n\r\n## New Features\r\n- Added an option to choose the default reply sort\r\n- Updated X to 12.33\r\n- Added an option to hide retweets and quotes from the “For You” page\r\n- Added option to convert [t.co](http://t.co/) links and remove link tracking by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/135\r\n- Updated NFB settings to use the new settings design. You now hold the bird (or X) on the For You page to access NFB settings\r\n- Brought back the Tweet source labels!\r\n- Removed the “Money” tab\r\n- Enabling the option to hide views now also hides it in the tweet footer.\r\n\r\n## Fixes\r\n- NeoFreeBird now more reliably filters out video ads\r\n- Fixed hiding both the “Follow” and “Message” button on tweets by @sekiranunn in https://github.com/NeoFreeBird/app/pull/140\r\n- Tweaked the wording of the “Reply in web view” option to highlight it’s a fallback by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/138\r\n- Added localization support for the “Show quote numbers option”\r\n\r\n## Localizations\r\n* Update Japanese localization for in-app browser text by @so-5699 in https://github.com/NeoFreeBird/app/pull/130\r\n* Update French localization by @jleroy in https://github.com/NeoFreeBird/app/pull/132\r\n* Update Japanese localization for reply sorting options by @so-5699 in https://github.com/NeoFreeBird/app/pull/136\r\n* Update Arabic localization by @ipapplus in https://github.com/NeoFreeBird/app/pull/139\r\n* Update Turkish localization by @Huseyin-Korkmaz in https://github.com/NeoFreeBird/app/pull/142\r\n\r\n## New Contributors\r\n* @so-5699 made their first contribution in https://github.com/NeoFreeBird/app/pull/130\r\n* @jleroy made their first contribution in https://github.com/NeoFreeBird/app/pull/132\r\n* @PEEKPerformer made their first contribution in https://github.com/NeoFreeBird/app/pull/135\r\n* @ipapplus made their first contribution in https://github.com/NeoFreeBird/app/pull/139\r\n* @Huseyin-Korkmaz made their first contribution in https://github.com/NeoFreeB"
-        },
-        {
-          "version": "12.33",
-          "buildVersion": "31",
-          "date": "2026-10-16T19:10:31Z",
-          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.2.0/NeoFreeBird-sideloaded-X_7.2.0_12.33.ipa",
-          "size": 262415275,
-          "minOSVersion": "15.0",
-          "localizedDescription": "# Version 7.2.0\r\n\r\n## New Features\r\n- Added an option to choose the default reply sort\r\n- Updated X to 12.33\r\n- Added an option to hide retweets and quotes from the “For You” page\r\n- Added option to convert [t.co](http://t.co/) links and remove link tracking by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/135\r\n- Updated NFB settings to use the new settings design. You now hold the bird (or X) on the For You page to access NFB settings\r\n- Brought back the Tweet source labels!\r\n- Removed the “Money” tab\r\n- Enabling the option to hide views now also hides it in the tweet footer.\r\n\r\n## Fixes\r\n- Fixed more webview issues\r\n- NeoFreeBird now more reliably filters out video ads\r\n- Fixed hiding both the “Follow” and “Message” button on tweets by @sekiranunn in https://github.com/NeoFreeBird/app/pull/140\r\n- Tweaked the wording of the “Reply in web view” option to highlight it’s a fallback by @PEEKPerformer in https://github.com/NeoFreeBird/app/pull/138\r\n- Added localization support for the “Show quote numbers option”\r\n- Fixed the app crashing when adding more than 1 account\r\n\r\n## Localizations\r\n* Update Japanese localization for in-app browser text by @so-5699 in https://github.com/NeoFreeBird/app/pull/130\r\n* Update French localization by @jleroy in https://github.com/NeoFreeBird/app/pull/132\r\n* Update Japanese localization for reply sorting options by @so-5699 in https://github.com/NeoFreeBird/app/pull/136\r\n* Update Arabic localization by @ipapplus in https://github.com/NeoFreeBird/app/pull/139\r\n* Update Turkish localization by @Huseyin-Korkmaz in https://github.com/NeoFreeBird/app/pull/142\r\n\r\n## New Contributors\r\n* @so-5699 made their first contribution in https://github.com/NeoFreeBird/app/pull/130\r\n* @jleroy made their first contribution in https://github.com/NeoFreeBird/app/pull/132\r\n* @PEEKPerformer made their first contribution in https://github.com/NeoFreeBird/app/pull/135\r\n* @ipapplus made their first contribution in https://github.com/NeoFreeBird/app/pu"
-        },
-        {
-          "version": "12.31.1",
-          "buildVersion": "1",
-          "date": "2026-10-10T23:45:38Z",
-          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.1.1/NeoFreeBird-sideloaded-X_7.1.1_12.31.1.ipa",
-          "size": 260421912,
-          "minOSVersion": "15.0",
-          "localizedDescription": "# Version 7.1.1\r\n\r\nStarting from v7, NeoFreeBird will use web logins to access the platform. It’s recommended you do a fresh install of this version to avoid conflicts with web and native accounts.\r\n\r\n1. Open the app.\r\n2. Complete the login flow in the web view that shows up (passkeys don’t work here, so make sure you have another form of 2FA if applicable).\r\n3. The app may crash, that’s normal (it helps ensure the credentials are saved).\r\n4. Reopen the app, and you should be at your “For you” page!\r\n\r\n## New Features\r\n\r\n### From v6\r\n\r\n* Added a feature to hide Blue checkmark tweets from the timeline and standalone replies in comment sections. This does not apply to profiles or if you are following the verified user.\r\n* Added a feature to hide the “Create Tweet” button in the bottom of the page, above the navigation bar.\r\n* Added a new contributors section to the NeoFreeBird settings page.\r\n* Added option to directly copy user URL.\r\n* Added option to hide the “typing” indicator in Chat.\r\n* Added a toggle to show unrounded counts, as well as added the ability to show the unrounded number of tweets.\r\n* The News tab is now hidden.\r\n* Added an option to disable the gesture to dock videos.\r\n* Added option to download voice messages (due to how XChat encrypts attachments, you need to play the message to have the option to download it).\r\n* Added ability to upload in 1080p (and 4k, but this is technically unsupported).\r\n* Added option to see poll results before voting.\r\n* Added option to tap to play/pause video with 2 fingers.\r\n* Added option to see where an account is located in a tweet.\r\n* Added option to disable screenshot detection in XChat (broken as of now, although I have a private fix)\r\n* Added option to disable the new media carousel (switches back to old grid view).\r\n* Added ability to remove retweets of tweets from users who’ve blocked you (please fix this X).\r\n* Doomscrolling can now be turned off with disabling video scroll.\r\n* Added ability to use Tenor GIFs i"
         }
       ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
       },
-      "version": "12.38.1",
-      "versionDate": "2026-10-28T18:16:07Z",
-      "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.3.0/NeoFreeBird-sideloaded-X_7.3.0_12.38.1.ipa",
-      "size": 273143491
+      "version": "12.39",
+      "versionDate": "2026-11-06T21:49:13Z",
+      "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.3.1/NeoFreeBird-sideloaded-X_7.3.1_12.39.ipa",
+      "size": 276966090
     },
     {
       "name": "PiliPlus",
