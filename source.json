@@ -407,44 +407,6 @@
       "size": 35414735
     },
     {
-      "name": "Simple Live Beta",
-      "developerName": "June6699",
-      "subtitle": "Simple Live 预发布版",
-      "localizedDescription": "Simple Live 预发布版",
-      "iconURL": "https://raw.githubusercontent.com/June6699/dart_simple_live/master/simple_live_app/assets/logo.png",
-      "tintColor": "#4A90E2",
-      "category": "entertainment",
-      "bundleIdentifier": "com.xycz.simple-live.beta",
-      "versions": [
-        {
-          "version": "1.13.0-pre",
-          "buildVersion": "11300",
-          "date": "2026-09-08T12:06:03Z",
-          "downloadURL": "https://github.com/June6699/dart_simple_live/releases/download/v1.13.0-pre/ios_no_sign.ipa",
-          "size": 100800781,
-          "minOSVersion": "13.0",
-          "localizedDescription": "## Build: `1.13.0+11300`\r\n\r\n> [!IMPORTANT]\r\n>\r\n>- 9.9已更新之前由于没有解压导致的ios这些无法安装的问题。\r\n>- 文件大小大幅上升，是因为加入了许多游戏分类的icon，因为抖音最近更新了分类，但是并未提供游戏icon，所以都是我一个个通过各>种公开渠道拿到的icon文件，塞进来的。\r\n>- 但是抖音的游戏细分类是动态的，比如当前时段如果没有这个游戏主播在播，他就不会有这个分类。\r\n\r\n\r\n## 链接解析与清晰度记忆（2026-09-08 更新）\r\n\r\n### 链接解析修复\r\n\r\n- **修复房间号含点号时解析失败**：房间号如 `123.456` 的虎牙/抖音直播间现在可以正常解析，旧版会在点号处截断导致 API 报错。\r\n- **新增抖音 www 域名支持**：\r\n  - `https://www.douyin.com/live/数字` 可直接解析\r\n  - `https://www.douyin.com/follow/live/数字` 可直接解析（从关注页打开的链接）\r\n- 解析改用结构化 URI 处理，所有平台 host 匹配改为大小写不敏感。\r\n- 短链递归解析新增深度限制，防止短链互跳死循环。\r\n- 解析帮助文案更新，补充新支持的抖音链接格式。\r\n\r\n### 清晰度记忆\r\n\r\n- **播放设置新增”记住上次”选项**：在”默认清晰度”和”数据网络清晰度”下拉菜单中新增第 4 项”记住上次”。\r\n- **按平台记忆**：每个直播平台独立记忆用户上次手动选择的清晰度。\r\n- **智能匹配策略**：\r\n  - 优先按清晰度名称精确匹配（如”蓝光8M”）\r\n  - 名称不存在时按距最高档的偏移兜底（如上次选第 1 档，本房间列表不同也选第 1 档）\r\n  - 都匹配不到时回落到”中等”策略\r\n- 每次手动切换清晰度（包括开启功能前的切换）都会自动保存，无需额外操作。\r\n- **全端支持**：主应用（Android、iOS、Windows、macOS、Linux）与 TV 应用（Android TV、Windows TV）均可使用。\r\n\r\n## Windows 播放兼容性\r\n\r\n### libmpv 升级至最新版本（2026-09-04 更新）\r\n\r\n- **libmpv 已升级至 v0.41.0-1011-g182fa6ca4**（2026-08-28 构建，120MB）\r\n  - 从旧版 2023 年构建（29.7MB）升级，包含最新 ffmpeg 解码器\r\n  - **修复 [issue #115](https://github.com/June6699/dart_simple_live/issues/115)**：手动设置 `hwdec=d3d11va` 现在正确生效，不再回退到 `d3d11va-copy`\r\n  - 改善硬件解码兼容性和性能\r\n  - 已通过完整验证：视频画面正常、默认硬解使用 d3d11va、手动 hwdec 设置生效、硬解开关正常、窗口操作正常\r\n\r\n### 播放器稳定性说明\r\n\r\n- Windows 播放器页面、控制层和 native runtime 与 v1.12.8-test 已验证可用的组合保持一致。\r\n- Windows 灰屏不能只通过替换 `libmpv-2.dll` 判断；播放器页面/控制层的纹理生命周期和 native runtime 必须作为整体验证。\r\n- 实际解码路径仍取决于显卡、驱动、视频编码和直播流；播放器诊断页会显示当前使用的解码器。\r\n\r\n## 主应用更新\r\n\r\n### 播放暂停/继续\r\n\r\n- 直播间新增暂停/继续功能：全屏与非全屏控制栏均提供暂停按钮，暂停时画面冻结。\r\n- 继续播放时会自动刷新直播流回到最新画面，避免长时间暂停后画面落后于直播。\r\n- 桌面端默认支持空格键触发暂停/继续，可在 设置 → 播放设置 → 快捷键 中改绑或关闭；快捷键仅在直播间且输入框未聚焦时生效。\r\n\r\n### 抖音直播分类\r\n\r\n- 抖音直播分类支持继续进入子分类，不再只显示第一层分类。例如可按”游戏 → 射击游戏 → 无畏契约”逐层浏览。\r\n- 分类数据按嵌套层级解析，后续出现更多层级时可继续进入。\r\n- 游戏子分类补充本地图标，普通 App 和 TV App 均可显示；图片按显示尺寸缓存，减少分类浏览时的内存占用。\r\n\r\n### 关注标签刷新\r\n\r\n- 关注列表支持选择自定义标签进行显示，例如”上午开播”。\r\n- 手动刷新可仅处理当前选中的标签；选择”全部”时刷新全部关注。\r\n- 标签刷新范围独立于搜索、平台、直播状态和”仅显示开播”等临时显示筛选，避免误刷新或漏刷新。\r\n- 普通 App 和 TV App 均支持标签筛"
-        },
-        {
-          "version": "1.12.7-pre",
-          "buildVersion": "11207",
-          "date": "2026-07-06T08:04:30Z",
-          "downloadURL": "https://github.com/June6699/dart_simple_live/releases/download/v1.12.7-pre/ios_no_sign.ipa",
-          "size": 31071602,
-          "minOSVersion": "13.0",
-          "localizedDescription": "# v1.12.7\n\n本版本重点修复桌面端播放器快捷键在中文输入法下不响应的问题，并优化桌面端直播间切换时列表位置被重置的体验。\n\nTV 端对应版本见 `tv_v1.7.8`。\n\n## 重点更新\n\n- 修复 Windows、macOS、Linux 桌面端在中文输入法下，播放器快捷键需要切换到英文输入法才生效的问题。\n- 桌面端播放器快捷键改为按物理键识别，中文输入法开启时也可以直接使用 `F`、`D`、`M`、`R`、`C` 等快捷键。\n- 播放器区域使用快捷键时会拦截输入法候选框；搜索框、弹幕输入框、设置输入项等文本输入场景保持中文输入法正常工作。\n- 修复 Windows 桌面端弹幕在部分系统字体环境下可能显示成书法/繁体字体的问题，弹幕字体现在会使用微软雅黑兜底。\n- 修复桌面端全屏播放时，从右侧关注、观看历史、推荐等列表切换直播间后，列表偶发自动跳回顶部的问题；现在会尽量保持当前滚动位置。\n- 移动端与 TV 端同步检查了直播间切换列表逻辑，避免同类列表跳转体验退化。\n- 修复哔哩哔哩直播在弹幕信息接口异常时，误提示“获取直播间信息失败，可能需要验证”并阻止进入直播间的问题；现在会降级处理，优先保证直播间可以打开。\n- 优化斗鱼直播播放失败后的重试逻辑，失败重试时会重新获取斗鱼播放地址，减少临时 CDN 链接失效后反复打开同一失效地址的问题。\n- TV 对应版本补充关注页自动更新间隔设置修复：Android TV 使用预设档位，TV-Windows 保持可输入时间。\n- 修复抖音网页版直链和分享短链跳转：支持从分享文案提取链接、多级重定向，并且短链解析不携带用户 Cookie，导入 Cookie 后也可正常进入直播间。\n- 修复哔哩哔哩接口触发 429 或返回空清晰度时的处理：保留有限重试并记录房间号、状态和响应摘要，获取失败时显示可重试提示，避免直播间黑屏。\n- 修复定时关闭在前后台切换后计时失效的问题；到点会按平台停止播放并释放相关资源，修改时长或关闭开关也会立即更新计时任务。\n- 修复 Windows 全屏切换时的标题栏、最大化状态和闪动问题；退出全屏后恢复进入前的窗口状态。\n- 修复桌面端锁定播放器后锁图标持续悬停显示的问题，现在仅在屏幕边缘解锁区域显示。\n- 修复桌面端快速切换右侧关注主播时的异步竞态，过期请求不会更新当前直播间或已释放的播放器。\n- 修复 Windows 打包遗漏 `dart_quickjs.dll` 导致斗鱼播放时报 native function 加载错误的问题；构建和发布包会校验 QuickJS 原生库。\n\n## 下载说明\n\n- Android arm64：`SimpleLive-v1.12.7-arm64-v8a-release.apk`\n- Android armeabi-v7a：`SimpleLive-v1.12.7-armeabi-v7a-release.apk`\n- Android x86_64：`SimpleLive-v1.12.7-x86_64-release.apk`\n- Windows：`SimpleLive-Windows-v1.12.7.zip`\n- Linux zip：`SimpleLive-Linux-v1.12.7.zip`\n- Linux deb：`SimpleLive-Linux-v1.12.7-amd64.deb`\n- macOS dmg：`simple_live_app-1.12.7+11207-macos.dmg`\n- macOS zip：`simple_live_app-1.12.7+11207-macos.zip`\n- iOS 未签名 IPA：`ios_no_sign.ipa`"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      },
-      "version": "1.13.0-pre",
-      "versionDate": "2026-09-08T12:06:03Z",
-      "downloadURL": "https://github.com/June6699/dart_simple_live/releases/download/v1.13.0-pre/ios_no_sign.ipa",
-      "size": 100800781
-    },
-    {
       "name": "AirCard",
       "developerName": "Mak5er",
       "subtitle": "Wallet 卡面与锁屏密码主题",
