@@ -145,6 +145,22 @@
       "category": "utilities",
       "prerelease": false,
       "betaRegex": "(?<![a-z])(beta|alpha|rc|nightly|pre|dev)(?![a-z])"
+    },
+    {
+      "repo": "beckyeeky/lc-source",
+      "bundleIdentifier": "com.burbn.barcelona",
+      "assetRegex": "^Threads_.*_Pulse_.*_sideload\\.ipa$",
+      "tagRegex": "^threadspulse-",
+      "scanReleases": 100,
+      "sha256": true,
+      "prerelease": false,
+      "name": "Threads (Pulse · sideload)",
+      "developerName": "Meta / mumuisdog (Pulse)",
+      "subtitle": "Threads + Pulse，保留扩展的 sideload 版",
+      "localizedDescription": "来自 mumuisdog/ThreadsPulse 的 build-ipa.yml sideload 构建产物，镜像到本源仓库 Release。不包含 noplugins 版。修改版客户端，未真机测试；请自行评估账号与隐私风险。",
+      "iconURL": "",
+      "tintColor": "#000000",
+      "category": "social"
     }
   ]
 }

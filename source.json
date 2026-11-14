@@ -461,6 +461,36 @@
       "versionDate": "2026-10-04T12:22:53Z",
       "downloadURL": "https://github.com/Mak5er/AirCard-iOS/releases/download/v1.3.2/AirCard-iOS.ipa",
       "size": 4638147
+    },
+    {
+      "bundleIdentifier": "com.burbn.barcelona",
+      "name": "Threads (Pulse · sideload)",
+      "developerName": "Meta / mumuisdog (Pulse)",
+      "subtitle": "Threads + Pulse，保留扩展的 sideload 版",
+      "localizedDescription": "来自 mumuisdog/ThreadsPulse 的 build-ipa.yml sideload 构建产物，镜像到本源仓库 Release。不包含 noplugins 版。修改版客户端，未真机测试；请自行评估账号与隐私风险。",
+      "iconURL": "",
+      "tintColor": "#000000",
+      "category": "social",
+      "versions": [
+        {
+          "version": "455.0.0",
+          "buildVersion": "1109354733",
+          "date": "2026-11-14T15:28:07Z",
+          "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-455.0.0-pulse-1.27.0-sideload/Threads_455.0.0_Pulse_1.27.0_sideload.ipa",
+          "size": 116318103,
+          "minOSVersion": "16.3",
+          "localizedDescription": "Sideload artifact mirrored without modification from mumuisdog/ThreadsPulse.\nUpstream run: https://github.com/mumuisdog/ThreadsPulse/actions/runs/43595736341\nArtifact: 14114830246\nSHA-256: 7412ad18954bf446c382f280bb8e90f6004cf18a6328dea60fb05c3693449645\nRequires iOS 16.3 or later. Not device-tested. Only sideload; no noplugins variant.",
+          "sha256": "7412ad18954bf446c382f280bb8e90f6004cf18a6328dea60fb05c3693449645"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "version": "455.0.0",
+      "versionDate": "2026-11-14T15:28:07Z",
+      "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-455.0.0-pulse-1.27.0-sideload/Threads_455.0.0_Pulse_1.27.0_sideload.ipa",
+      "size": 116318103
     }
   ],
   "news": []
