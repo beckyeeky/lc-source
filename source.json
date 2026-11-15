@@ -475,6 +475,16 @@
         {
           "version": "455.0.0",
           "buildVersion": "1109354733",
+          "date": "2026-11-15T22:08:51Z",
+          "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14169969713/Threads_455.0.0_Pulse_1.29.4_sideload.ipa",
+          "size": 116978830,
+          "minOSVersion": "16.3",
+          "localizedDescription": "Unmodified sideload artifact from https://github.com/mumuisdog/ThreadsPulse/actions/runs/43736138353\nArtifact: 14169969713\nSHA-256: 4ff74c998f5c5e162a1d7923c6c11eb66a3949182011b45ca18280fe60ba2862\nMinimum iOS: 16.3\nIncludes extensions. Not device-tested. No noplugins variant.",
+          "sha256": "4ff74c998f5c5e162a1d7923c6c11eb66a3949182011b45ca18280fe60ba2862"
+        },
+        {
+          "version": "455.0.0",
+          "buildVersion": "1109354733",
           "date": "2026-11-15T16:06:52Z",
           "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14158875318/Threads_455.0.0_Pulse_1.29.1_sideload.ipa",
           "size": 116977585,
@@ -508,9 +518,9 @@
         "privacy": {}
       },
       "version": "455.0.0",
-      "versionDate": "2026-11-15T16:06:52Z",
-      "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14158875318/Threads_455.0.0_Pulse_1.29.1_sideload.ipa",
-      "size": 116977585
+      "versionDate": "2026-11-15T22:08:51Z",
+      "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14169969713/Threads_455.0.0_Pulse_1.29.4_sideload.ipa",
+      "size": 116978830
     }
   ],
   "news": []
