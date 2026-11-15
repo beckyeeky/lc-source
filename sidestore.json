@@ -1,0 +1,295 @@
+{
+  "name": "My SideStore Source",
+  "identifier": "io.github.beckyeeky.sidestore",
+  "subtitle": "SideStore 独立源 · 正式版 · 真实 IPA 元数据",
+  "websiteURL": "https://github.com/beckyeeky/lc-source",
+  "apps": [
+    {
+      "bundleIdentifier": "com.atebits.Tweetie2",
+      "name": "X (NeoFreeBird)",
+      "developerName": "NeoFreeBird",
+      "subtitle": "Modified X with BHTwitter",
+      "localizedDescription": "NeoFreeBird, looking like the modern X app.",
+      "iconURL": "https://raw.githubusercontent.com/NeoFreeBird/app/v7/resources/x_icon_rounded.png",
+      "tintColor": "#000000",
+      "category": "social",
+      "versions": [
+        {
+          "version": "12.39",
+          "buildVersion": "20",
+          "date": "2026-11-06T21:49:13Z",
+          "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.3.1/NeoFreeBird-sideloaded-X_7.3.1_12.39.ipa",
+          "size": 276966090,
+          "minOSVersion": "15.0",
+          "localizedDescription": "# Version 7.3.1\r\n\r\n## New Features\r\n- Add a toggle for the Split View on iPad\r\n- Add support for the Split View on macOS (tested) and iPhone Duo (untested)\r\n- Added a toggle to hide the “Made on X” footer\r\n- Added a section in settings to thank all translators for NeoFreeBird!\r\n- Updated X to 12.39\r\n\r\n## Fixes\r\n- Fixed the sharing domain not working\r\n- Fixed issues with custom tints and the classic tab bar\r\n- Fixed tab labels not showing on the old design\r\n- Fixed the legacy tab selector not respecting the profile button\r\n- Fixed the blur when scrolling from not being dim when dim theme was enabled\r\n- Fixed stale cached text overwriting others, causing text errors in the app\r\n- Fixed the padlock screen sometimes showing a black screen until a restart\r\n- Fixed the autoplay accessibility setting not respecting GIFs\r\n- Fixed the “No focus lost” option to never go back to the home tab\r\n- Fixed the app stopping audio when scrolling through muted videos on the timeline\r\n- Fixed the square avatar icon looking weird on Liquid Glass\r\n- Fixed verified users’ notifications not showing when the filter option was on\r\n- Fixed localization logic to be more durable and allow full sentence replacement\r\n\r\n## Localizations\r\n- Update Simplified Chinese translation by @ismudkipx in https://github.com/NeoFreeBird/app/pull/214\r\n- Complete and polish Arabic localization by @ipapplus in https://github.com/NeoFreeBird/app/pull/211\r\n- Updated Spanish translation for 7.3.0 by @polygonMicrosystems in https://github.com/NeoFreeBird/app/pull/193\r\n- Add Brazilian Portuguese localization by @Lucas25Pedrosa in https://github.com/NeoFreeBird/app/pull/215\r\n- Update French translations for v7.3.0 by @jleroy in https://github.com/NeoFreeBird/app/pull/187\r\n- Add Turkish localization for new settings by @HsynKrkmz1991 in https://github.com/NeoFreeBird/app/pull/194\r\n- Add GitHub download warning to Localizable.strings by @so-5699 in https://github.com/NeoFreeBird/app/pull/217\r\n- Update Russian localization",
+          "sha256": "5964aa23c060a7af64ad9c5c4c72f36a14090e7a5853590f8368807eb3f0cf34"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.applesignin",
+          "com.apple.developer.associated-appclip-app-identifiers",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.devicecheck.appattest-environment",
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.networking.carrier-constrained.app-optimized",
+          "com.apple.developer.networking.carrier-constrained.appcategory",
+          "com.apple.developer.pass-type-identifiers",
+          "com.apple.developer.payment-pass-provisioning",
+          "com.apple.developer.siri",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.usernotifications.filtering",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSCalendarsUsageDescription": "Add events to your calendar from X.",
+          "NSCameraUsageDescription": "Capture and post photos and videos from X.",
+          "NSContactsUsageDescription": "We will securely upload your contacts to our servers to help you connect with friends and suggest users to follow on X.",
+          "NSFaceIDUsageDescription": "Use FaceID to authenticate on X.",
+          "NSLocationUsageDescription": "Enjoy the X experience tailored to your location.",
+          "NSLocationWhenInUseUsageDescription": "Enjoy the X experience tailored to your location.",
+          "NSMicrophoneUsageDescription": "Capture and post videos with sound from X.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you download photos and videos to your Photos.",
+          "NSPhotoLibraryUsageDescription": "Allow access to share photos from your camera roll.",
+          "NSSpeechRecognitionUsageDescription": "Going forward, whenever you choose to share captions on this device, Apple will provide the service. Doing so helps make sure people of all hearing abilities can access your content.",
+          "NSUserTrackingUsageDescription": "This helps X show you more relevant ads."
+        }
+      },
+      "version": "12.39",
+      "versionDate": "2026-11-06T21:49:13Z",
+      "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/v7.3.1/NeoFreeBird-sideloaded-X_7.3.1_12.39.ipa",
+      "size": 276966090
+    },
+    {
+      "name": "PiliPlus",
+      "developerName": "bggRGjQaUbCoE",
+      "subtitle": "第三方哔哩哔哩客户端（Flutter）",
+      "localizedDescription": "第三方哔哩哔哩客户端（Flutter）",
+      "iconURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+      "tintColor": "#4A90E2",
+      "category": "entertainment",
+      "bundleIdentifier": "com.example.piliplus",
+      "versions": [
+        {
+          "version": "2.2.1",
+          "buildVersion": "5655",
+          "date": "2026-11-14T08:11:53Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.2.1/PiliPlus_ios_2.2.1%2B5655.ipa",
+          "size": 25053075,
+          "minOSVersion": "15.0",
+          "localizedDescription": "支持管理粉丝勋章\r\n支持进入直播间自动佩戴对应粉丝牌，默认关\r\n动态支持查看全文 https://github.com/bggRGjQaUbCoE/PiliPlus/issues/3420#issuecomment-6716986635\r\n支持更新已缓存视频的合集信息\r\n支持缓存/更新视频字幕、分段信息、音量均衡信息\r\n支持桌面端推荐 #3463 by @liaolon\r\n直播画中画、媒体通知添加刷新、弹幕显示按钮\r\n直播支持上报心跳、观看直播增加亲密度 #2073\r\n楼中楼评论支持线程式显示、保存评论链 #3351 by @My-Responsitories\r\n\r\n修复 bug\r\n修复音视频音频焦点问题 #2702\r\n修复部分视频评论显示不全 #3504\r\n修复私信失效卡片显示 #3481 by @HChaZZY\r\n修复动态详情页刷新指示器 #3477 by @PYH0809\r\n修复 iOS 登录验证码验证 #3484 by @ngbyspy\r\n修复 iOS 直播全屏底部边距 #3499 by @freejool\r\n修复 #3553 by @Tobiichi-Origuchi\r\n修复乐播旧控制地址导致的投屏失败 #3507 by @TG-Twilight\r\n修复 niri 退出画中画导致鼠标操作异常 #3471 by @Tobiichi-Origuchi\r\n修复播放器音量超过 100% 后的削波失真 #3448 by @No-World co-by @My-Responsitories",
+          "sha256": "79f2bea84ec9a89dc08cfbb67bc9a1c973a14eb6f58a4e8b90cb70f1f317ff79"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "App需要您的同意,才能访问媒体资料库",
+          "NSCameraUsageDescription": "App需要您的同意,才能访问相册",
+          "NSLocalNetworkUsageDescription": "需要访问本地网络以发现和连接 DLNA 投屏设备",
+          "NSPhotoLibraryUsageDescription": "请允许APP保存图片到相册"
+        }
+      },
+      "version": "2.2.1",
+      "versionDate": "2026-11-14T08:11:53Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.2.1/PiliPlus_ios_2.2.1%2B5655.ipa",
+      "size": 25053075
+    },
+    {
+      "name": "Animeko",
+      "developerName": "open-ani",
+      "subtitle": "一站式弹幕追番平台：Bangumi 云收藏同步、离线缓存、BT、弹幕过滤",
+      "localizedDescription": "一站式弹幕追番平台：Bangumi 云收藏同步、离线缓存、BT、弹幕过滤",
+      "iconURL": "https://raw.githubusercontent.com/open-ani/animeko/main/app/ios/Animeko/Assets.xcassets/AppIcon.appiconset/1024.png",
+      "tintColor": "#4A90E2",
+      "category": "entertainment",
+      "bundleIdentifier": "org.animeko.animeko",
+      "versions": [
+        {
+          "version": "6.4.0",
+          "buildVersion": "6.4.99",
+          "date": "2026-10-24T04:52:28Z",
+          "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.4.0/ani-6.4.0.ipa",
+          "size": 48615547,
+          "minOSVersion": "16.0",
+          "localizedDescription": "- 加快桌面端网页视频解析速度\r\n- 优化季度拆分资源的弹幕匹配准确性\r\n- 新增通知中心与公告，可查看互动消息、举报处理结果和账号安全提醒，并按类型设置通知\r\n- 新增弹幕文字转换设置，支持按弹幕来源单独配置并预览转换效果 (#3536 by @GeneralK1ng)\r\n- iOS 支持 Anime4K 视频增强，提升视频画面清晰度 (#3606 by @black4der)\r\n- Windows 和 macOS 自动更新支持增量下载，减少下载流量并加快更新\r\n- 新增 JSON API 数据源\r\n- 修复一系列播放相关问题\r\n\r\n----\r\n\r\n- TV 端支持配置全局网络代理 (#3550 by @LoliWolf)\r\n- Android 支持通过包含 Bangumi 章节 ID 或剧集 ID 的 ani 链接打开指定剧集\r\n- 优化续播与换源体验，直接从记忆进度开始播放，减少重复缓冲并避免换源后进度回退\r\n- 优化剧集页播放器快捷键，切换标签页或关闭侧边栏后可直接操作视频，输入文字时避免误触快捷键 (#3542 by @Tsukumi233)\r\n- 修复桌面端在部分多显卡或渲染模式切换场景下视频黑屏、窗口空白的问题\r\n- 修复 Windows 退出播放页时可能卡死的问题\r\n- 修复 Windows 和 Linux 播放纯音频媒体时可能卡在加载中的问题\r\n- 修复 Android 播放部分 MKV 视频时无法显示压缩字幕的问题，支持 ASS 和 SRT 字幕\r\n- 修复 Android 暂停或播放结束后切换全屏时画面缩在左侧或被裁切的问题\r\n- 修复 Android 应用语言切换不生效的问题\r\n- 修复 Jellyfin 数据源切集后找不到下一集资源的问题\r\n- 修复部分网络环境下数据源因页面链接使用 HTTP 而无法加载的问题 (#3633 by @wdw89)\r\n- 修复进入或切换页面时自动聚焦输入框、滑块等控件，导致页面意外滚动的问题 (#3650 by @NihilDigit)\r\n\r\n**Full Changelog**: https://github.com/open-ani/animeko/compare/v6.3.0...v6.4.0\r\n\r\n\r\n[//]: # (ANI-SERVER-MAGIC-SEPARATOR)\r\n\r\n[//]: # (注意: api server 依赖这个特殊分隔符)\r\n\r\n[//]: # (对于所有可用的变量列表, 参考 CI release.yml 的 step release-notes)\r\n\r\n[github-win-x64]: https://github.com/open-ani/ani/releases/download/v6.4.0/ani-6.4.0-windows-x86_64.zip\r\n\r\n[github-win-aarch64]: https://github.com/open-ani/ani/releases/download/v6.4.0/ani-6.4.0-windows-aarch64.zip\r\n\r\n[github-mac-x64]: https://github.com/open-ani/ani/releases/download/v6.4.0/ani-6.4.0-macos-x86_64.dmg\r\n\r\n[github-mac-aarch64]: https://github.com/open-ani/ani/releases/download/v6.4.0/ani-6.4.0-macos-aarch64.dmg\r\n\r\n[github-android]: https://github.com/open-ani/ani/releases/download/v6.4.0/ani-6.4.0-universal.apk\r\n\r\n[github-android-arm64-v8a]: https://github.com/open-ani/ani/releases/download/v6.4.0/ani-6.4.0-arm64-v8a.apk\r\n\r\n[github-android-armeabi-v7a]: https://github.com/open-ani/ani/releases/download/v6.4.0/ani-6.4.0-armeabi-v7a.apk\r\n\r\n[github-android-x86_64]: https://github.com/open-ani/ani/releases/download/v6.4.0/ani-6.4.0-x86_64.apk\r\n\r\n[cf-win-x64]: https://d.myani.org/v6.",
+          "sha256": "c5797e772fa654b2a6723f3f61c8332465b760435e7ea5ee18da3448cb27ad8a"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "Animeko uses the camera to scan the sign-in QR code shown on your TV."
+        }
+      },
+      "version": "6.4.0",
+      "versionDate": "2026-10-24T04:52:28Z",
+      "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.4.0/ani-6.4.0.ipa",
+      "size": 48615547
+    },
+    {
+      "name": "Eros-FE",
+      "developerName": "erosTeam",
+      "subtitle": "E-Hentai/ExHentai 第三方客户端（官方）",
+      "localizedDescription": "E-Hentai/ExHentai 第三方客户端（官方）",
+      "iconURL": "https://raw.githubusercontent.com/erosTeam/eros_fe/master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+      "tintColor": "#4A90E2",
+      "category": "entertainment",
+      "bundleIdentifier": "cn.honjow.fehv",
+      "versions": [
+        {
+          "version": "1.9.2",
+          "buildVersion": "566",
+          "date": "2026-06-11T12:30:15Z",
+          "downloadURL": "https://github.com/erosTeam/eros_fe/releases/download/v1.9.2%2B566/Eros-FE_1.9.2%2B566.ipa",
+          "size": 24741532,
+          "minOSVersion": "15.6",
+          "localizedDescription": "### ✨ 功能\n\n- 适配 font_awesome_flutter 11 的图标 API 变更\n- 更新依赖并稳定 GitHub Actions 发布构建\n\n### 🐞 Bug 修复\n\n- 修复 Android 16 外部存储路径访问异常\n- 修复版本更新检查的 GitHub API 地址\n\n---\n\n### ✨ Features\n\n- Support font_awesome_flutter 11 icon API changes\n- Update dependencies and stabilize GitHub Actions release builds\n\n### 🐞 Bug Fixes\n\n- Fix external storage path access exceptions on Android 16\n- Fix the GitHub API URL used by the update checker\n\n---",
+          "sha256": "5fcbe9ef39e578116932edec18c1dd8715e91a7e7441cc35167ca5b295e31f39"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSFaceIDUsageDescription": "Unlock app with Face ID",
+          "NSPhotoLibraryAddUsageDescription": "Save image to photo library",
+          "NSPhotoLibraryUsageDescription": "Load image from photo library"
+        }
+      },
+      "version": "1.9.2",
+      "versionDate": "2026-06-11T12:30:15Z",
+      "downloadURL": "https://github.com/erosTeam/eros_fe/releases/download/v1.9.2%2B566/Eros-FE_1.9.2%2B566.ipa",
+      "size": 24741532
+    },
+    {
+      "name": "Simple Live",
+      "developerName": "June6699",
+      "subtitle": "简简单单的看直播（SimpleLive 续）",
+      "localizedDescription": "简简单单的看直播（SimpleLive 续）",
+      "iconURL": "https://raw.githubusercontent.com/June6699/dart_simple_live/master/simple_live_app/assets/logo.png",
+      "tintColor": "#4A90E2",
+      "category": "entertainment",
+      "bundleIdentifier": "com.xycz.simple-live",
+      "versions": [
+        {
+          "version": "1.13.3",
+          "buildVersion": "11303",
+          "date": "2026-11-08T13:17:59Z",
+          "downloadURL": "https://github.com/June6699/dart_simple_live/releases/download/v1.13.3/ios_no_sign.ipa",
+          "size": 35414735,
+          "minOSVersion": "13.0",
+          "localizedDescription": "# Simple Live v1.13.3 更新速览\r\n\r\n发布日期：2026-10-25\r\n\r\n本版主题：发热优化、Windows 退出修复、桌面端快捷键中文输入法适配、B站弹幕缺失修复与虎牙 4K 断流调查结论。2026-11-01 追加全屏四角时钟（#160），2026-11-02 追加音量增强与音量手势修复（#161），2026-11-03 修复抖音部分房间登录墙导致进不去、关注页刷不出，2026-11-08 追加 iOS 系统画中画、取消关注不再触发全量刷新（#163）与 WebDAV 恢复 500 根因修复（#164）。\r\n\r\n经过19次构建，终于解决了，连media_kit都没解决的iOS PIP问题，在一个PR中，获得了思路，经过一些修复，与我们项目实现了兼容。\r\n\r\n在此，感谢各位提供日志的用户：@laobai95 等等多位用户（请在群内提供git用户名）。\r\n## 省电模式（新增，默认关闭）\r\n\r\n- 针对安卓端观看时发热严重的反馈，新增一键「省电模式」（设置 → 直播间设置 → 播放器，置于首位）：视频缩放降档（均衡 → bilinear、画质 → spline36）、弹幕限 60 帧、关闭弹幕描边、放宽安卓播放检测频率、多开上限 4 个且压至最低清晰度。\r\n- 默认关闭，关闭时所有行为与 v1.13.2 完全一致；打开后进入下一个直播间生效。全端开关一致可见（iOS 上为弹幕部分生效）。\r\n\r\n## 弹幕渲染降耗\r\n\r\n- 弹幕描边开关（默认开）：关闭后每条弹幕少一次整段文本绘制，弹幕越密越省。\r\n- 帧率上限（默认跟随屏幕）：高刷屏可限 60 帧，视觉无差异、GPU 负担约减半。\r\n- 修复「描边宽度」设置从未生效的问题（渲染侧此前硬编码为 2）。\r\n- 弹幕层透明度改为逐条并入颜色 alpha，去掉整层离屏合成（视觉不变）。\r\n\r\n## 性能与修复\r\n\r\n- 高热房间 CPU：屏蔽词正则从「每条消息每个词重新编译」改为编译一次缓存，消息量越大收益越明显。\r\n- Windows 退出修复：关闭应用时偶发的「快速异常检测失败」fast-fail 弹窗与进程挂死；本地 fork media_kit_video Windows 部分，纹理与 mpv render context 释放改为同步等待，退出时等待 mpv 关停。\r\n- 关闭窗口弹「Unknown Hard Error」：装有搜狗输入法等第三方输入法的电脑，每次关闭都会弹出系统错误（出错模块 `SogouPY.ime`）；现退出时跳过第三方模块的卸载回调，不再弹窗。\r\n\r\n## 桌面端快捷键（Windows / macOS / Linux）\r\n\r\n- 中文输入法下 F、R、空格等单键快捷键可直接使用，无需先切英文；输入框内照常打中文。\r\n- 带 Ctrl / Alt / Win（macOS 为 Cmd / Ctrl / Option）的组合键不再被拦截，修复 macOS 直播间内 Cmd+Q 无法退出等问题；macOS / Linux 补上空格键播放/暂停；长按只触发一次。\r\n\r\n## B站弹幕缺失修复（#150）\r\n\r\n- B站对弹幕接口的登录态风控（账号被标记后带 cookie 请求被拒）导致弹幕缺失、换号才能恢复；现登录态请求失败时自动回退未登录获取 token，以游客身份连接弹幕。\r\n- 回退不粘连：每次进房先走登录态，风控解除后自动恢复；清晰度与账号其他功能不受影响（取流仍走登录态）。\r\n\r\n## 全屏四角时钟（新增，#160，2026-11-01 追加）\r\n\r\n- 全屏直播画面四角（左上/右上/左下/右下）常驻显示当前时间（HH:mm），不随控制栏隐藏；仅全屏显示，默认关闭、右上角，入口在 直播间设置 → 四角时钟。\r\n- 时钟层不拦截触摸，滑动手势不受影响；组件自管定时器、关闭时零开销。TV 端同版合入同款功能。\r\n\r\n## 音量增强与音量手势修复（#161，2026-11-02 追加）\r\n\r\n- 新增「音量增强」开关（默认关，直播间设置 → 播放器 → 音量）：开启后音量上限 0–300%，超过 100% 为播放器软件增益（最高 ×3.0），不动系统音量；关闭时全部音量入口回到 0–100，与旧版一致。\r\n- 音量弹窗（底栏音量图标，移动端本版起也开放）：滑条 + 预设 0/50/100/200/300（关=0/50/100），增益区显示倍率。\r\n- 修复安卓快速上下滑调音量「实际没有反应」：终值落地不再被丢弃，快速滑动必生效。\r\n- 纯增益在音源响度大时可能破音，调回 200% 以内即可。TV 端同版合入音量控制。\r\n\r\n## 虎牙 4K 断流调查结论（#156，2026-10-31）\r\n\r\n- 虎牙已将 4K / 4K HDR ",
+          "sha256": "237d2824e3b1624ab1cec439ce0bfc4a4a52c22fcb6e32c40629ef1a8d7534ce"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "用于扫描二维码",
+          "NSLocalNetworkUsageDescription": "用于在同一局域网内发现并连接其他 Simple Live 设备进行数据同步",
+          "NSPhotoLibraryAddUsageDescription": "保存直播截图至相册",
+          "NSPhotoLibraryUsageDescription": "保存图片至相册"
+        }
+      },
+      "version": "1.13.3",
+      "versionDate": "2026-11-08T13:17:59Z",
+      "downloadURL": "https://github.com/June6699/dart_simple_live/releases/download/v1.13.3/ios_no_sign.ipa",
+      "size": 35414735
+    },
+    {
+      "name": "AirCard",
+      "developerName": "Mak5er",
+      "subtitle": "Wallet 卡面与锁屏密码主题",
+      "localizedDescription": "Apple Wallet card skins and lock screen passcode themes.",
+      "iconURL": "https://raw.githubusercontent.com/Mak5er/AirCard-iOS/main/ios-app/Assets.xcassets/AppIcon.appiconset/AppIcon-60@3x.png",
+      "tintColor": "#4A90E2",
+      "category": "utilities",
+      "bundleIdentifier": "com.mak5er.aircard",
+      "versions": [
+        {
+          "version": "1.3.2",
+          "buildVersion": "1.3.2",
+          "date": "2026-10-04T12:22:53Z",
+          "downloadURL": "https://github.com/Mak5er/AirCard-iOS/releases/download/v1.3.2/AirCard-iOS.ipa",
+          "size": 4638147,
+          "minOSVersion": "18.0",
+          "localizedDescription": "## What's Changed in v1.3.2 🚀\n\nThis update brings full feature parity with AirCard macOS v1.2.6, restores robust card discovery across all iOS versions, introduces automatic bank/network recognition with custom card nicknames, delivers an ultra-fast tunnel cache (0.02s connections), and completely resolves wallpaper flashing for Collections and Mercury wallpapers.\n\n### 💳 Wallet Card Discovery & Bank Identification\n• **Universal Wallet Log Parser**: Ported the proven `WalletScanParser` from AirCard macOS. Captures cards from `Dashboard loading (...): for SOO+`, `passIDs[InSession]`, `passIDs[global]`, and modern JSON NFC activations (`\"identifier\": \"HEX\"`).\n• **Automatic Bank & Network Detection**: Recognizes Visa, Mastercard, American Express, UnionPay, Discover, and JCB via applet AIDs during selection.\n• **Card Nicknames (Rename)**: Added a direct **Rename** button (✏️) so you can give your cards friendly names like *\"Monobank\"*, *\"Salary Card\"*, or *\"Revolut\"*, safely persisted in app settings.\n• **28-Character Fallback Token Matcher**: Restores dependable card discovery on devices where standard log patterns are redacted.\n\n### ⚡ Ultra-Fast Tunnel Routing (from 10s to 0.02s!)\n• **Working Route Caching**: `rust-core` now caches the active RSD connection route (`LAST_WORKING_ROUTE`), eliminating repeated port and interface scanning.\n• **RSD-First Priority**: Connects directly via RemoteXPC on port 49152, bypassing slow Lockdown retries and broken pipes on iOS 18+.\n• **Eliminated Loopback Policy Drops**: Removed local loopback attempts that caused `policy drop` control channel errors.\n\n### 🖼 Wallpapers (.tendies) — Collections & Mercury Fixes\n• **Dual Injection on iOS 18+**: Wallpapers are now injected into both their primary bundle (`com.apple.WallpaperKit.CollectionsPoster` or `com.apple.MercuryPoster`) and the modern iOS 18+ application container (`com.apple.Posters.CollectionsPosterApp` / `com.apple.Posters.MercuryPosterApp`).\n• **Metadata Synchronization**: Fix",
+          "sha256": "49aff0267546a2b27ad7eeef036c8af7f9b1d230fce0e92b24d7f6b97cfd7a86"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "AirCard-iOS advertises an on-device pairing service so this iPhone can pair with itself, and connects to the local lockdown daemon to run the exploit.",
+          "NSPhotoLibraryUsageDescription": "AirCard-iOS needs photo access to apply custom card skins and passcode themes."
+        }
+      },
+      "version": "1.3.2",
+      "versionDate": "2026-10-04T12:22:53Z",
+      "downloadURL": "https://github.com/Mak5er/AirCard-iOS/releases/download/v1.3.2/AirCard-iOS.ipa",
+      "size": 4638147
+    },
+    {
+      "bundleIdentifier": "com.burbn.barcelona",
+      "name": "Threads (Pulse · sideload)",
+      "developerName": "Meta / mumuisdog (Pulse)",
+      "subtitle": "Threads + Pulse，保留扩展的 sideload 版",
+      "localizedDescription": "来自 mumuisdog/ThreadsPulse 的 build-ipa.yml sideload 构建产物，镜像到本源仓库 Release。不包含 noplugins 版。修改版客户端，未真机测试；请自行评估账号与隐私风险。",
+      "iconURL": "https://raw.githubusercontent.com/beckyeeky/lc-source/main/icons/com.burbn.barcelona.png",
+      "tintColor": "#000000",
+      "category": "social",
+      "versions": [
+        {
+          "version": "455.0.0",
+          "buildVersion": "1109354733",
+          "date": "2026-11-15T04:14:11Z",
+          "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14145131992/Threads_455.0.0_Pulse_1.29.0_sideload.ipa",
+          "size": 116976580,
+          "minOSVersion": "16.3",
+          "localizedDescription": "Unmodified sideload artifact from https://github.com/mumuisdog/ThreadsPulse/actions/runs/43672637340\nArtifact: 14145131992\nSHA-256: e12d91a2b7ca6b3f1280bd1873d0cf262254439d7cc3d78ad6058b7898fe269f\nMinimum iOS: 16.3\nIncludes extensions. Not device-tested. No noplugins variant.",
+          "sha256": "e12d91a2b7ca6b3f1280bd1873d0cf262254439d7cc3d78ad6058b7898fe269f"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.associated-appclip-app-identifiers",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.declared-age-range",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSLocationAlwaysUsageDescription": "Select \"Always Allow\" to make some features work. You can change this anytime in Settings.",
+          "NSCameraUsageDescription": "Threads uses your camera to do things like help you take photos when posting.",
+          "NSMotionUsageDescription": "This makes some features work. You can always change this later in Settings.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you save photos and videos to your Camera Roll.",
+          "NSAppleMusicUsageDescription": "Threads uses Apple Music access to connect your account and add songs you discover to your music library.",
+          "NSSpeechRecognitionUsageDescription": "Threads uses speech recognition on your device to turn what you say in a voice recording into captions.",
+          "NSLocationUsageDescription": "Select ok to make some features work. You can change this anytime in Settings.",
+          "NSMicrophoneUsageDescription": "Threads uses your microphone to do things like help you record audio when posting.",
+          "NSLocationWhenInUseUsageDescription": "Your location will be used to show places nearby, allowing you to tag a place on your post.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Select \"Always Allow\" to make some features work. You can change this anytime in Settings.",
+          "NSContactsUsageDescription": "This helps you and others find your friends and more.",
+          "NSPhotoLibraryUsageDescription": "This lets you share photos from your library and save photos to your Camera Roll."
+        }
+      },
+      "version": "455.0.0",
+      "versionDate": "2026-11-15T04:14:11Z",
+      "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14145131992/Threads_455.0.0_Pulse_1.29.0_sideload.ipa",
+      "size": 116976580
+    }
+  ],
+  "news": []
+}
