@@ -146,6 +146,15 @@
       "bundleIdentifier": "org.animeko.animeko",
       "versions": [
         {
+          "version": "6.4.1",
+          "buildVersion": "6.4.199",
+          "date": "2026-11-18T14:44:06Z",
+          "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.4.1/ani-6.4.1.ipa",
+          "size": 48615556,
+          "minOSVersion": "16.0",
+          "localizedDescription": "- 安全性修复，请桌面端用户立刻更新\r\n\r\n----\r\n\r\n**Full Changelog**: https://github.com/open-ani/animeko/compare/v6.4.0...v6.4.1\r\n\r\n[//]: # (ANI-SERVER-MAGIC-SEPARATOR)\r\n\r\n[//]: # (注意: api server 依赖这个特殊分隔符)\r\n\r\n[//]: # (对于所有可用的变量列表, 参考 CI release.yml 的 step release-notes)\r\n\r\n[github-win-x64]: https://github.com/open-ani/ani/releases/download/v6.4.1/ani-6.4.1-windows-x86_64.zip\r\n\r\n[github-win-aarch64]: https://github.com/open-ani/ani/releases/download/v6.4.1/ani-6.4.1-windows-aarch64.zip\r\n\r\n[github-mac-x64]: https://github.com/open-ani/ani/releases/download/v6.4.1/ani-6.4.1-macos-x86_64.dmg\r\n\r\n[github-mac-aarch64]: https://github.com/open-ani/ani/releases/download/v6.4.1/ani-6.4.1-macos-aarch64.dmg\r\n\r\n[github-android]: https://github.com/open-ani/ani/releases/download/v6.4.1/ani-6.4.1-universal.apk\r\n\r\n[github-android-arm64-v8a]: https://github.com/open-ani/ani/releases/download/v6.4.1/ani-6.4.1-arm64-v8a.apk\r\n\r\n[github-android-armeabi-v7a]: https://github.com/open-ani/ani/releases/download/v6.4.1/ani-6.4.1-armeabi-v7a.apk\r\n\r\n[github-android-x86_64]: https://github.com/open-ani/ani/releases/download/v6.4.1/ani-6.4.1-x86_64.apk\r\n\r\n[cf-win-x64]: https://d.myani.org/v6.4.1/ani-6.4.1-windows-x86_64.zip\r\n\r\n[cf-win-aarch64]: https://d.myani.org/v6.4.1/ani-6.4.1-windows-aarch64.zip\r\n\r\n[cf-linux-x64]: https://d.myani.org/v6.4.1/ani-6.4.1-linux-x86_64.appimage\r\n\r\n[cf-mac-x64]: https://d.myani.org/v6.4.1/ani-6.4.1-macos-x86_64.zip\r\n\r\n[cf-mac-aarch64]: https://d.myani.org/v6.4.1/ani-6.4.1-macos-aarch64.dmg\r\n\r\n[cf-ios]: https://d.myani.org/v6.4.1/ani-6.4.1.ipa\r\n\r\n[cf-android]: https://d.myani.org/v6.4.1/ani-6.4.1-universal.apk\r\n\r\n[cf-android-arm64-v8a]: https://d.myani.org/v6.4.1/ani-6.4.1-arm64-v8a.apk\r\n\r\n[cf-android-armeabi-v7a]: https://d.myani.org/v6.4.1/ani-6.4.1-armeabi-v7a.apk\r\n\r\n[cf-android-x86_64]: https://d.myani.org/v6.4.1/ani-6.4.1-x86_64.apk\r\n\r\n[ghproxy-win-x64]: https://ghfast.top/?q=https%3A%2F%2Fgithub.com%2Fopen-ani%2Fani%2Freleases%2Fdownload%2Fv6.4.1%2Fani-6.4.1-windows-x86_64.zip"
+        },
+        {
           "version": "6.4.0",
           "buildVersion": "6.4.99",
           "date": "2026-10-24T04:52:28Z",
@@ -180,25 +189,16 @@
           "size": 44425669,
           "minOSVersion": "14.0",
           "localizedDescription": "- 新增画质增强(超分)，支持 Android, Windows 和 macOS (#3291 by @black4der)\r\n- 新增在线源查询缓存，有缓存时跳过查源步骤，大幅加速开播速度\r\n- 播放页新增一起看入口，全屏时隐藏悬浮窗\r\n- 优化评论功能和 UI\r\n- 支持使用 PikPak 加速缓存 BT 源 (#3141 by @NihilDigit)\r\n- 新缓存管理页面\r\n\r\n----\r\n\r\n- 条目详情页封面与角色/制作人员图片支持点击放大查看\r\n- 修复 Windows mpv 画面偏暗\r\n- 支持鼠标侧键返回上一页\r\n- 支持 mpv 内核播放器设置自定义参数\r\n- 优化 jellyfin (#3190 by @jxing7036, #3244, #3248 by @IT-BillDeng)\r\n- 修复 Windows 原生触屏一系列问题 (#3223, #3234 by @NihilDigit)\r\n- 修复 Windows 10 可能会窗口透明 (#3319 by @myouo)\r\n- 优化性能 (#3236 by @NihilDigit)\r\n- 修复 macOS x86 无法打开或闪退\r\n- 修复 macOS 可能因为音频而崩溃\r\n- 修复 BT 源播放错误或无法开始播放 (#3337 by @GrahamZen)\r\n- 支持为 BT 下载设置额外的 trackers\r\n- 修复桌面端图片比较糊\r\n- 修复一系列 Linux 问题 (#3261 by @NihilDigit)\r\n- 修复手动匹配的弹幕请求会随着换集失效 (#3254 by @GrahamZen)\r\n- 优化数据源管理页长按批量编辑功能\r\n- 修复条目详情页的剧集卡片无法长按标记看过\r\n- 修复条目详情页 Tab 换行问题 (#3229 by @arpitagarwal1301)\r\n- 修复 Windows 托盘状态下再次启动会卡死 (#3317 by @Tantless)\r\n- 修复播放器倍速状态与 UI 不一致 (#3323 by @SXP-Simon)\r\n- 新增数据源工作原理示意动画\r\n- 为 macOS 暂时禁用 Accessibility 以修复闪退 (#3325 by @black4der)\r\n- 支持配置 ExoPlayer 的画质增强预热，解决黑屏或系统增强功能失效\r\n- 新增开源许可页面，可在设置 - 关于 - 鸣谢中查看\r\n- 修复异常指纹过滤默认生效且关闭开关无效的问题 (#3338 by @GrahamZen)\r\n- 修复 BT 缓存统计不准确 (#3339 by @GrahamZen)\r\n- Android 修复 WebView 正常无法释放 (#3340 by @GrahamZen)\r\n- 修复 Toast 配色没有跟随应用主题 (#3347 by @GrahamZen)\r\n\r\n**Full Changelog**: https://github.com/open-ani/animeko/compare/v6.0.0...v6.1.0\r\n\r\n[//]: # (ANI-SERVER-MAGIC-SEPARATOR)\r\n\r\n[//]: # (注意: api server 依赖这个特殊分隔符)\r\n\r\n[//]: # (对于所有可用的变量列表, 参考 CI release.yml 的 step release-notes)\r\n\r\n[github-win-x64]: https://github.com/open-ani/ani/releases/download/v6.1.0/ani-6.1.0-windows-x86_64.zip\r\n\r\n[github-win-aarch64]: https://github.com/open-ani/ani/releases/download/v6.1.0/ani-6.1.0-windows-aarch64.zip\r\n\r\n[github-mac-x64]: https://github.com/open-ani/ani/releases/download/v6.1.0/ani-6.1.0-macos-x86_64.dmg\r\n\r\n[github-mac-aarch64]: https://github.com/open-ani/ani/releases/download/v6.1.0/ani-6.1.0-macos-aarch64.dmg\r\n\r\n[github-android]: https://github.com/open-ani/ani/releases/download/v6.1.0/ani-6.1.0-universal.apk\r\n\r\n[github-android-arm6"
-        },
-        {
-          "version": "6.0.0",
-          "buildVersion": "60000",
-          "date": "2026-08-01T18:38:19Z",
-          "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.0.0/ani-6.0.0.ipa",
-          "size": 41391524,
-          "minOSVersion": "14.0",
-          "localizedDescription": "- 支持与好友一起看番，大幅改善自动选源能力和速度，视频内广告过滤\r\n- 全新条目详情页，支持查看角色和声优的信息和关联条目\r\n- 桌面端切换为 mpv 播放器内核，大幅优化性能\r\n\r\n----\r\n\r\n- `[Desktop]` 新增 Windows arm64 支持\r\n- `[All]` 新增实验性 HLS 贴片广告过滤 (#3097 by @NihilDigit)\r\n- `[All]` 数据源支持多平台图片验证码自动处理 (#3172 by @proffitteoy)\r\n- `[Desktop]` Windows ARM64 桌面端新增构建支持 (#3155 by @NihilDigit)\r\n- `[All]` 新增与好友一起看 (syncplay) (proposed by @qian-xuan)\r\n- `[Desktop]` Windows 桌面端支持原生触控输入 (#3169 by @NihilDigit, #3221 by @NihilDigit, #3234 by @NihilDigit)\r\n- `[All]` 播放进度条支持悬停或拖动时预览画面帧\r\n- `[All]` 新增播放器播放信息叠加面板，可查看码率、解码器等播放状态 (#3120 by @wjb6666)\r\n- `[Mobile]` 移动端快进和进度条拖动交互更顺手 (#3161 by @NihilDigit)\r\n- `[All]` 播放器支持自定义播放速度控制 (#3187 by @NihilDigit)\r\n- `[Mobile]` Android 支持视频截图、改进手势快进，并支持 libass 渲染字幕，WSOLA 倍速引擎 (#3156 by @NihilDigit)\r\n- `[Mobile]` 新增移动端毛玻璃应用栏设置\r\n- `[All]` 新增缓存管理和数据源管理多选模式，悬浮批量操作工具栏\r\n- `[Mobile]` 改进播放器键盘快捷键行为 (#3159 by @NihilDigit)\r\n- `[Desktop]` Linux 桌面端支持动态取色 (#3146 by @NihilDigit)\r\n- `[All]` 支持配置跳过 85s 按钮的时长为 80、 85 和 90 秒\r\n- `[All]` 数据源启用或禁用后保留测试结果 (#3106 by @Mystery406)\r\n- `[All]` 不再在日志中记录 Bangumi 访问令牌 (#3114 by @proffitteoy)\r\n- `[All]` 修复代理认证头未正确使用配置的问题 (#3115 by @proffitteoy)\r\n- `[All]` 改进剧集长按反馈 (#3118 by @TexasOct)\r\n- `[All]` 修复集合列表条目封面不显示的问题 (#3123 by @proffitteoy)\r\n- `[Desktop]` 优化 macOS 和 Linux 的稳定性 (#3144 by @NihilDigit, #3145 by @NihilDigit, #3157 by @W-Nana, #3195 by @NihilDigit, #3214 by @XYenon, #3216 by @NihilDigit)\r\n- `[Desktop]` Linux AppImage 支持增量更新 (#3149 by @NihilDigit)\r\n\r\n**Full Changelog**: https://github.com/open-ani/animeko/compare/v5.7.1...v6.0.0\r\n\r\n[//]: # (ANI-SERVER-MAGIC-SEPARATOR)\r\n\r\n[//]: # (注意: api server 依赖这个特殊分隔符)\r\n\r\n[//]: # (对于所有可用的变量列表, 参考 CI release.yml 的 step release-notes)\r\n\r\n[github-win-x64]: https://github.com/open-ani/ani/releases/download/v6.0.0/ani-6.0.0-windows-x86_64.zip\r\n\r\n[github-win-aarch64]: https://github.com/open-ani/ani/releases/download/v6.0.0/ani-6.0.0-windows-aarch64.zip\r\n\r\n[github-mac-x64]: https://github.com/open-ani/ani/releases/download/v6.0.0/ani-6.0.0-macos-x86_64.dmg\r\n\r\n[github-mac-aarch64]:"
         }
       ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
       },
-      "version": "6.4.0",
-      "versionDate": "2026-10-24T04:52:28Z",
-      "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.4.0/ani-6.4.0.ipa",
-      "size": 48615547
+      "version": "6.4.1",
+      "versionDate": "2026-11-18T14:44:06Z",
+      "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.4.1/ani-6.4.1.ipa",
+      "size": 48615556
     },
     {
       "name": "Animeko Beta",
@@ -475,6 +475,16 @@
         {
           "version": "456.0.0",
           "buildVersion": "1114829568",
+          "date": "2026-11-18T16:12:02Z",
+          "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14431902402/Threads_456.0.0_Pulse_1.31.0_sideload.ipa",
+          "size": 118224381,
+          "minOSVersion": "16.3",
+          "localizedDescription": "Unmodified sideload artifact from https://github.com/mumuisdog/ThreadsPulse/actions/runs/44315530830\nArtifact: 14431902402\nSHA-256: b1aac145718e2404a5fc9ce0a4729682c4c8ec85f4a4a1d834bbecab38f24eef\nMinimum iOS: 16.3\nIncludes extensions. Not device-tested. No noplugins variant.",
+          "sha256": "b1aac145718e2404a5fc9ce0a4729682c4c8ec85f4a4a1d834bbecab38f24eef"
+        },
+        {
+          "version": "456.0.0",
+          "buildVersion": "1114829568",
           "date": "2026-11-18T10:11:37Z",
           "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14416046747/Threads_456.0.0_Pulse_1.30.0_sideload.ipa",
           "size": 118183057,
@@ -511,16 +521,6 @@
           "minOSVersion": "16.3",
           "localizedDescription": "Unmodified sideload artifact from https://github.com/mumuisdog/ThreadsPulse/actions/runs/43672637340\nArtifact: 14145131992\nSHA-256: e12d91a2b7ca6b3f1280bd1873d0cf262254439d7cc3d78ad6058b7898fe269f\nMinimum iOS: 16.3\nIncludes extensions. Not device-tested. No noplugins variant.",
           "sha256": "e12d91a2b7ca6b3f1280bd1873d0cf262254439d7cc3d78ad6058b7898fe269f"
-        },
-        {
-          "version": "455.0.0",
-          "buildVersion": "1109354733",
-          "date": "2026-11-14T15:28:07Z",
-          "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-455.0.0-pulse-1.27.0-sideload/Threads_455.0.0_Pulse_1.27.0_sideload.ipa",
-          "size": 116318103,
-          "minOSVersion": "16.3",
-          "localizedDescription": "Sideload artifact mirrored without modification from mumuisdog/ThreadsPulse.\nUpstream run: https://github.com/mumuisdog/ThreadsPulse/actions/runs/43595736341\nArtifact: 14114830246\nSHA-256: 7412ad18954bf446c382f280bb8e90f6004cf18a6328dea60fb05c3693449645\nRequires iOS 16.3 or later. Not device-tested. Only sideload; no noplugins variant.",
-          "sha256": "7412ad18954bf446c382f280bb8e90f6004cf18a6328dea60fb05c3693449645"
         }
       ],
       "appPermissions": {
@@ -528,9 +528,9 @@
         "privacy": {}
       },
       "version": "456.0.0",
-      "versionDate": "2026-11-18T10:11:37Z",
-      "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14416046747/Threads_456.0.0_Pulse_1.30.0_sideload.ipa",
-      "size": 118183057
+      "versionDate": "2026-11-18T16:12:02Z",
+      "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14431902402/Threads_456.0.0_Pulse_1.31.0_sideload.ipa",
+      "size": 118224381
     }
   ],
   "news": []

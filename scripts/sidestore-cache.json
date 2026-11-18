@@ -276,5 +276,57 @@
       }
     },
     "iconURL": "https://raw.githubusercontent.com/beckyeeky/lc-source/main/icons/com.burbn.barcelona.png"
+  },
+  "https://github.com/open-ani/animeko/releases/download/v6.4.1/ani-6.4.1.ipa": {
+    "bundleIdentifier": "org.animeko.animeko",
+    "version": "6.4.1",
+    "buildVersion": "6.4.199",
+    "minOSVersion": "16.0",
+    "size": 48615556,
+    "sha256": "ec279f53792f827d203f33daf59a2969b60eec6b7a3d919005a76e9ca65fd069",
+    "appPermissions": {
+      "entitlements": [],
+      "privacy": {
+        "NSCameraUsageDescription": "Animeko uses the camera to scan the sign-in QR code shown on your TV."
+      }
+    },
+    "iconURL": "https://raw.githubusercontent.com/beckyeeky/lc-source/main/icons/org.animeko.animeko.png"
+  },
+  "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14431902402/Threads_456.0.0_Pulse_1.31.0_sideload.ipa": {
+    "bundleIdentifier": "com.burbn.barcelona",
+    "version": "456.0.0",
+    "buildVersion": "1114829568",
+    "minOSVersion": "16.3",
+    "size": 118224381,
+    "sha256": "b1aac145718e2404a5fc9ce0a4729682c4c8ec85f4a4a1d834bbecab38f24eef",
+    "appPermissions": {
+      "entitlements": [
+        "application-identifier",
+        "aps-environment",
+        "com.apple.developer.associated-appclip-app-identifiers",
+        "com.apple.developer.associated-domains",
+        "com.apple.developer.declared-age-range",
+        "com.apple.developer.team-identifier",
+        "com.apple.developer.usernotifications.communication",
+        "com.apple.developer.usernotifications.time-sensitive",
+        "com.apple.security.application-groups",
+        "keychain-access-groups"
+      ],
+      "privacy": {
+        "NSLocationAlwaysUsageDescription": "Select \"Always Allow\" to make some features work. You can change this anytime in Settings.",
+        "NSCameraUsageDescription": "Threads uses your camera to do things like help you take photos when posting.",
+        "NSMotionUsageDescription": "This makes some features work. You can always change this later in Settings.",
+        "NSPhotoLibraryAddUsageDescription": "This lets you save photos and videos to your Camera Roll.",
+        "NSAppleMusicUsageDescription": "Threads uses Apple Music access to connect your account and add songs you discover to your music library.",
+        "NSSpeechRecognitionUsageDescription": "Threads uses speech recognition on your device to turn what you say in a voice recording into captions.",
+        "NSLocationUsageDescription": "Select ok to make some features work. You can change this anytime in Settings.",
+        "NSMicrophoneUsageDescription": "Threads uses your microphone to do things like help you record audio when posting.",
+        "NSLocationWhenInUseUsageDescription": "Your location will be used to show places nearby, allowing you to tag a place on your post.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Select \"Always Allow\" to make some features work. You can change this anytime in Settings.",
+        "NSContactsUsageDescription": "This helps you and others find your friends and more.",
+        "NSPhotoLibraryUsageDescription": "This lets you share photos from your library and save photos to your Camera Roll."
+      }
+    },
+    "iconURL": "https://raw.githubusercontent.com/beckyeeky/lc-source/main/icons/com.burbn.barcelona.png"
   }
 }
