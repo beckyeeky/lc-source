@@ -531,6 +531,71 @@
       "versionDate": "2026-11-18T16:12:02Z",
       "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14431902402/Threads_456.0.0_Pulse_1.31.0_sideload.ipa",
       "size": 118224381
+    },
+    {
+      "bundleIdentifier": "com.kanayayuutou.CortEX",
+      "name": "Cort:EX",
+      "developerName": "CielDevApp",
+      "subtitle": "iOS / iPadOS 漫画阅读器",
+      "localizedDescription": "E-Hentai、EXhentai 和 nhentai 的第三方客户端，支持 iPad 双页阅读。",
+      "iconURL": "https://raw.githubusercontent.com/CielDevApp/CortEX/v02a-f47/EhViewer/Assets.xcassets/AppIcon.appiconset/icon_256.png",
+      "tintColor": "#4A90E2",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "02a-f47",
+          "buildVersion": "1",
+          "date": "2026-07-23T10:35:57Z",
+          "downloadURL": "https://github.com/CielDevApp/CortEX/releases/download/v02a-f47/EhViewer-v02a-f47.ipa",
+          "size": 11496520,
+          "minOSVersion": "18.0",
+          "localizedDescription": "## 動画再生の改善\n- 差分圧縮された動画 (一部作者の重い作品) のプリロードが劇的に速くなりました。従来はフレーム数の二乗に比例して遅くなっていた処理を、順次デコードで線形に改善しています\n- 「プリロードで滑らかに」の進捗表示が正しく出るようになり、処理中も他の操作が固まらなくなりました\n- 動画のコマ落ちを自動検知して「プリロードで滑らかに」を提案する機能 (性能の低い端末でも重い作品を最後まで再生できます)\n- プリロードは全フレームの処理が完了してから再生を開始します。旧世代端末向けの性能警告に「無補正モードで滑らかになる」対処法を明記しました\n\n## 内部改善 (リファクタ)\n- 動画の再生停止管理を一元化し、停止漏れによるメモリ圧迫・クラッシュをより確実に防止\n- 表示モード (縦/横) の判定を一本化、リーダー起動まわりの状態管理を整理\n\n## その他の修正 (f37〜f46 の内容を含む)\n- ライブラリのタップ判定・表示崩れ、動画モード選択ダイアログの不具合、メモリまわりの安定化\n\nインストール方法は従来どおり AltStore / Sideloadly / TrollStore で IPA を再署名してください。"
+        },
+        {
+          "version": "02a-f45",
+          "buildVersion": "1",
+          "date": "2026-07-23T09:09:14Z",
+          "downloadURL": "https://github.com/CielDevApp/CortEX/releases/download/v02a-f45/EhViewer-v02a-f45.ipa",
+          "size": 11486637,
+          "minOSVersion": "18.0",
+          "localizedDescription": "## 修正\n- v02a-f44 で通常のプリロードに時間がかかりすぎることがある問題を修正しました。画質補正まで事前に処理するのは「プリロードで滑らかに」を選んだ場合のみになり、通常のプリロードは全フレームの読み込みだけを行います (性能の高い端末では補正はリアルタイムで追従します)\n\nv02a-f37〜f44 の修正内容も含みます。f44 をお使いの方は更新をおすすめします。"
+        },
+        {
+          "version": "02a-f44",
+          "buildVersion": "1",
+          "date": "2026-07-23T08:49:19Z",
+          "downloadURL": "https://github.com/CielDevApp/CortEX/releases/download/v02a-f44/EhViewer-v02a-f44.ipa",
+          "size": 11486615,
+          "minOSVersion": "18.0",
+          "localizedDescription": "## 新機能\n- 動画 (アニメーション WebP) の再生がコマ落ちしていることを自動検知し、「プリロードで滑らかに」ボタンを表示するようになりました。タップすると全フレームを処理してから再生するため、性能の低い端末でも最後まで滑らかに再生できます (不要なら × で閉じられます)\n\n## 改善\n- プリロードは全フレームの処理が完了してから再生を開始するようになりました (画質補正が有効な場合は補正済みフレームまで事前に準備します。メモリに余裕がない場合は自動的に省略されます)\n- 旧世代端末向けの性能警告に対処法 (無補正モードで滑らかに再生できること) を明記しました\n\nv02a-f37〜f43 の修正内容も含みます。インストール方法は従来どおり AltStore / Sideloadly / TrollStore で IPA を再署名してください。"
+        },
+        {
+          "version": "02a-f43",
+          "buildVersion": "1",
+          "date": "2026-07-23T04:39:49Z",
+          "downloadURL": "https://github.com/CielDevApp/CortEX/releases/download/v02a-f43/EhViewer-v02a-f43.ipa",
+          "size": 11480134,
+          "minOSVersion": "18.0",
+          "localizedDescription": "## 改善\n- 動画 (アニメーション WebP) の再生管理を内部的に一新し、停止漏れによるメモリ圧迫をより確実に防ぐようにしました\n- 表示モード (縦/横) の判定処理を一本化し、開き方による挙動のブレを解消しました\n- 保存済み作品に古い表示モード設定が残っていた場合でも、静止画作品は常に表示方向の設定に従うようになりました\n\nv02a-f37〜f42 の修正内容も含みます。インストール方法は従来どおり AltStore / Sideloadly / TrollStore で IPA を再署名してください。"
+        },
+        {
+          "version": "02a-f42",
+          "buildVersion": "1",
+          "date": "2026-07-22T11:31:47Z",
+          "downloadURL": "https://github.com/CielDevApp/CortEX/releases/download/v02a-f42/EhViewer-v02a-f42.ipa",
+          "size": 11474226,
+          "minOSVersion": "18.0",
+          "localizedDescription": "## 修正\n- v02a-f41 で動画 (アニメーション WebP) の再生が途中で止まることがある問題を修正 (f41 をお使いの方は必ず更新してください)\n- ライブラリのジャケット画像まわりのタップ判定を改善\n\nv02a-f37〜f41 の修正内容も含みます。インストール方法は従来どおり AltStore / Sideloadly / TrollStore で IPA を再署名してください。"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "version": "02a-f47",
+      "versionDate": "2026-07-23T10:35:57Z",
+      "downloadURL": "https://github.com/CielDevApp/CortEX/releases/download/v02a-f47/EhViewer-v02a-f47.ipa",
+      "size": 11496520
     }
   ],
   "news": []

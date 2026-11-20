@@ -161,6 +161,21 @@
       "iconURL": "",
       "tintColor": "#000000",
       "category": "social"
+    },
+    {
+      "repo": "CielDevApp/CortEX",
+      "scanReleases": 5,
+      "versionFrom": "tag",
+      "bundleIdentifier": "com.kanayayuutou.CortEX",
+      "assetRegex": "^EhViewer-.*\\.ipa$",
+      "prerelease": false,
+      "name": "Cort:EX",
+      "developerName": "CielDevApp",
+      "subtitle": "iOS / iPadOS 漫画阅读器",
+      "localizedDescription": "E-Hentai、EXhentai 和 nhentai 的第三方客户端，支持 iPad 双页阅读。",
+      "iconURL": "https://raw.githubusercontent.com/CielDevApp/CortEX/v02a-f47/EhViewer/Assets.xcassets/AppIcon.appiconset/icon_256.png",
+      "tintColor": "#4A90E2",
+      "category": "entertainment"
     }
   ]
 }

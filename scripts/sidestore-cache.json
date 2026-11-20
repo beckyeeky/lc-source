@@ -328,5 +328,25 @@
       }
     },
     "iconURL": "https://raw.githubusercontent.com/beckyeeky/lc-source/main/icons/com.burbn.barcelona.png"
+  },
+  "https://github.com/CielDevApp/CortEX/releases/download/v02a-f47/EhViewer-v02a-f47.ipa": {
+    "bundleIdentifier": "com.kanayayuutou.CortEX",
+    "version": "1.0",
+    "buildVersion": "1",
+    "minOSVersion": "18.0",
+    "size": 11496520,
+    "sha256": "65b30d90a6984a0fc44e6dc89e665119e2d733aa721299a3c88716eba0dced94",
+    "appPermissions": {
+      "entitlements": [
+        "application-identifier",
+        "com.apple.developer.team-identifier",
+        "get-task-allow"
+      ],
+      "privacy": {
+        "NSCameraUsageDescription": "ISBN/EANバーコードを読み取って書籍をウィッシュリストに追加するために使用します。",
+        "NSFaceIDUsageDescription": "アプリのロック解除に使用します"
+      }
+    },
+    "iconURL": "https://raw.githubusercontent.com/beckyeeky/lc-source/main/icons/com.kanayayuutou.CortEX.png"
   }
 }
