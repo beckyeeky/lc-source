@@ -249,12 +249,12 @@
         {
           "version": "456.0.0",
           "buildVersion": "1114829568",
-          "date": "2026-11-18T16:12:02Z",
-          "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14431902402/Threads_456.0.0_Pulse_1.31.0_sideload.ipa",
-          "size": 118224381,
+          "date": "2026-11-23T10:09:16Z",
+          "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14706223446/Threads_456.0.0_Pulse_1.31.1_sideload.ipa",
+          "size": 118225555,
           "minOSVersion": "16.3",
-          "localizedDescription": "Unmodified sideload artifact from https://github.com/mumuisdog/ThreadsPulse/actions/runs/44315530830\nArtifact: 14431902402\nSHA-256: b1aac145718e2404a5fc9ce0a4729682c4c8ec85f4a4a1d834bbecab38f24eef\nMinimum iOS: 16.3\nIncludes extensions. Not device-tested. No noplugins variant.",
-          "sha256": "b1aac145718e2404a5fc9ce0a4729682c4c8ec85f4a4a1d834bbecab38f24eef"
+          "localizedDescription": "Unmodified sideload artifact from https://github.com/mumuisdog/ThreadsPulse/actions/runs/44902209474\nArtifact: 14706223446\nSHA-256: fcbb4a162bfee826e61a0f12b422ecf3b6ec37e46dc9a1942c88488231908532\nMinimum iOS: 16.3\nIncludes extensions. Not device-tested. No noplugins variant.",
+          "sha256": "fcbb4a162bfee826e61a0f12b422ecf3b6ec37e46dc9a1942c88488231908532"
         }
       ],
       "appPermissions": {
@@ -286,9 +286,9 @@
         }
       },
       "version": "456.0.0",
-      "versionDate": "2026-11-18T16:12:02Z",
-      "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14431902402/Threads_456.0.0_Pulse_1.31.0_sideload.ipa",
-      "size": 118224381
+      "versionDate": "2026-11-23T10:09:16Z",
+      "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14706223446/Threads_456.0.0_Pulse_1.31.1_sideload.ipa",
+      "size": 118225555
     },
     {
       "bundleIdentifier": "com.kanayayuutou.CortEX",
