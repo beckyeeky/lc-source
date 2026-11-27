@@ -247,14 +247,14 @@
       "category": "social",
       "versions": [
         {
-          "version": "456.0.0",
-          "buildVersion": "1114829568",
-          "date": "2026-11-23T10:09:16Z",
-          "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14706223446/Threads_456.0.0_Pulse_1.31.1_sideload.ipa",
-          "size": 118225555,
+          "version": "457.0.0",
+          "buildVersion": "1120612652",
+          "date": "2026-11-27T04:11:25Z",
+          "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-15157814058/Threads_457.0.0_Pulse_1.32.0_sideload.ipa",
+          "size": 131792650,
           "minOSVersion": "16.3",
-          "localizedDescription": "Unmodified sideload artifact from https://github.com/mumuisdog/ThreadsPulse/actions/runs/44902209474\nArtifact: 14706223446\nSHA-256: fcbb4a162bfee826e61a0f12b422ecf3b6ec37e46dc9a1942c88488231908532\nMinimum iOS: 16.3\nIncludes extensions. Not device-tested. No noplugins variant.",
-          "sha256": "fcbb4a162bfee826e61a0f12b422ecf3b6ec37e46dc9a1942c88488231908532"
+          "localizedDescription": "Unmodified sideload artifact from https://github.com/mumuisdog/ThreadsPulse/actions/runs/45906496246\nArtifact: 15157814058\nSHA-256: fba7b52519ec8487ff49ba235024f15f0e5ac2fd5fff61bd08f781ea5ef01625\nMinimum iOS: 16.3\nIncludes extensions. Not device-tested. No noplugins variant.",
+          "sha256": "fba7b52519ec8487ff49ba235024f15f0e5ac2fd5fff61bd08f781ea5ef01625"
         }
       ],
       "appPermissions": {
@@ -285,10 +285,10 @@
           "NSPhotoLibraryUsageDescription": "This lets you share photos from your library and save photos to your Camera Roll."
         }
       },
-      "version": "456.0.0",
-      "versionDate": "2026-11-23T10:09:16Z",
-      "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14706223446/Threads_456.0.0_Pulse_1.31.1_sideload.ipa",
-      "size": 118225555
+      "version": "457.0.0",
+      "versionDate": "2026-11-27T04:11:25Z",
+      "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-15157814058/Threads_457.0.0_Pulse_1.32.0_sideload.ipa",
+      "size": 131792650
     },
     {
       "bundleIdentifier": "com.kanayayuutou.CortEX",

@@ -473,6 +473,16 @@
       "category": "social",
       "versions": [
         {
+          "version": "457.0.0",
+          "buildVersion": "1120612652",
+          "date": "2026-11-27T04:11:25Z",
+          "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-15157814058/Threads_457.0.0_Pulse_1.32.0_sideload.ipa",
+          "size": 131792650,
+          "minOSVersion": "16.3",
+          "localizedDescription": "Unmodified sideload artifact from https://github.com/mumuisdog/ThreadsPulse/actions/runs/45906496246\nArtifact: 15157814058\nSHA-256: fba7b52519ec8487ff49ba235024f15f0e5ac2fd5fff61bd08f781ea5ef01625\nMinimum iOS: 16.3\nIncludes extensions. Not device-tested. No noplugins variant.",
+          "sha256": "fba7b52519ec8487ff49ba235024f15f0e5ac2fd5fff61bd08f781ea5ef01625"
+        },
+        {
           "version": "456.0.0",
           "buildVersion": "1114829568",
           "date": "2026-11-23T10:09:16Z",
@@ -511,26 +521,16 @@
           "minOSVersion": "16.3",
           "localizedDescription": "Unmodified sideload artifact from https://github.com/mumuisdog/ThreadsPulse/actions/runs/43736138353\nArtifact: 14169969713\nSHA-256: 4ff74c998f5c5e162a1d7923c6c11eb66a3949182011b45ca18280fe60ba2862\nMinimum iOS: 16.3\nIncludes extensions. Not device-tested. No noplugins variant.",
           "sha256": "4ff74c998f5c5e162a1d7923c6c11eb66a3949182011b45ca18280fe60ba2862"
-        },
-        {
-          "version": "455.0.0",
-          "buildVersion": "1109354733",
-          "date": "2026-11-15T16:06:52Z",
-          "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14158875318/Threads_455.0.0_Pulse_1.29.1_sideload.ipa",
-          "size": 116977585,
-          "minOSVersion": "16.3",
-          "localizedDescription": "Unmodified sideload artifact from https://github.com/mumuisdog/ThreadsPulse/actions/runs/43706264558\nArtifact: 14158875318\nSHA-256: 82f02cfd0b1343570ef5633c9bed188932b36d2e26ee874342fb2c8d5d068c90\nMinimum iOS: 16.3\nIncludes extensions. Not device-tested. No noplugins variant.",
-          "sha256": "82f02cfd0b1343570ef5633c9bed188932b36d2e26ee874342fb2c8d5d068c90"
         }
       ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
       },
-      "version": "456.0.0",
-      "versionDate": "2026-11-23T10:09:16Z",
-      "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-14706223446/Threads_456.0.0_Pulse_1.31.1_sideload.ipa",
-      "size": 118225555
+      "version": "457.0.0",
+      "versionDate": "2026-11-27T04:11:25Z",
+      "downloadURL": "https://github.com/beckyeeky/lc-source/releases/download/threadspulse-artifact-15157814058/Threads_457.0.0_Pulse_1.32.0_sideload.ipa",
+      "size": 131792650
     },
     {
       "bundleIdentifier": "com.kanayayuutou.CortEX",
